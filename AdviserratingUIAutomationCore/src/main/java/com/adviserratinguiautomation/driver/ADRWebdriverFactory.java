@@ -40,7 +40,7 @@ public class ADRWebdriverFactory {
      */
     public static WebDriver getADRWebDriverInstance() 
     {
-        log.info("Entered the getSFWebDriverInstance method in SFWebdriverFactory");
+        log.info("Entered the getADRWebDriverInstance method in SFWebdriverFactory");
         WebDriver seleniumWebDriver = null;
         String browser = "";
 //       new ResourceRead().getEnvironmentConfigValue().getProperty("adviserratingurl");
@@ -83,7 +83,7 @@ public class ADRWebdriverFactory {
                 throw new IllegalArgumentException("The suggested browser was not found");
 
         }
-        log.info("Exited the getSFWebDriverInstance method in SFWebdriverFactory");
+        log.info("Exited the getADRWebDriverInstance method in SFWebdriverFactory");
         return seleniumWebDriver;
     }
     /**

@@ -17,6 +17,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import java.time.Duration;
 
 import java.io.File;
 import java.io.IOException;
@@ -73,10 +74,12 @@ public class BrowserInstanceFactory extends BasePage {
 						resourceRead.getResourceValueFromXML().getProperty(CHROME_LINUX_DRIVERPATH_PROPERTY));
 			}
 
-			seleniumWebdriver = new ChromeDriver(chromeOptions);
-			seleniumWebdriver.manage().timeouts().pageLoadTimeout(
-					Long.parseLong(resourceRead.getResourceValueFromXML().getProperty(TIME_OUT_PROPERTY)),
-					TimeUnit.SECONDS);
+				seleniumWebdriver = new ChromeDriver(chromeOptions);
+				seleniumWebdriver.manage().timeouts().pageLoadTimeout(
+						Long.parseLong(resourceRead.getResourceValueFromXML().getProperty(TIME_OUT_PROPERTY)),
+						TimeUnit.SECONDS);
+//				seleniumWebdriver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(60));
+				
 			log.info("Exited the ChromeWebDriver method in BrowserInstanceFactory");
 			return seleniumWebdriver;
 		} catch (IOException e) {

@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="listViewVerify"/>
+		<item key="selection" value="WebElement"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="webelement"/>
+			<item value="iselemen"/>
+			<item value="isbutton"/>
+			<item value="browserProcessInstanceKillSwitch"/>
+			<item value="Entered the cleanUp method"/>
 			<item value="clickonSelectedAdviser"/>
 			<item value="verifyUrl"/>
 			<item value="listViewVerify"/>
@@ -18,11 +23,6 @@
 			<item value="currentPageUrlVerifyCall"/>
 			<item value="scenarioName"/>
 			<item value="location name should be"/>
-			<item value="check descendingorder of KMRange"/>
-			<item value="check ascendingorder of KMRange"/>
-			<item value="Distance should be displayed as"/>
-			<item value="Get CurrentPageUrl as"/>
-			<item value="from dropdown and click search"/>
 		</list>
 		<list key="replacehistory">
 		</list>

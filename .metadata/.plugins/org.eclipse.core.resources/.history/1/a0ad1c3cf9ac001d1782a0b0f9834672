@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+    <!--project Name-->
+    <entry key="ProjectName">seleniumFrameWork</entry>
+
+    <!--Do Not make changes below this-->
+    <entry key="WebDriverTimeOutInSeconds">20</entry>
+    <entry key="ElementFindTimeOutInSeconds">35</entry>
+    <entry key="DashboardFindTimeOutInSeconds">40</entry>
+    <entry key="LoginTimeOutInSeconds">240</entry>
+    <entry key="LeastTimeOutInSeconds">1</entry>
+    <entry key="QuoteTimeOutInSeconds">300</entry>
+    <entry key="LinkFindTimeOutInSeconds">12</entry>
+    <entry key="DriverBookingTimeOutInSeconds">30</entry>
+    <entry key="RandomTimeOutInSeconds">5</entry>
+    <entry key="SearchTimeOutInSeconds">7</entry>
+    <entry key="MinimumTimeOutInSeconds">3</entry>
+    <entry key="Retry_Count">0</entry>
+    <entry key="DBCommandTimeoutInSeconds">100</entry>
+    <entry key="SPCommandTimeoutInSeconds">300</entry>
+    <entry key="TakeScreenShotDuringEntryExit">true</entry>
+
+
+     <!--Adviser Rating URL details  -->
+     
+    <entry key="adviserratingurl">https://%1$s.adviserratings.com.au/</entry> 
+    
+    <!--Environament Types  Staging,UAT,Prod-->
+      <entry key="envType">staging</entry> 
+    
+     <!--Outlook Configuration-->
+     <entry key="EmailUserName"></entry>
+     <entry key="EmailPassword"></entry>
+
+    <!--Browser Configuration-->
+    <!--Chrome Browser-->
+    <entry key="Browser">Chrome</entry>
+    <!--FireFox Browser-->
+    <!--entry key="Browser">FireFox</entry>-->
+     <!--Edge Browser-->
+    <!--entry key="Browser">Edge</entry>-->
+    
+    <!--Headless Property-->
+	<entry key="Headless">False</entry>	
+	
+    <!--browser process instance switch-->
+    <!--Change the value to "enable" if the browser process needs to be searched and killed automatically before the test execution-->
+    <entry key="browserProcessInstanceKillSwitch">disable</entry>
+
+    <!--Webdriver name and paths-->
+    <!--chrome-->
+    <entry key="ChromeDriverName">webdriver.chrome.driver</entry>
+    <entry key="ChromeDriverLinuxPath">/usr/bin/chromedriver</entry>
+    <entry key="ChromeDriverWindowsPath">../AdviserratingUIAutomationCore/browserDriver/chromedriver.exe</entry>
+    <entry key="ChromeDriverPath">../AdviserratingUIAutomationCore/browserDriver/chromedriver.exe</entry>
+
+
+    <!--firefox-->
+    <entry key="FireFoxDriverName">webdriver.gecko.driver</entry>
+    <entry key="FireFoxDriverPath">../AdviserratingUIAutomationCore/browserDriver/geckodriver.exe</entry>
+    
+  <!--chrome-->
+    <entry key="EdgeDriverName">webdriver.edge.driver</entry>
+    <entry key="EdgeDriverLinuxPath">/usr/bin/msedgedriver</entry>
+    <entry key="EdgeDriverWindowsPath">../AdviserratingUIAutomationCore/browserDriver/msedgedriver.exe</entry>
+    <entry key="EdgeDriverPath">../AdviserratingUIAutomationCore/browserDriver/msedgedriver.exe</entry>
+
+
+
+    <!--Log File Location Path-->
+    <entry key="LogFolderParentPath">../AdviserratingUIAutomationTest/testResult/</entry>
+    <!--log4j log path sufix-->
+    <entry key="TestResultLocationPath">../AdviserratingUIAutomationTest/testResult/</entry>
+    <!--log4j Log path prefix-->
+    <entry key="Log4jLogPathDestination">/log/seleniumFrameWork.log</entry>
+    <!--Log Folder Names-->
+    <entry key="TestReport">testReport</entry>
+    <entry key="Log">log</entry>
+    <entry key="Screenshot">screenshots</entry>
+    <entry key="TestData">testData</entry>
+    <entry key="Email">email</entry>
+    <!--Text File Folder Names-->
+    <!--entry key="TextFileDestination">../AdviserratingUIAutomationTest/src/main/resources/</entry-->
+    <entry key="TextFileDestination">../AdviserratingUIAutomationTest/test-output/extent/</entry>
+    
+    <!--Compressed test result path for emailing-->
+    <entry key="EmailContentLocation">/email/</entry>
+    
+    
+    <!--Extent Report Configuration-->
+    <!--Extent report Configuration File location path-->
+    <entry key="ExtentReportConfigFile">../AdviserratingUIAutomationTest/src/main/resources/extent-config.xml</entry>
+    <!--Extent report destination location path sufix-->
+    <entry key="ExtentReportDestinationLocation">../AdviserratingUIAutomationTest/testResult/</entry>
+    <!--Extent report source location path -->
+    <entry key="ExtentReportSourceLocation">../AdviserratingUIAutomationTest/test-output/extent</entry>
+    <!--Path to delete files with extension -->
+    <entry key="DeleteFileSource">../AdviserratingUIAutomationTest/test-output/extent/</entry>
+    <entry key="DeleteFileDestination">../AdviserratingUIAutomationTest/test-output/</entry>
+    
+
+    <!--Error Screenshot location path-->
+    <entry key="ErrorScreenShotLocation">/screenshots/</entry>
+    <!--Image compare target location-->
+    <entry key="ImageCompareTargetLocation">target/image-compare/</entry>
+    <!--Image compare source location-->
+    <entry key="ImageCompareSourceLocation">src/main/resources/sourceImageFile/</entry>
+
+    
+</properties>
+
