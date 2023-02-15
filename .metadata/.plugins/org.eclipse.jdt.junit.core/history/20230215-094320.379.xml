@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ScenarioTest" project="AdviserratingUIAutomationTest" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="runners.ScenarioTest" time="333.061">
+    <testsuite name="Adviser Rating Search functionality validation" time="333.061">
+      <testcase name="Check adviser's profile page displays correct practice and addresses" classname="Adviser Rating Search functionality validation" time="48.438"/>
+      <testcase name="Search for adviser by Location - use enter key" classname="Adviser Rating Search functionality validation" time="112.046"/>
+      <testcase name="Search by adviser name and check search drop down box displays correct practice and addresses" classname="Adviser Rating Search functionality validation" time="17.151"/>
+      <testcase name="Search by location and distance" classname="Adviser Rating Search functionality validation" time="155.426"/>
+    </testsuite>
+  </testsuite>
+</testrun>

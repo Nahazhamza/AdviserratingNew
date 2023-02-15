@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key="host">smtp.gmail.com</entry>
+    <entry key="hostPort">25</entry>
+    <!--Please configure your sender username and password here-->
+    <entry key="senderUsername">harsha.ranganna@eclipx.com</entry>
+    <!--entry key="senderPassword">rtdzrdvdgjktljtx</entry!-->
+    <entry key="senderPassword">yztslzcglbdkxgcq</entry>
+    <!--entry Update gmail username and password in below entry if needed</entry!-->
+    <entry key="FuelSearchFolder">NitroDev</entry>
+    <entry key="DriverBookingSearchFolder">Inbox</entry>
+    <entry key="VehicleConditionSearchFolder">VehicleCondition</entry>
+    <entry key="emailSubject">Global Search Automation Report</entry>
+    <entry key="emailMessageBody">
+        Hi,
+        Kindly have a look at the automation report attached along with the mail.
+    </entry>
+    <entry key="recepients">muhammed.nahaz@dbizsolution.com</entry>
+    <!--Driver Experience-->
+    <entry key="DriverExpUserName">salesforce.automation@eclipx.com</entry>
+    <entry key="DriverExpPassword">dnJtcGZwdGx0eHF0d25xcw==</entry>
+    <!--entry key="DriverExpPassword">UEBzc3cxMXJkIQ==</entry-->
+
+
+
+</properties>
+
+
