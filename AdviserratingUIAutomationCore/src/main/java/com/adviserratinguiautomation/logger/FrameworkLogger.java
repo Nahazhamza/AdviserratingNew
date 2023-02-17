@@ -3,13 +3,14 @@ package com.adviserratinguiautomation.logger;
 import com.adviserratinguiautomation.customexceptions.ExceptionHandeler;
 import com.adviserratinguiautomation.customexceptions.LogDirectoryCreationException;
 import com.adviserratinguiautomation.customexceptions.ResourceCustomException;
+import com.adviserratinguiautomation.driver.ADRWebDriver;
 import com.adviserratinguiautomation.resourceRead.ResourceRead;
 import com.adviserratinguiautomation.utilities.FileUtilities;
 import com.adviserratinguiautomation.utilities.GenericUtilities;
 
 
 import org.apache.log4j.Logger;
-
+import org.apache.log4j.LogManager;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -19,8 +20,9 @@ import java.util.List;
 import java.util.Properties;
 
 public class FrameworkLogger {
+	final static Logger log = LogManager.getLogger(FrameworkLogger.class);
 
-	final static Logger log = Logger.getLogger(FrameworkLogger.class);
+	//final static Logger log = Logger.getLogger(FrameworkLogger.class);
 
 	public static String logProjectName = "";
 	public static final String LOG_FOLDER_PARENT_PATH = "LogFolderParentPath";

@@ -135,31 +135,20 @@ public class AdviserRatingPage extends BasePage {
 	// to locate to location Tab
 
 	public void goToLocationTab() throws ResourceCustomException, IOException, InterruptedException,
-			WebDriverInstanceNullException, InvalidInputException {
+	 WebDriverInstanceNullException, InvalidInputException {
 		log.info("go to location tab");
-		
+
 		WebElement eleSelected =seleniumWebDriver.findElement(By.xpath(adviserRatingPageproperty.getProperty("ADVISER_LOCATIONTAB_XPATH")));
 		if (eleSelected.getAttribute("class").contains("active")) {
 			System.out.println(eleSelected.getAttribute("class"));
 			System.out.println("User is on the Locations Tab");
 			}
 		else
-			{
-	
+		{
+
 			clickButtonByCssSelector(adviserRatingPageproperty.getProperty("ADVISER_LOCATIONTAB_XPATH"), seleniumWebDriver);
 		}
-	}
-		
-		//		if(true)
-//		{
-//			System.out.println("User is on the Locations Tab");
-//		}
-//		else
-//		{
-//
-//		clickButtonByCssSelector(adviserRatingPageproperty.getProperty("ADVISER_LOCATIONTAB_XPATH"), seleniumWebDriver);
-//	}
-	
+   }
 
 	// check inputed value get selected and highlighted
 
@@ -249,11 +238,11 @@ public class AdviserRatingPage extends BasePage {
 				System.out.println("ArrayList Before sort" + newarr);
 				Collections.sort(newarr);
 				System.out.println("ArrayList after sort" + newarr);
-				/*if(arr.equals(newarr) == true) {
+				if(arr.equals(newarr) == true) {
 					System.out.println("ArrayList is in Ascending Order");
 				}else {
 					System.out.println("ArrayList is not in Ascending Order");
-				}*/
+				}
 				
 			}
 		}

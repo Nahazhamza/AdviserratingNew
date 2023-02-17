@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Test Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Feb 17, 2023 11:50:11 AM</span></a>
+<a href="#"><span class="badge badge-primary">Feb 17, 2023 11:32:44 am</span></a>
 </li>
 </ul>
 </div>
@@ -76,7 +76,8 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -90,25 +91,26 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="fail" test-id="1"
+        <li class="test-item"  status="pass" test-id="1"
+        <li class="test-item"  status="pass" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Adviser Rating Search functionality validation</p>
             <p class="text-sm">
-              <span>11:50:11 AM</span> / <span>00:00:40:317</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>11:32:45 am</span> / <span>00:00:40:630</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">Adviser Rating Search functionality validation</h5>
-<span class='badge badge-success'>02.17.2023 11:50:11 AM</span>
-<span class='badge badge-danger'>02.17.2023 11:50:52 AM</span>
-<span class='badge badge-default'>00:00:40:317</span>
+<h5 class="test-status text-pass">Adviser Rating Search functionality validation</h5>
+<span class='badge badge-success'>02.17.2023 11:32:45 am</span>
+<span class='badge badge-danger'>02.17.2023 11:33:25 am</span>
+<span class='badge badge-default'>00:00:40:630</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -120,10 +122,215 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Search for adviser by Location - use enter key</div>
-          <div class="status-avatar float-right mr-4">
-            <i class="fa fa-paperclip"></i>
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Check adviser's profile page displays correct practice And addresses</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.user_opens_URL(java.lang.String)">
+                <span>Given I Navigate to "AdviserratingURL"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.click_on_adviser_tab()">
+                <span>When I Click on Adviser Tab</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.enter_on_the_search_box(java.lang.String)">
+                <span>And Enter "Brett Dillon" on the Search box</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.dropdownselect(java.lang.String)">
+                <span>And Iterate the dropdown and select "Brett Dillon"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.currentUrl(java.lang.String)">
+                <span>Then The current Page URL which should contain "Brett-Dillon"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.adviserProfile(java.lang.String)">
+                <span>And The Advisers profile image is displayed with src url contains "brett-andrew-dillon"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.nameValidation(java.lang.String)">
+                <span>And The name is "Brett Dillon"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.adviserNameValidation(java.lang.String)">
+                <span>And The Advisor name is "Saige Financial Planning Pty Ltd"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.locationValidation(java.lang.String)">
+                <span>And The location will be "Erina, NSW 2250"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.aboutTab(java.lang.String)">
+                <span>And About tab is "About Brett"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.mapPinnedAddress(java.lang.String)">
+                <span>When The google map is displayed with the pin to the address in "Erina, NSW 2250"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.mapParameterValue(java.lang.String)">
+                <span>Then The Map URL center parameter value should contains "center=-33.4386,151.3868"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.practiceName(java.lang.String)">
+                <span>And The  practice name is displayed under the map is 'Saige Financial Planning Pty Ltd'</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.practiceLogo()">
+                <span>And The practice logo is displayed</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.addressCheck()">
+                <span>And Address check is performed</span>
+      <div>
+      </div>
+              </div>
           </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="20"><span class="badge log pass-bg mr-2">Pass</span>Search for adviser by Location - use enter key</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.user_opens_URL(java.lang.String)">
+                <span>Given I Navigate to "AdviserratingURL"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.Go_to_location_Tab()">
+                <span>And Go to location Tab</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.enter_inside_the_search_box1(java.lang.String)">
+                <span>When I Enter "Sydney" inside the Search box</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.selectLocationFeild(java.lang.String)">
+                <span>And Find "Sydney, NSW 2000" in the address drop down search box and check it is highlighted</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.verifylocation(java.lang.String)">
+                <span>And Check "Sydney, NSW 2000" is populated into the location field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.click_on_enter_key()">
+                <span>When click on Enter key</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.currentUrl(java.lang.String)">
+                <span>Then The current Page URL which should contain "Sydney-NSW-2000"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.location_name(java.lang.String)">
+                <span>And location name should be "Sydney, NSW 2000"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.Distance_value(java.lang.String)">
+                <span>And Distance should be displayed as "10km"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.listViewVerify()">
+                <span>And check the view is ListView</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.ascendingorder()">
+                <span>And check ascendingorder of KMRange</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="34"><span class="badge log pass-bg mr-2">Pass</span>Search by adviser name And check search drop down box displays correct practice and addresses</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.user_opens_URL(java.lang.String)">
+                <span>Given I Navigate to "AdviserratingURL"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.click_on_adviser_tab()">
+                <span>When I Click on Adviser Tab</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.enter_on_the_search_box(java.lang.String)">
+                <span>And Enter "Brett Dillon" on the Search box</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.dropdown_should_be_displayed_with(java.lang.String)">
+                <span>Then Dropdown should be displayed with "Brett Dillon"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.dropdown_should_be_highlighted_for_the(java.lang.String)">
+                <span>And Dropdown should be highlighted for the "Brett Dillon"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.practice_under_the_should_be(java.lang.String,java.lang.String)">
+                <span>And Practice under the "Brett Dillon" should be "Saige Financial Planning Pty Ltd"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.two_locations_should_be_listed_next_to_the_and(java.lang.String,java.lang.String)">
+                <span>And Two locations should be listed next to the adviser as "Erina, NSW 2250" and "Sydney, NSW 2000"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.enter_key()">
+                <span>When On clicking Enter key</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.currentUrl(java.lang.String)">
+                <span>Then The current Page URL which should contain "Brett-Dillon"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="46"><span class="badge log pass-bg mr-2">Pass</span>Search by location And distance</div>
       </div>
     </div>
         <div class="">
@@ -424,7 +631,7 @@
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log badge-danger'>2</span>
+<span class='badge log pass-bg'>4</span>
 </span>
 <p class="name">@AdviserRating</p>
 <p class="duration text-sm">2 tests</p>
@@ -432,7 +639,7 @@
 <div class="test-contents d-none">
 <div class="info">
 <h4>@AdviserRating</h4>
-<span status="fail" class='badge log badge-danger'>2 failed</span>
+<span status="pass" class='badge log pass-bg'>4 passed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -443,23 +650,43 @@
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>11:50:11 AM</td>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:32:45 am</td>
 <td>
-<a href="#" class="linked" test-id='1' id='2'>Search for adviser by Location - use enter key</a>
+<a href="#" class="linked" test-id='1' id='2'>Check adviser's profile page displays correct practice And addresses</a>
+<div class="">
+<span class="badge badge-default">Adviser Rating Search functionality validation.Check adviser's profile page displays correct practice And addresses</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:33:00 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='20'>Search for adviser by Location - use enter key</a>
 <div class="">
 <span class="badge badge-default">Adviser Rating Search functionality validation.Search for adviser by Location - use enter key</span>
 </div>
 </td>
 </tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>11:50:48 AM</td>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:33:09 am</td>
 <td>
-<a href="#" class="linked" test-id='1' id='16'>Search by adviser name and check search drop down box displays correct practice and addresses</a>
+<a href="#" class="linked" test-id='1' id='34'>Search by adviser name And check search drop down box displays correct practice and addresses</a>
 <div class="">
-<span class="badge badge-default">Adviser Rating Search functionality validation.Search by adviser name and check search drop down box displays correct practice and addresses</span>
+<span class="badge badge-default">Adviser Rating Search functionality validation.Search by adviser name And check search drop down box displays correct practice and addresses</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:33:12 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='46'>Search by location And distance</a>
+<div class="">
+<span class="badge badge-default">Adviser Rating Search functionality validation.Search by location And distance</span>
 </div>
 </td>
 </tr>
@@ -480,13 +707,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Feb 17, 2023 11:50:11 AM</h3>
+<h3>Feb 17, 2023 11:32:44 am</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Feb 17, 2023 11:50:52 AM</h3>
+<h3>Feb 17, 2023 11:33:25 am</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -537,7 +764,7 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='0%'><b>0</b> scenarios passed</small></div>
+<div><small data-tooltip='100%'><b>4</b> scenarios passed</small></div>
 <div>
 <small data-tooltip='100%'><b>2</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
@@ -557,7 +784,7 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='63%'><b>14</b> steps passed</small></div>
+<div><small data-tooltip='100%'><b>45</b> steps passed</small></div>
 <div>
 <small data-tooltip='18%'><b>4</b> steps failed,
 <b>4</b> skipped, <b data-tooltip='%'>0</b> others
@@ -576,7 +803,7 @@
 </div></div>
 <script>
 var timeline = {
-"Adviser Rating Search functionality validation":40.317
+"Adviser Rating Search functionality validation":40.63
 };
 </script>
 <div class="row">
@@ -587,6 +814,7 @@ var timeline = {
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
 <td>@AdviserRating</td>
+<td>4</td>
 <td>0</td>
 <td>2</td>
 <td>0</td>
@@ -607,14 +835,14 @@ failParent: 1,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 0,
-failChild: 2,
+passChild: 4,
+failChild: 0,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 14,
-failGrandChild: 4,
+passGrandChild: 45,
+failGrandChild: 0,
 warningGrandChild: 0,
 skipGrandChild: 4,
 infoGrandChild: 0,
