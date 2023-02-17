@@ -36,7 +36,7 @@
 
     <!--Browser Configuration-->
     <!--Chrome Browser-->
-    <entry key="Browser">Chrome</entry>
+    <entry key="Browser">FireFox</entry>
     <!--FireFox Browser-->
     <!--entry key="Browser">FireFox</entry>-->
      <!--Edge Browser-->

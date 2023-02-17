@@ -31,16 +31,16 @@ Feature: Adviser Rating Search functionality validation
     And check the view is ListView
     And check ascendingorder of KMRange
     
-    #Scenario: Search by adviser name and check search drop down box displays correct practice and addresses
-    #Given I Navigate to "AdviserratingURL"
-    #When I Click on Adviser Tab
-    #And Enter "Brett Dillon" on the Search box
-    #Then Dropdown should be displayed with "Brett Dillon"
-    #And Dropdown should be highlighted for the "Brett Dillon"
-    #And Practice under the "Brett Dillon" should be "Saige Financial Planning Pty Ltd"
-    #And Two locations should be listed next to the adviser as "Erina, NSW 2250" and "Sydney, NSW 2000"
-    #When On clicking Enter key
-    #Then The current Page URL which should contain "Brett-Dillon"
+    Scenario: Search by adviser name and check search drop down box displays correct practice and addresses
+    Given I Navigate to "AdviserratingURL"
+    When I Click on Adviser Tab
+    And Enter "Brett Dillon" on the Search box
+    Then Dropdown should be displayed with "Brett Dillon"
+    And Dropdown should be highlighted for the "Brett Dillon"
+    And Practice under the "Brett Dillon" should be "Saige Financial Planning Pty Ltd"
+    And Two locations should be listed next to the adviser as "Erina, NSW 2250" and "Sydney, NSW 2000"
+    When On clicking Enter key
+    Then The current Page URL which should contain "Brett-Dillon"
     
     #Scenario: Search by location and distance
 	  #Given I Navigate to "AdviserratingURL"

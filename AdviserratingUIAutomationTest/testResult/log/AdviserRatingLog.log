@@ -1023,3 +1023,413 @@
 2023-02-17 11:37:54 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
 2023-02-17 11:37:54 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
 2023-02-17 11:37:54 INFO  ScenarioTest:50 - entered teardown
+2023-02-17 11:46:13 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
+2023-02-17 11:46:13 INFO  ADRWebDriver:34 - Entered the ADRWebDriver method
+2023-02-17 11:46:13 INFO  ADRWebDriver:111 - Entered the cleanUp method
+2023-02-17 11:46:13 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:46:13 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:46:13 INFO  ADRWebDriver:133 - Exited the cleanUp method
+2023-02-17 11:46:13 INFO  ADRWebdriverFactory:115 - Attempting to get ENV_AUTOMATION_BROWSER
+2023-02-17 11:46:13 INFO  ADRWebdriverFactory:119 - Attempting to get APP_SETTING_BROWSER
+2023-02-17 11:46:13 INFO  ADRWebdriverFactory:43 - Entered the getADRWebDriverInstance method in SFWebdriverFactory
+2023-02-17 11:46:13 INFO  ResourceRead:40 - Entered the getEnvironmentConfigValue in ResourceRead
+2023-02-17 11:46:13 INFO  ResourceRead:43 - Selected EnvironmentConfig File is: ../AdviserratingUIAutomationTest/src/main/resources/config.xml
+2023-02-17 11:46:13 INFO  BrowserInstanceFactory:100 - Entered the firefoxWebDriver method in BrowserInstanceFactory
+2023-02-17 11:46:13 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:46:13 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:46:13 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:46:13 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:46:17 INFO  BrowserInstanceFactory:114 - Exited the firefoxWebDriver method in BrowserInstanceFactory
+2023-02-17 11:46:17 INFO  ADRWebdriverFactory:86 - Exited the getADRWebDriverInstance method in SFWebdriverFactory
+2023-02-17 11:46:18 INFO  ADRWebDriver:42 - Exited the ADRWebDriver method
+2023-02-17 11:46:18 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
+2023-02-17 11:46:18 INFO  StepHooks:34 - Entered Step Hooks Before method in StepHooks class
+2023-02-17 11:46:18 INFO  StepHooks:42 - Exited Step Hooks Before method in StepHooks class
+2023-02-17 11:46:18 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
+2023-02-17 11:46:18 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
+2023-02-17 11:46:18 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
+2023-02-17 11:46:18 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
+2023-02-17 11:46:18 INFO  AdviserRatingsSteps:38 - Step: Navigated to AdviserratingURL
+2023-02-17 11:46:18 INFO  ResourceRead:40 - Entered the getEnvironmentConfigValue in ResourceRead
+2023-02-17 11:46:18 INFO  ResourceRead:43 - Selected EnvironmentConfig File is: ../AdviserratingUIAutomationTest/src/main/resources/config.xml
+2023-02-17 11:46:18 INFO  ResourceRead:40 - Entered the getEnvironmentConfigValue in ResourceRead
+2023-02-17 11:46:18 INFO  ResourceRead:43 - Selected EnvironmentConfig File is: ../AdviserratingUIAutomationTest/src/main/resources/config.xml
+2023-02-17 11:46:18 INFO  BasePage:83 - Entered the LaunchURL method in BasePage: https://staging.adviserratings.com.au/
+2023-02-17 11:46:22 INFO  AdviserRatingsSteps:56 - Opened URL: https://staging.adviserratings.com.au/
+2023-02-17 11:46:22 INFO  AdviserRatingsSteps:170 - Step: Go to location Tab
+2023-02-17 11:46:22 INFO  AdviserRatingPage:139 - go to location tab
+2023-02-17 11:46:23 INFO  AdviserRatingsSteps:77 - Step: Enter the valueSydneyon Search box
+2023-02-17 11:46:23 INFO  AdviserRatingPage:403 - Entered reNameSurvey method of AdviserRatingPage
+2023-02-17 11:46:23 INFO  BasePage:398 - Entered the findTextboxAndSetValueByXpath method in BasePage
+2023-02-17 11:46:23 INFO  BaseTestFixture:127 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:46:23 INFO  BaseTestFixture:134 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:46:23 INFO  BaseTestFixture:109 - Entered the isConstantValuePresent method in BaseTestFixture
+2023-02-17 11:46:23 INFO  BaseTestFixture:115 - Exited the isConstantValuePresent method in BaseTestFixture
+2023-02-17 11:46:23 INFO  BasePage:380 - Entered the findTextBoxAndSetValue method in BasePage
+2023-02-17 11:46:23 INFO  BaseTestFixture:127 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:46:23 INFO  BaseTestFixture:134 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:46:23 INFO  BaseTestFixture:45 - Entered the waitForElement method in BaseTestFixture
+2023-02-17 11:46:23 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:46:23 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:46:23 INFO  BaseTestFixture:60 - Entered the isElementPresent method in BaseTestFixture
+2023-02-17 11:46:23 INFO  BaseTestFixture:71 - Exited the isElementPresent method in BaseTestFixture
+2023-02-17 11:46:23 INFO  BaseTestFixture:49 - Element found, value of isElementDisplayedInPage is = true
+2023-02-17 11:46:23 INFO  BaseTestFixture:53 - Exited the waitForElement method in BaseTestFixture
+2023-02-17 11:46:23 INFO  BasePage:387 - Exited the findTextBoxAndSetValue method in BasePage
+2023-02-17 11:46:23 INFO  BasePage:402 - Exited the findTextboxAndSetValueByXpath method in BasePage
+2023-02-17 11:46:23 INFO  AdviserRatingsSteps:184 - Step: Find Sydney, NSW 2000in the address drop down search box and check it is highlighted
+2023-02-17 11:46:23 INFO  AdviserRatingPage:168 - Entered locationvalue method of AdviserRatingPage
+2023-02-17 11:46:23 INFO  BaseTestFixture:127 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:46:23 INFO  BaseTestFixture:134 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:46:23 INFO  BasePage:868 - Entered the getWebElementsProperties method in BasePage
+2023-02-17 11:46:23 INFO  BaseTestFixture:45 - Entered the waitForElement method in BaseTestFixture
+2023-02-17 11:46:23 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:46:23 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:46:23 INFO  BaseTestFixture:60 - Entered the isElementPresent method in BaseTestFixture
+2023-02-17 11:46:23 INFO  BaseTestFixture:71 - Exited the isElementPresent method in BaseTestFixture
+2023-02-17 11:46:23 INFO  BaseTestFixture:49 - Element found, value of isElementDisplayedInPage is = true
+2023-02-17 11:46:23 INFO  BaseTestFixture:53 - Exited the waitForElement method in BaseTestFixture
+2023-02-17 11:46:23 INFO  BasePage:870 - Exited the getWebElementsProperties method in BasePage
+2023-02-17 11:46:24 INFO  AdviserRatingsSteps:233 - Step: Check Sydney, NSW 2000is populated into the location field
+2023-02-17 11:46:24 INFO  AdviserRatingPage:72 - Check locationfeild contains sydney, NSW 2000
+2023-02-17 11:46:24 INFO  AdviserRatingsSteps:145 - Step: Click on Enter Key
+2023-02-17 11:46:24 INFO  AdviserRatingsSteps:222 - Step: The current Page URL which should containSydney-NSW-2000
+2023-02-17 11:46:24 INFO  ResourceRead:40 - Entered the getEnvironmentConfigValue in ResourceRead
+2023-02-17 11:46:24 INFO  ResourceRead:43 - Selected EnvironmentConfig File is: ../AdviserratingUIAutomationTest/src/main/resources/config.xml
+2023-02-17 11:46:24 INFO  StepHooks:53 - Entered Step Hooks AfterScenario method in StepHooks class
+2023-02-17 11:46:30 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
+2023-02-17 11:46:30 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
+2023-02-17 11:46:30 INFO  ScenarioTest:50 - Entered Teardown method
+2023-02-17 11:49:04 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
+2023-02-17 11:49:04 INFO  ADRWebDriver:34 - Entered the ADRWebDriver method
+2023-02-17 11:49:04 INFO  ADRWebDriver:111 - Entered the cleanUp method
+2023-02-17 11:49:04 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:49:04 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:49:04 INFO  ADRWebDriver:133 - Exited the cleanUp method
+2023-02-17 11:49:04 INFO  ADRWebdriverFactory:115 - Attempting to get ENV_AUTOMATION_BROWSER
+2023-02-17 11:49:04 INFO  ADRWebdriverFactory:119 - Attempting to get APP_SETTING_BROWSER
+2023-02-17 11:49:04 INFO  ADRWebdriverFactory:43 - Entered the getADRWebDriverInstance method in SFWebdriverFactory
+2023-02-17 11:49:04 INFO  ResourceRead:40 - Entered the getEnvironmentConfigValue in ResourceRead
+2023-02-17 11:49:04 INFO  ResourceRead:43 - Selected EnvironmentConfig File is: ../AdviserratingUIAutomationTest/src/main/resources/config.xml
+2023-02-17 11:49:04 INFO  BrowserInstanceFactory:100 - Entered the firefoxWebDriver method in BrowserInstanceFactory
+2023-02-17 11:49:04 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:49:04 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:49:04 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:49:04 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:49:08 INFO  BrowserInstanceFactory:114 - Exited the firefoxWebDriver method in BrowserInstanceFactory
+2023-02-17 11:49:08 INFO  ADRWebdriverFactory:86 - Exited the getADRWebDriverInstance method in SFWebdriverFactory
+2023-02-17 11:49:08 INFO  ADRWebDriver:42 - Exited the ADRWebDriver method
+2023-02-17 11:49:08 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
+2023-02-17 11:49:08 INFO  StepHooks:34 - Entered Step Hooks Before method in StepHooks class
+2023-02-17 11:49:08 INFO  StepHooks:42 - Exited Step Hooks Before method in StepHooks class
+2023-02-17 11:49:08 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
+2023-02-17 11:49:08 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
+2023-02-17 11:49:08 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
+2023-02-17 11:49:08 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
+2023-02-17 11:49:08 INFO  AdviserRatingsSteps:38 - Step: Navigated to AdviserratingURL
+2023-02-17 11:49:08 INFO  ResourceRead:40 - Entered the getEnvironmentConfigValue in ResourceRead
+2023-02-17 11:49:08 INFO  ResourceRead:43 - Selected EnvironmentConfig File is: ../AdviserratingUIAutomationTest/src/main/resources/config.xml
+2023-02-17 11:49:08 INFO  ResourceRead:40 - Entered the getEnvironmentConfigValue in ResourceRead
+2023-02-17 11:49:08 INFO  ResourceRead:43 - Selected EnvironmentConfig File is: ../AdviserratingUIAutomationTest/src/main/resources/config.xml
+2023-02-17 11:49:08 INFO  BasePage:83 - Entered the LaunchURL method in BasePage: https://staging.adviserratings.com.au/
+2023-02-17 11:50:05 INFO  ExceptionHandeler:16 - Entered genricExceptionHandeler method in ExceptionHandeler class
+2023-02-17 11:50:05 ERROR ExceptionHandeler:18 - Browsing context has been discarded
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'LAPTOP-MUHAMMED', ip: '192.168.1.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [bad0bcf1-d446-46c9-bff5-891c6943e99d, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230214051806, moz:debuggerAddress: 127.0.0.1:62129, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9960, moz:profile: C:\Users\MUHAMM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:62129/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bad0bcf1-d446-46c9-bff5-891c6943e99d
+org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'LAPTOP-MUHAMMED', ip: '192.168.1.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [bad0bcf1-d446-46c9-bff5-891c6943e99d, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230214051806, moz:debuggerAddress: 127.0.0.1:62129, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9960, moz:profile: C:\Users\MUHAMM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:62129/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bad0bcf1-d446-46c9-bff5-891c6943e99d
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:928)
+	at com.adviserratinguiautomation.base.BasePage.LaunchURL(BasePage.java:88)
+	at stepdefinition.AdviserRatingsSteps.user_opens_URL(AdviserRatingsSteps.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+2023-02-17 11:50:05 INFO  StepHooks:53 - Entered Step Hooks AfterScenario method in StepHooks class
+2023-02-17 11:50:05 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
+2023-02-17 11:50:05 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
+2023-02-17 11:50:05 INFO  StepHooks:34 - Entered Step Hooks Before method in StepHooks class
+2023-02-17 11:50:05 INFO  StepHooks:42 - Exited Step Hooks Before method in StepHooks class
+2023-02-17 11:50:05 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
+2023-02-17 11:50:05 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
+2023-02-17 11:50:05 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
+2023-02-17 11:50:05 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
+2023-02-17 11:50:05 INFO  AdviserRatingsSteps:38 - Step: Navigated to AdviserratingURL
+2023-02-17 11:50:05 INFO  ResourceRead:40 - Entered the getEnvironmentConfigValue in ResourceRead
+2023-02-17 11:50:05 INFO  ResourceRead:43 - Selected EnvironmentConfig File is: ../AdviserratingUIAutomationTest/src/main/resources/config.xml
+2023-02-17 11:50:05 INFO  ResourceRead:40 - Entered the getEnvironmentConfigValue in ResourceRead
+2023-02-17 11:50:05 INFO  ResourceRead:43 - Selected EnvironmentConfig File is: ../AdviserratingUIAutomationTest/src/main/resources/config.xml
+2023-02-17 11:50:05 INFO  ExceptionHandeler:16 - Entered genricExceptionHandeler method in ExceptionHandeler class
+2023-02-17 11:50:05 ERROR ExceptionHandeler:18 - Tried to run command without establishing a connection
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'LAPTOP-MUHAMMED', ip: '192.168.1.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [bad0bcf1-d446-46c9-bff5-891c6943e99d, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230214051806, moz:debuggerAddress: 127.0.0.1:62129, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9960, moz:profile: C:\Users\MUHAMM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:62129/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bad0bcf1-d446-46c9-bff5-891c6943e99d
+org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'LAPTOP-MUHAMMED', ip: '192.168.1.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [bad0bcf1-d446-46c9-bff5-891c6943e99d, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230214051806, moz:debuggerAddress: 127.0.0.1:62129, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9960, moz:profile: C:\Users\MUHAMM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:62129/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bad0bcf1-d446-46c9-bff5-891c6943e99d
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:723)
+	at stepdefinition.AdviserRatingsSteps.user_opens_URL(AdviserRatingsSteps.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+2023-02-17 11:50:05 INFO  StepHooks:53 - Entered Step Hooks AfterScenario method in StepHooks class
+2023-02-17 11:50:11 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
+2023-02-17 11:50:11 INFO  ADRWebDriver:34 - Entered the ADRWebDriver method
+2023-02-17 11:50:11 INFO  ADRWebDriver:111 - Entered the cleanUp method
+2023-02-17 11:50:11 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:50:11 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:50:11 INFO  ADRWebDriver:133 - Exited the cleanUp method
+2023-02-17 11:50:11 INFO  ADRWebdriverFactory:115 - Attempting to get ENV_AUTOMATION_BROWSER
+2023-02-17 11:50:11 INFO  ADRWebdriverFactory:119 - Attempting to get APP_SETTING_BROWSER
+2023-02-17 11:50:11 INFO  ADRWebdriverFactory:43 - Entered the getADRWebDriverInstance method in SFWebdriverFactory
+2023-02-17 11:50:11 INFO  ResourceRead:40 - Entered the getEnvironmentConfigValue in ResourceRead
+2023-02-17 11:50:11 INFO  ResourceRead:43 - Selected EnvironmentConfig File is: ../AdviserratingUIAutomationTest/src/main/resources/config.xml
+2023-02-17 11:50:11 INFO  BrowserInstanceFactory:100 - Entered the firefoxWebDriver method in BrowserInstanceFactory
+2023-02-17 11:50:11 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:50:11 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:50:11 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:50:11 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:50:15 INFO  BrowserInstanceFactory:114 - Exited the firefoxWebDriver method in BrowserInstanceFactory
+2023-02-17 11:50:15 INFO  ADRWebdriverFactory:86 - Exited the getADRWebDriverInstance method in SFWebdriverFactory
+2023-02-17 11:50:15 INFO  ADRWebDriver:42 - Exited the ADRWebDriver method
+2023-02-17 11:50:15 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
+2023-02-17 11:50:15 INFO  StepHooks:34 - Entered Step Hooks Before method in StepHooks class
+2023-02-17 11:50:15 INFO  StepHooks:42 - Exited Step Hooks Before method in StepHooks class
+2023-02-17 11:50:15 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
+2023-02-17 11:50:15 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
+2023-02-17 11:50:15 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
+2023-02-17 11:50:15 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
+2023-02-17 11:50:15 INFO  AdviserRatingsSteps:38 - Step: Navigated to AdviserratingURL
+2023-02-17 11:50:15 INFO  ResourceRead:40 - Entered the getEnvironmentConfigValue in ResourceRead
+2023-02-17 11:50:15 INFO  ResourceRead:43 - Selected EnvironmentConfig File is: ../AdviserratingUIAutomationTest/src/main/resources/config.xml
+2023-02-17 11:50:15 INFO  ResourceRead:40 - Entered the getEnvironmentConfigValue in ResourceRead
+2023-02-17 11:50:15 INFO  ResourceRead:43 - Selected EnvironmentConfig File is: ../AdviserratingUIAutomationTest/src/main/resources/config.xml
+2023-02-17 11:50:15 INFO  BasePage:83 - Entered the LaunchURL method in BasePage: https://staging.adviserratings.com.au/
+2023-02-17 11:50:45 INFO  AdviserRatingsSteps:56 - Opened URL: https://staging.adviserratings.com.au/
+2023-02-17 11:50:45 INFO  AdviserRatingsSteps:170 - Step: Go to location Tab
+2023-02-17 11:50:45 INFO  AdviserRatingPage:139 - go to location tab
+2023-02-17 11:50:46 INFO  AdviserRatingsSteps:77 - Step: Enter the valueSydneyon Search box
+2023-02-17 11:50:46 INFO  AdviserRatingPage:403 - Entered reNameSurvey method of AdviserRatingPage
+2023-02-17 11:50:46 INFO  BasePage:398 - Entered the findTextboxAndSetValueByXpath method in BasePage
+2023-02-17 11:50:46 INFO  BaseTestFixture:127 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:50:46 INFO  BaseTestFixture:134 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:50:46 INFO  BaseTestFixture:109 - Entered the isConstantValuePresent method in BaseTestFixture
+2023-02-17 11:50:46 INFO  BaseTestFixture:115 - Exited the isConstantValuePresent method in BaseTestFixture
+2023-02-17 11:50:46 INFO  BasePage:380 - Entered the findTextBoxAndSetValue method in BasePage
+2023-02-17 11:50:46 INFO  BaseTestFixture:127 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:50:46 INFO  BaseTestFixture:134 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:50:46 INFO  BaseTestFixture:45 - Entered the waitForElement method in BaseTestFixture
+2023-02-17 11:50:46 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:50:46 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:50:46 INFO  BaseTestFixture:60 - Entered the isElementPresent method in BaseTestFixture
+2023-02-17 11:50:46 INFO  BaseTestFixture:71 - Exited the isElementPresent method in BaseTestFixture
+2023-02-17 11:50:46 INFO  BaseTestFixture:49 - Element found, value of isElementDisplayedInPage is = true
+2023-02-17 11:50:46 INFO  BaseTestFixture:53 - Exited the waitForElement method in BaseTestFixture
+2023-02-17 11:50:46 INFO  BasePage:387 - Exited the findTextBoxAndSetValue method in BasePage
+2023-02-17 11:50:46 INFO  BasePage:402 - Exited the findTextboxAndSetValueByXpath method in BasePage
+2023-02-17 11:50:46 INFO  AdviserRatingsSteps:184 - Step: Find Sydney, NSW 2000in the address drop down search box and check it is highlighted
+2023-02-17 11:50:46 INFO  AdviserRatingPage:168 - Entered locationvalue method of AdviserRatingPage
+2023-02-17 11:50:46 INFO  BaseTestFixture:127 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:50:46 INFO  BaseTestFixture:134 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:50:46 INFO  BasePage:868 - Entered the getWebElementsProperties method in BasePage
+2023-02-17 11:50:46 INFO  BaseTestFixture:45 - Entered the waitForElement method in BaseTestFixture
+2023-02-17 11:50:46 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:50:46 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:50:46 INFO  BaseTestFixture:60 - Entered the isElementPresent method in BaseTestFixture
+2023-02-17 11:50:46 INFO  BaseTestFixture:71 - Exited the isElementPresent method in BaseTestFixture
+2023-02-17 11:50:46 INFO  BaseTestFixture:49 - Element found, value of isElementDisplayedInPage is = true
+2023-02-17 11:50:46 INFO  BaseTestFixture:53 - Exited the waitForElement method in BaseTestFixture
+2023-02-17 11:50:46 INFO  BasePage:870 - Exited the getWebElementsProperties method in BasePage
+2023-02-17 11:50:47 INFO  AdviserRatingsSteps:233 - Step: Check Sydney, NSW 2000is populated into the location field
+2023-02-17 11:50:47 INFO  AdviserRatingPage:72 - Check locationfeild contains sydney, NSW 2000
+2023-02-17 11:50:47 INFO  AdviserRatingsSteps:145 - Step: Click on Enter Key
+2023-02-17 11:50:47 INFO  AdviserRatingsSteps:222 - Step: The current Page URL which should containSydney-NSW-2000
+2023-02-17 11:50:47 INFO  ResourceRead:40 - Entered the getEnvironmentConfigValue in ResourceRead
+2023-02-17 11:50:47 INFO  ResourceRead:43 - Selected EnvironmentConfig File is: ../AdviserratingUIAutomationTest/src/main/resources/config.xml
+2023-02-17 11:50:47 INFO  StepHooks:53 - Entered Step Hooks AfterScenario method in StepHooks class
+2023-02-17 11:50:48 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
+2023-02-17 11:50:48 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
+2023-02-17 11:50:48 INFO  StepHooks:34 - Entered Step Hooks Before method in StepHooks class
+2023-02-17 11:50:48 INFO  StepHooks:42 - Exited Step Hooks Before method in StepHooks class
+2023-02-17 11:50:48 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
+2023-02-17 11:50:48 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
+2023-02-17 11:50:48 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
+2023-02-17 11:50:48 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
+2023-02-17 11:50:48 INFO  AdviserRatingsSteps:38 - Step: Navigated to AdviserratingURL
+2023-02-17 11:50:48 INFO  ResourceRead:40 - Entered the getEnvironmentConfigValue in ResourceRead
+2023-02-17 11:50:48 INFO  ResourceRead:43 - Selected EnvironmentConfig File is: ../AdviserratingUIAutomationTest/src/main/resources/config.xml
+2023-02-17 11:50:48 INFO  ResourceRead:40 - Entered the getEnvironmentConfigValue in ResourceRead
+2023-02-17 11:50:48 INFO  ResourceRead:43 - Selected EnvironmentConfig File is: ../AdviserratingUIAutomationTest/src/main/resources/config.xml
+2023-02-17 11:50:48 INFO  BasePage:83 - Entered the LaunchURL method in BasePage: https://staging.adviserratings.com.au/
+2023-02-17 11:50:48 INFO  AdviserRatingsSteps:56 - Opened URL: https://staging.adviserratings.com.au/
+2023-02-17 11:50:48 INFO  AdviserRatingsSteps:67 - Step: Click on Adviser Tab
+2023-02-17 11:50:48 INFO  AdviserRatingPage:46 - Entered clickAdviserTab method of AdviserRatingPage
+2023-02-17 11:50:48 INFO  BasePage:118 - Entered the clickOnButtonByXpath method in BasePage
+2023-02-17 11:50:48 INFO  BaseTestFixture:127 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:50:48 INFO  BaseTestFixture:134 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:50:48 INFO  BaseTestFixture:109 - Entered the isConstantValuePresent method in BaseTestFixture
+2023-02-17 11:50:48 INFO  BaseTestFixture:115 - Exited the isConstantValuePresent method in BaseTestFixture
+2023-02-17 11:50:48 INFO  BasePage:95 - Entered the clickOnButton method in BasePage
+2023-02-17 11:50:48 INFO  BaseTestFixture:127 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:50:48 INFO  BaseTestFixture:134 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:50:48 INFO  BaseTestFixture:45 - Entered the waitForElement method in BaseTestFixture
+2023-02-17 11:50:48 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:50:48 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:50:48 INFO  BaseTestFixture:60 - Entered the isElementPresent method in BaseTestFixture
+2023-02-17 11:50:49 INFO  BaseTestFixture:71 - Exited the isElementPresent method in BaseTestFixture
+2023-02-17 11:50:49 INFO  BaseTestFixture:49 - Element found, value of isElementDisplayedInPage is = true
+2023-02-17 11:50:49 INFO  BaseTestFixture:53 - Exited the waitForElement method in BaseTestFixture
+2023-02-17 11:50:49 INFO  BasePage:106 - Exited the clickOnButton method in BasePage
+2023-02-17 11:50:49 INFO  BasePage:122 - Exited the clickOnButtonByXpath method in BasePage
+2023-02-17 11:50:49 INFO  AdviserRatingsSteps:88 - Step: Enter the adviser nameBrett Dillonon Search box
+2023-02-17 11:50:49 INFO  AdviserRatingPage:53 - Entered reNameSurvey method of AdviserRatingPage
+2023-02-17 11:50:49 INFO  BasePage:398 - Entered the findTextboxAndSetValueByXpath method in BasePage
+2023-02-17 11:50:49 INFO  BaseTestFixture:127 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:50:49 INFO  BaseTestFixture:134 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:50:49 INFO  BaseTestFixture:109 - Entered the isConstantValuePresent method in BaseTestFixture
+2023-02-17 11:50:49 INFO  BaseTestFixture:115 - Exited the isConstantValuePresent method in BaseTestFixture
+2023-02-17 11:50:49 INFO  BasePage:380 - Entered the findTextBoxAndSetValue method in BasePage
+2023-02-17 11:50:49 INFO  BaseTestFixture:127 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:50:49 INFO  BaseTestFixture:134 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:50:49 INFO  BaseTestFixture:45 - Entered the waitForElement method in BaseTestFixture
+2023-02-17 11:50:49 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:50:49 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:50:49 INFO  BaseTestFixture:60 - Entered the isElementPresent method in BaseTestFixture
+2023-02-17 11:50:49 INFO  BaseTestFixture:71 - Exited the isElementPresent method in BaseTestFixture
+2023-02-17 11:50:49 INFO  BaseTestFixture:49 - Element found, value of isElementDisplayedInPage is = true
+2023-02-17 11:50:49 INFO  BaseTestFixture:53 - Exited the waitForElement method in BaseTestFixture
+2023-02-17 11:50:49 INFO  BasePage:387 - Exited the findTextBoxAndSetValue method in BasePage
+2023-02-17 11:50:49 INFO  BasePage:402 - Exited the findTextboxAndSetValueByXpath method in BasePage
+2023-02-17 11:50:49 INFO  AdviserRatingsSteps:99 - Step: Dropdown should be displayed with Brett Dillon
+2023-02-17 11:50:50 INFO  AdviserRatingsSteps:110 - Step: Dropdown should be highlighted for the Brett Dillon
+2023-02-17 11:50:51 INFO  AdviserRatingsSteps:121 - Step: Practice under the Brett Dillon should be Saige Financial Planning Pty Ltd
+2023-02-17 11:50:51 INFO  AdviserRatingsSteps:132 - Step: Two locations should be listed next to the adviser as Erina, NSW 2250 and Sydney, NSW 2000
+2023-02-17 11:50:51 INFO  AdviserRatingsSteps:157 - Step: Click on Enter Key
+2023-02-17 11:50:51 INFO  AdviserRatingsSteps:222 - Step: The current Page URL which should containBrett-Dillon
+2023-02-17 11:50:51 INFO  ResourceRead:40 - Entered the getEnvironmentConfigValue in ResourceRead
+2023-02-17 11:50:51 INFO  ResourceRead:43 - Selected EnvironmentConfig File is: ../AdviserratingUIAutomationTest/src/main/resources/config.xml
+2023-02-17 11:50:51 INFO  StepHooks:53 - Entered Step Hooks AfterScenario method in StepHooks class
+2023-02-17 11:50:58 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
+2023-02-17 11:50:58 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
+2023-02-17 11:50:58 INFO  ScenarioTest:50 - Entered Teardown method
