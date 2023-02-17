@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import org.apache.log4j.Logger;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
@@ -18,6 +19,7 @@ import com.adviserratinguiautomation.base.BasePage;
 import com.adviserratinguiautomation.base.BaseTestScripts;
 import com.adviserratinguiautomation.customReport.CustomExtendReport;
 import com.adviserratinguiautomation.customexceptions.ResourceCustomException;
+import com.adviserratinguiautomation.logger.FrameworkLogger;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 
@@ -38,14 +40,15 @@ plugin = { "pretty",
 )
 
 public class ScenarioTest extends BasePage {
-	
+	final static Logger log = Logger.getLogger(ScenarioTest.class);
 	public static  StepHooks stephooks= new StepHooks();
 
 	
 	@AfterClass
 	public  static void teardown() throws InterruptedException
 	{
-		System.out.println("entered teardown");
+		log.info("Entered Teardown method");
+		System.out.println("Entered teardown");
 		try {
 			
 			
