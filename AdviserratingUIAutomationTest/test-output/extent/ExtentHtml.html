@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Test Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Feb 17, 2023 01:20:25 pm</span></a>
+<a href="#"><span class="badge badge-primary">Feb 17, 2023 03:41:51 pm</span></a>
 </li>
 </ul>
 </div>
@@ -76,7 +76,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -90,25 +90,25 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="pass" test-id="1"
+        <li class="test-item"  status="fail" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Adviser Rating Search functionality validation</p>
             <p class="text-sm">
-              <span>1:20:26 pm</span> / <span>00:01:03:920</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>3:41:51 pm</span> / <span>00:00:11:221</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Adviser Rating Search functionality validation</h5>
-<span class='badge badge-success'>02.17.2023 1:20:26 pm</span>
-<span class='badge badge-danger'>02.17.2023 1:21:30 pm</span>
-<span class='badge badge-default'>00:01:03:920</span>
+<h5 class="test-status text-fail">Adviser Rating Search functionality validation</h5>
+<span class='badge badge-success'>02.17.2023 3:41:51 pm</span>
+<span class='badge badge-danger'>02.17.2023 3:42:02 pm</span>
+<span class='badge badge-default'>00:00:11:221</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -120,272 +120,178 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Check adviser's profile page displays correct practice And addresses</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.user_opens_URL(java.lang.String)">
-                <span>Given I Navigate to "AdviserratingURL"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.click_on_adviser_tab()">
-                <span>When I Click on Adviser Tab</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.enter_on_the_search_box(java.lang.String)">
-                <span>And Enter "Brett Dillon" on the Search box</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.dropdownselect(java.lang.String)">
-                <span>And Iterate the dropdown and select "Brett Dillon"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.currentUrl(java.lang.String)">
-                <span>Then The current Page URL which should contain "Brett-Dillon"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.adviserProfile(java.lang.String)">
-                <span>And The Advisers profile image is displayed with src url contains "brett-andrew-dillon"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.nameValidation(java.lang.String)">
-                <span>And The name is "Brett Dillon"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.adviserNameValidation(java.lang.String)">
-                <span>And The Advisor name is "Saige Financial Planning Pty Ltd"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.locationValidation(java.lang.String)">
-                <span>And The location will be "Erina, NSW 2250"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.aboutTab(java.lang.String)">
-                <span>And About tab is "About Brett"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.mapPinnedAddress(java.lang.String)">
-                <span>When The google map is displayed with the pin to the address in "Erina, NSW 2250"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.mapParameterValue(java.lang.String)">
-                <span>Then The Map URL center parameter value should contains "center=-33.4386,151.3868"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.practiceName(java.lang.String)">
-                <span>And The  practice name is displayed under the map is 'Saige Financial Planning Pty Ltd'</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.practiceLogo()">
-                <span>And The practice logo is displayed</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.addressCheck()">
-                <span>And Address check is performed</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="20"><span class="badge log pass-bg mr-2">Pass</span>Search for adviser by Location - use enter key</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.user_opens_URL(java.lang.String)">
-                <span>Given I Navigate to "AdviserratingURL"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.Go_to_location_Tab()">
-                <span>And Go to location Tab</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.enter_inside_the_search_box1(java.lang.String)">
-                <span>When I Enter "Sydney" inside the Search box</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.selectLocationFeild(java.lang.String)">
-                <span>And Find "Sydney, NSW 2000" in the address drop down search box and check it is highlighted</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.verifylocation(java.lang.String)">
-                <span>And Check "Sydney, NSW 2000" is populated into the location field</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.click_on_enter_key()">
-                <span>When click on Enter key</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.currentUrl(java.lang.String)">
-                <span>Then The current Page URL which should contain "Sydney-NSW-2000"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.location_name(java.lang.String)">
-                <span>And location name should be "Sydney, NSW 2000"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.Distance_value(java.lang.String)">
-                <span>And Distance should be displayed as "10km"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.listViewVerify()">
-                <span>And check the view is ListView</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.ascendingorder()">
-                <span>And check ascendingorder of KMRange</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="34"><span class="badge log pass-bg mr-2">Pass</span>Search by adviser name and check search drop down box displays correct practice and addresses</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.user_opens_URL(java.lang.String)">
-                <span>Given I Navigate to "AdviserratingURL"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.click_on_adviser_tab()">
-                <span>When I Click on Adviser Tab</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.enter_on_the_search_box(java.lang.String)">
-                <span>And Enter "Brett Dillon" on the Search box</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.dropdown_should_be_displayed_with(java.lang.String)">
-                <span>Then Dropdown should be displayed with "Brett Dillon"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.dropdown_should_be_highlighted_for_the(java.lang.String)">
-                <span>And Dropdown should be highlighted for the "Brett Dillon"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.practice_under_the_should_be(java.lang.String,java.lang.String)">
-                <span>And Practice under the "Brett Dillon" should be "Saige Financial Planning Pty Ltd"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.two_locations_should_be_listed_next_to_the_and(java.lang.String,java.lang.String)">
-                <span>And Two locations should be listed next to the adviser as "Erina, NSW 2250" and "Sydney, NSW 2000"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.enter_key()">
-                <span>When On clicking Enter key</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.currentUrl(java.lang.String)">
-                <span>Then The current Page URL which should contain "Brett-Dillon"</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="46"><span class="badge log pass-bg mr-2">Pass</span>Search by location And distance</div>
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Check adviser's profile page displays correct practice And addresses</div>
       </div>
     </div>
         <div class="">
           <div class="card-body">
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.user_opens_URL(java.lang.String)">
+              <div class="step fail-bg" title="stepdefinition.AdviserRatingsSteps.user_opens_URL(java.lang.String)">
                 <span>Given I Navigate to "AdviserratingURL"</span>
       <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.Go_to_location_Tab()">
-                <span>And Go to location Tab</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.enter_inside_the_search_box1(java.lang.String)">
-                <span>When I Enter "800" inside the Search box</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.Address_dropdown_should_be_displayed_with(java.lang.String)">
-                <span>Then Find "Darwin, NT 0800" from the Address search dropdown and click on it</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.selectvalueSearch(java.lang.String)">
-                <span>And select for "5km" from dropdown and click search</span>
-      <div>
-      </div>
-              </div>
-<<<<<<< HEAD
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.currentUrl(java.lang.String)">
-                <span>Then The current Page URL which should contain "Darwin-NT-0800"</span>
-=======
-              <div class="step fail-bg" title="stepdefinition.AdviserRatingsSteps.currentUrl(java.lang.String)">
-                <span>Then The current Page URL which should contain "Sydney-NSW-2000"</span>
->>>>>>> a39803211837fe07b218eac8778ac3f4134fe073
-      <div>
-        <textarea disabled class="code-block">java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at uipages.AdviserRatingPage.advisornameCurrentUrl(AdviserRatingPage.java:268)
-	at stepdefinition.AdviserRatingsSteps.currentUrl(AdviserRatingsSteps.java:225)
-	at ✽.The current Page URL which should contain "Sydney-NSW-2000"(file:///C:/Users/MuhammedNahaz/Videos/AdviserratingUIAutomation/AdviserratingUIAutomationNew/AdviserratingUIAutomationTest/src/test/resources/features/AdvisersRating.feature:28)
+        <textarea disabled class="code-block">org.opentest4j.AssertionFailedError: Exception Occured, please check the screenshot
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at com.adviserratinguiautomation.customexceptions.ExceptionHandeler.genricExceptionHandeler(ExceptionHandeler.java:19)
+	at stepdefinition.AdviserRatingsSteps.user_opens_URL(AdviserRatingsSteps.java:58)
+	at ✽.I Navigate to "AdviserratingURL"(file:///C:/Users/AbiramiGanesan/git/git/AdviserratingNew/AdviserratingUIAutomationTest/src/test/resources/features/AdvisersRating.feature:5)
 </textarea>
       
       </div>
               </div>
-<<<<<<< HEAD
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.location_name(java.lang.String)">
-                <span>And location name should be "Darwin, NT 0800"</span>
-      <div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.click_on_adviser_tab()">
+                <span>When I Click on Adviser Tab</span>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.Distance_value(java.lang.String)">
-                <span>And Distance should be displayed as "5km"</span>
-=======
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.enter_on_the_search_box(java.lang.String)">
+                <span>And Enter "Brett Dillon" on the Search box</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.dropdownselect(java.lang.String)">
+                <span>And Iterate the dropdown and select "Brett Dillon"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.currentUrl(java.lang.String)">
+                <span>Then The current Page URL which should contain "Brett-Dillon"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.adviserProfile(java.lang.String)">
+                <span>And The Advisers profile image is displayed with src url contains "brett-andrew-dillon"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.nameValidation(java.lang.String)">
+                <span>And The name is "Brett Dillon"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.adviserNameValidation(java.lang.String)">
+                <span>And The Advisor name is "Saige Financial Planning Pty Ltd"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.locationValidation(java.lang.String)">
+                <span>And The location will be "Erina, NSW 2250"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.aboutTab(java.lang.String)">
+                <span>And About tab is "About Brett"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.mapPinnedAddress(java.lang.String)">
+                <span>When The google map is displayed with the pin to the address in "Erina, NSW 2250"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.mapParameterValue(java.lang.String)">
+                <span>Then The Map URL center parameter value should contains "center=-33.4386,151.3868"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.practiceName(java.lang.String)">
+                <span>And The  practice name is displayed under the map is 'Saige Financial Planning Pty Ltd'</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.practiceLogo()">
+                <span>And The practice logo is displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.addressCheck()">
+                <span>And Address check is performed</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step fail-bg" title="AFTER">
+                <span>stepdefinition.StepHooks.AfterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'LAPTOP-ABIRAMIG', ip: '192.168.29.201', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ff68fed3-a1c4-45e6-aed0-10118647363a, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:54422, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 3808, moz:profile: C:\Users\ABIRAM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:54422/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ff68fed3-a1c4-45e6-aed0-10118647363a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:349)
+	at stepdefinition.StepHooks.AfterScenario(StepHooks.java:61)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="20"><span class="badge log fail-bg mr-2">Fail</span>Search for adviser by Location - use enter key</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="stepdefinition.AdviserRatingsSteps.user_opens_URL(java.lang.String)">
+                <span>Given I Navigate to "AdviserratingURL"</span>
+      <div>
+        <textarea disabled class="code-block">org.opentest4j.AssertionFailedError: Exception Occured, please check the screenshot
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at com.adviserratinguiautomation.customexceptions.ExceptionHandeler.genricExceptionHandeler(ExceptionHandeler.java:19)
+	at stepdefinition.AdviserRatingsSteps.user_opens_URL(AdviserRatingsSteps.java:58)
+	at ✽.I Navigate to "AdviserratingURL"(file:///C:/Users/AbiramiGanesan/git/git/AdviserratingNew/AdviserratingUIAutomationTest/src/test/resources/features/AdvisersRating.feature:22)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.Go_to_location_Tab()">
+                <span>And Go to location Tab</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.enter_inside_the_search_box1(java.lang.String)">
+                <span>When I Enter "Sydney" inside the Search box</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.selectLocationFeild(java.lang.String)">
+                <span>And Find "Sydney, NSW 2000" in the address drop down search box and check it is highlighted</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.verifylocation(java.lang.String)">
+                <span>And Check "Sydney, NSW 2000" is populated into the location field</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.click_on_enter_key()">
+                <span>When click on Enter key</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.currentUrl(java.lang.String)">
+                <span>Then The current Page URL which should contain "Sydney-NSW-2000"</span>
+      <div>Step skipped
+      </div>
+              </div>
               <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.location_name(java.lang.String)">
                 <span>And location name should be "Sydney, NSW 2000"</span>
       <div>Step skipped
@@ -408,15 +314,30 @@
               </div>
               <div class="step fail-bg" title="AFTER">
                 <span>stepdefinition.StepHooks.AfterScenario(io.cucumber.java.Scenario)</span>
-      <div>Search for adviser by Location - use enter key
-          <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='./embedded1.png' src="./embedded1.png">
-    
-    </div></div>
-</div>
       <div>
-        <textarea disabled class="code-block">java.lang.NullPointerException
-	at stepdefinition.StepHooks.AfterScenario(StepHooks.java:65)
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'LAPTOP-ABIRAMIG', ip: '192.168.29.201', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ff68fed3-a1c4-45e6-aed0-10118647363a, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:54422, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 3808, moz:profile: C:\Users\ABIRAM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:54422/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ff68fed3-a1c4-45e6-aed0-10118647363a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:349)
+	at stepdefinition.StepHooks.AfterScenario(StepHooks.java:61)
 </textarea>
       
       </div>
@@ -427,92 +348,347 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="16"><span class="badge log fail-bg mr-2">Fail</span>Search by adviser name and check search drop down box displays correct practice and addresses</div>
-          <div class="status-avatar float-right mr-4">
-            <i class="fa fa-paperclip"></i>
-          </div>
+        <div class="node" id="34"><span class="badge log fail-bg mr-2">Fail</span>Search by adviser name and check search drop down box displays correct practice and addresses</div>
       </div>
     </div>
         <div class="">
           <div class="card-body">
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.user_opens_URL(java.lang.String)">
+              <div class="step fail-bg" title="stepdefinition.AdviserRatingsSteps.user_opens_URL(java.lang.String)">
                 <span>Given I Navigate to "AdviserratingURL"</span>
->>>>>>> a39803211837fe07b218eac8778ac3f4134fe073
       <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.click_on_adviser_tab()">
-                <span>When I Click on Adviser Tab</span>
-      <div>
-      </div>
-              </div>
-<<<<<<< HEAD
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.descendingOrder()">
-                <span>And check descendingorder of KMRange</span>
-      <div>
-      </div>
-              </div>
-=======
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.enter_on_the_search_box(java.lang.String)">
-                <span>And Enter "Brett Dillon" on the Search box</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.dropdown_should_be_displayed_with(java.lang.String)">
-                <span>Then Dropdown should be displayed with "Brett Dillon"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.dropdown_should_be_highlighted_for_the(java.lang.String)">
-                <span>And Dropdown should be highlighted for the "Brett Dillon"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.practice_under_the_should_be(java.lang.String,java.lang.String)">
-                <span>And Practice under the "Brett Dillon" should be "Saige Financial Planning Pty Ltd"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.two_locations_should_be_listed_next_to_the_and(java.lang.String,java.lang.String)">
-                <span>And Two locations should be listed next to the adviser as "Erina, NSW 2250" and "Sydney, NSW 2000"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.enter_key()">
-                <span>When On clicking Enter key</span>
-      <div>
-      </div>
-              </div>
-              <div class="step fail-bg" title="stepdefinition.AdviserRatingsSteps.currentUrl(java.lang.String)">
-                <span>Then The current Page URL which should contain "Brett-Dillon"</span>
-      <div>
-        <textarea disabled class="code-block">java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at uipages.AdviserRatingPage.advisornameCurrentUrl(AdviserRatingPage.java:268)
-	at stepdefinition.AdviserRatingsSteps.currentUrl(AdviserRatingsSteps.java:225)
-	at ✽.The current Page URL which should contain "Brett-Dillon"(file:///C:/Users/MuhammedNahaz/Videos/AdviserratingUIAutomation/AdviserratingUIAutomationNew/AdviserratingUIAutomationTest/src/test/resources/features/AdvisersRating.feature:43)
+        <textarea disabled class="code-block">org.opentest4j.AssertionFailedError: Exception Occured, please check the screenshot
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at com.adviserratinguiautomation.customexceptions.ExceptionHandeler.genricExceptionHandeler(ExceptionHandeler.java:19)
+	at stepdefinition.AdviserRatingsSteps.user_opens_URL(AdviserRatingsSteps.java:58)
+	at ✽.I Navigate to "AdviserratingURL"(file:///C:/Users/AbiramiGanesan/git/git/AdviserratingNew/AdviserratingUIAutomationTest/src/test/resources/features/AdvisersRating.feature:35)
 </textarea>
       
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.click_on_adviser_tab()">
+                <span>When I Click on Adviser Tab</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.enter_on_the_search_box(java.lang.String)">
+                <span>And Enter "Brett Dillon" on the Search box</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.dropdown_should_be_displayed_with(java.lang.String)">
+                <span>Then Dropdown should be displayed with "Brett Dillon"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.dropdown_should_be_highlighted_for_the(java.lang.String)">
+                <span>And Dropdown should be highlighted for the "Brett Dillon"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.practice_under_the_should_be(java.lang.String,java.lang.String)">
+                <span>And Practice under the "Brett Dillon" should be "Saige Financial Planning Pty Ltd"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.two_locations_should_be_listed_next_to_the_and(java.lang.String,java.lang.String)">
+                <span>And Two locations should be listed next to the adviser as "Erina, NSW 2250" and "Sydney, NSW 2000"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.enter_key()">
+                <span>When On clicking Enter key</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.currentUrl(java.lang.String)">
+                <span>Then The current Page URL which should contain "Brett-Dillon"</span>
+      <div>Step skipped
       </div>
               </div>
               <div class="step fail-bg" title="AFTER">
                 <span>stepdefinition.StepHooks.AfterScenario(io.cucumber.java.Scenario)</span>
-      <div>Search by adviser name and check search drop down box displays correct practice and addresses
-          <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='./embedded2.png' src="./embedded2.png">
-    
-    </div></div>
-</div>
       <div>
-        <textarea disabled class="code-block">java.lang.NullPointerException
-	at stepdefinition.StepHooks.AfterScenario(StepHooks.java:65)
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'LAPTOP-ABIRAMIG', ip: '192.168.29.201', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ff68fed3-a1c4-45e6-aed0-10118647363a, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:54422, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 3808, moz:profile: C:\Users\ABIRAM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:54422/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ff68fed3-a1c4-45e6-aed0-10118647363a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:349)
+	at stepdefinition.StepHooks.AfterScenario(StepHooks.java:61)
 </textarea>
       
       </div>
               </div>
->>>>>>> a39803211837fe07b218eac8778ac3f4134fe073
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="46"><span class="badge log fail-bg mr-2">Fail</span>Search by location And distance</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="stepdefinition.AdviserRatingsSteps.user_opens_URL(java.lang.String)">
+                <span>Given I Navigate to "AdviserratingURL"</span>
+      <div>
+        <textarea disabled class="code-block">org.opentest4j.AssertionFailedError: Exception Occured, please check the screenshot
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at com.adviserratinguiautomation.customexceptions.ExceptionHandeler.genricExceptionHandeler(ExceptionHandeler.java:19)
+	at stepdefinition.AdviserRatingsSteps.user_opens_URL(AdviserRatingsSteps.java:58)
+	at ✽.I Navigate to "AdviserratingURL"(file:///C:/Users/AbiramiGanesan/git/git/AdviserratingNew/AdviserratingUIAutomationTest/src/test/resources/features/AdvisersRating.feature:46)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.Go_to_location_Tab()">
+                <span>And Go to location Tab</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.enter_inside_the_search_box1(java.lang.String)">
+                <span>When I Enter "800" inside the Search box</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.Address_dropdown_should_be_displayed_with(java.lang.String)">
+                <span>Then Find "Darwin, NT 0800" from the Address search dropdown and click on it</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.selectvalueSearch(java.lang.String)">
+                <span>And select for "5km" from dropdown and click search</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.currentUrl(java.lang.String)">
+                <span>Then The current Page URL which should contain "Darwin-NT-0800"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.location_name(java.lang.String)">
+                <span>And location name should be "Darwin, NT 0800"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.Distance_value(java.lang.String)">
+                <span>And Distance should be displayed as "5km"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.ascendingorder()">
+                <span>And check ascendingorder of KMRange</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.descendingOrder()">
+                <span>And check descendingorder of KMRange</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step fail-bg" title="AFTER">
+                <span>stepdefinition.StepHooks.AfterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'LAPTOP-ABIRAMIG', ip: '192.168.29.201', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ff68fed3-a1c4-45e6-aed0-10118647363a, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:54422, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 3808, moz:profile: C:\Users\ABIRAM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:54422/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ff68fed3-a1c4-45e6-aed0-10118647363a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:349)
+	at stepdefinition.StepHooks.AfterScenario(StepHooks.java:61)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="59"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Demo</p>
+            <p class="text-sm">
+              <span>3:42:02 pm</span> / <span>00:00:00:101</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Demo</h5>
+<span class='badge badge-success'>02.17.2023 3:42:02 pm</span>
+<span class='badge badge-danger'>02.17.2023 3:42:03 pm</span>
+<span class='badge badge-default'>00:00:00:101</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=59</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="60"><span class="badge log fail-bg mr-2">Fail</span>Check adviser's profile page displays correct practice And addresses</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="stepdefinition.AdviserRatingsSteps.user_opens_URL(java.lang.String)">
+                <span>Given I Navigate to "AdviserratingURL"</span>
+      <div>
+        <textarea disabled class="code-block">org.opentest4j.AssertionFailedError: Exception Occured, please check the screenshot
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at com.adviserratinguiautomation.customexceptions.ExceptionHandeler.genricExceptionHandeler(ExceptionHandeler.java:19)
+	at stepdefinition.AdviserRatingsSteps.user_opens_URL(AdviserRatingsSteps.java:58)
+	at ✽.I Navigate to "AdviserratingURL"(file:///C:/Users/AbiramiGanesan/git/git/AdviserratingNew/AdviserratingUIAutomationTest/src/test/resources/features/AdvisersRatingdemo.feature:5)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.click_on_adviser_tab()">
+                <span>When I Click on Adviser Tab</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.enter_on_the_search_box(java.lang.String)">
+                <span>And Enter "Brett Dillon" on the Search box</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.dropdownselect(java.lang.String)">
+                <span>And Iterate the dropdown and select "Brett Dillon"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.currentUrl(java.lang.String)">
+                <span>Then The current Page URL which should contain "Brett-Dillon"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.adviserProfile(java.lang.String)">
+                <span>And The Advisers profile image is displayed with src url contains "brett-andrew-dillon"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.nameValidation(java.lang.String)">
+                <span>And The name is "Brett Dillon"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.adviserNameValidation(java.lang.String)">
+                <span>And The Advisor name is "Saige Financial Planning Pty Ltd"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.locationValidation(java.lang.String)">
+                <span>And The location will be "Erina, NSW 2250"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.aboutTab(java.lang.String)">
+                <span>And About tab is "About Brett"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.mapPinnedAddress(java.lang.String)">
+                <span>When The google map is displayed with the pin to the address in "Erina, NSW 2250"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.mapParameterValue(java.lang.String)">
+                <span>Then The Map URL center parameter value should contains "center=-33.4386,151.3868"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.practiceName(java.lang.String)">
+                <span>And The  practice name is displayed under the map is 'Saige Financial Planning Pty Ltd'</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.practiceLogo()">
+                <span>And The practice logo is displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.addressCheck()">
+                <span>And Address check is performed</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step fail-bg" title="AFTER">
+                <span>stepdefinition.StepHooks.AfterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'LAPTOP-ABIRAMIG', ip: '192.168.29.201', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ff68fed3-a1c4-45e6-aed0-10118647363a, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:54422, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 3808, moz:profile: C:\Users\ABIRAM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:54422/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ff68fed3-a1c4-45e6-aed0-10118647363a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:349)
+	at stepdefinition.StepHooks.AfterScenario(StepHooks.java:61)
+</textarea>
+      
+      </div>
+              </div>
           </div>
         </div>
   </div>
@@ -532,22 +708,22 @@
 <div class="test-list">
 <div class="test-list-tools">
 <ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
-<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">3</span></a></li></ul>
 </div>
 <div class="test-list-wrapper scrollable">
 <ul class="test-list-item">
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log badge-danger'>2</span>
+<span class='badge log badge-danger'>5</span>
 </span>
-<p class="name">java.lang.NullPointerException</p>
-<p class="duration text-sm">2 tests</p>
+<p class="name">org.opentest4j.AssertionFailedError</p>
+<p class="duration text-sm">5 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>java.lang.NullPointerException</h4>
-<span status="fail" class='badge log badge-danger'>2 failed</span>
+<h4>org.opentest4j.AssertionFailedError</h4>
+<span status="fail" class='badge log badge-danger'>5 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -560,21 +736,51 @@
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>11:50:47 AM</td>
+<td>15:41:54 pm</td>
 <td>
-<a href="#" class="linked" test-id='1' id='15'>stepdefinition.StepHooks.AfterScenario(io.cucumber.java.Scenario)</a>
+<a href="#" class="linked" test-id='1' id='4'>Given I Navigate to "AdviserratingURL"</a>
 <div class="">
-<span class="badge badge-default">Adviser Rating Search functionality validation.Search for adviser by Location - use enter key.stepdefinition.StepHooks.AfterScenario(io.cucumber.java.Scenario)</span>
+<span class="badge badge-default">Adviser Rating Search functionality validation.Check adviser's profile page displays correct practice And addresses.Given I Navigate to "AdviserratingURL"</span>
 </div>
 </td>
 </tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>11:50:51 AM</td>
+<td>15:42:02 pm</td>
 <td>
-<a href="#" class="linked" test-id='1' id='27'>stepdefinition.StepHooks.AfterScenario(io.cucumber.java.Scenario)</a>
+<a href="#" class="linked" test-id='1' id='22'>Given I Navigate to "AdviserratingURL"</a>
 <div class="">
-<span class="badge badge-default">Adviser Rating Search functionality validation.Search by adviser name and check search drop down box displays correct practice and addresses.stepdefinition.StepHooks.AfterScenario(io.cucumber.java.Scenario)</span>
+<span class="badge badge-default">Adviser Rating Search functionality validation.Search for adviser by Location - use enter key.Given I Navigate to "AdviserratingURL"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:42:02 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='36'>Given I Navigate to "AdviserratingURL"</a>
+<div class="">
+<span class="badge badge-default">Adviser Rating Search functionality validation.Search by adviser name and check search drop down box displays correct practice and addresses.Given I Navigate to "AdviserratingURL"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:42:02 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='48'>Given I Navigate to "AdviserratingURL"</a>
+<div class="">
+<span class="badge badge-default">Adviser Rating Search functionality validation.Search by location And distance.Given I Navigate to "AdviserratingURL"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:42:02 pm</td>
+<td>
+<a href="#" class="linked" test-id='59' id='62'>Given I Navigate to "AdviserratingURL"</a>
+<div class="">
+<span class="badge badge-default">Demo.Check adviser's profile page displays correct practice And addresses.Given I Navigate to "AdviserratingURL"</span>
 </div>
 </td>
 </tr>
@@ -585,15 +791,15 @@
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log badge-danger'>2</span>
+<span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">java.lang.AssertionError</p>
-<p class="duration text-sm">2 tests</p>
+<p class="name">org.openqa.selenium.WebDriverException</p>
+<p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>java.lang.AssertionError</h4>
-<span status="fail" class='badge log badge-danger'>2 failed</span>
+<h4>org.openqa.selenium.WebDriverException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -606,21 +812,77 @@
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>11:50:47 AM</td>
+<td>15:42:02 pm</td>
 <td>
-<a href="#" class="linked" test-id='1' id='10'>Then The current Page URL which should contain "Sydney-NSW-2000"</a>
+<a href="#" class="linked" test-id='1' id='19'>stepdefinition.StepHooks.AfterScenario(io.cucumber.java.Scenario)</a>
 <div class="">
-<span class="badge badge-default">Adviser Rating Search functionality validation.Search for adviser by Location - use enter key.Then The current Page URL which should contain "Sydney-NSW-2000"</span>
+<span class="badge badge-default">Adviser Rating Search functionality validation.Check adviser's profile page displays correct practice And addresses.stepdefinition.StepHooks.AfterScenario(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>4</span>
+</span>
+<p class="name">org.openqa.selenium.NoSuchSessionException</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.NoSuchSessionException</h4>
+<span status="fail" class='badge log badge-danger'>4 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:42:02 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='33'>stepdefinition.StepHooks.AfterScenario(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Adviser Rating Search functionality validation.Search for adviser by Location - use enter key.stepdefinition.StepHooks.AfterScenario(io.cucumber.java.Scenario)</span>
 </div>
 </td>
 </tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>11:50:51 AM</td>
+<td>15:42:02 pm</td>
 <td>
-<a href="#" class="linked" test-id='1' id='26'>Then The current Page URL which should contain "Brett-Dillon"</a>
+<a href="#" class="linked" test-id='1' id='45'>stepdefinition.StepHooks.AfterScenario(io.cucumber.java.Scenario)</a>
 <div class="">
-<span class="badge badge-default">Adviser Rating Search functionality validation.Search by adviser name and check search drop down box displays correct practice and addresses.Then The current Page URL which should contain "Brett-Dillon"</span>
+<span class="badge badge-default">Adviser Rating Search functionality validation.Search by adviser name and check search drop down box displays correct practice and addresses.stepdefinition.StepHooks.AfterScenario(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:42:02 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='58'>stepdefinition.StepHooks.AfterScenario(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Adviser Rating Search functionality validation.Search by location And distance.stepdefinition.StepHooks.AfterScenario(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:42:03 pm</td>
+<td>
+<a href="#" class="linked" test-id='59' id='77'>stepdefinition.StepHooks.AfterScenario(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Demo.Check adviser's profile page displays correct practice And addresses.stepdefinition.StepHooks.AfterScenario(io.cucumber.java.Scenario)</span>
 </div>
 </td>
 </tr>
@@ -647,19 +909,15 @@
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>4</span>
+<span class='badge log badge-danger'>5</span>
 </span>
 <p class="name">@AdviserRating</p>
-<<<<<<< HEAD
-<p class="duration text-sm">4 tests</p>
-=======
-<p class="duration text-sm">2 tests</p>
->>>>>>> a39803211837fe07b218eac8778ac3f4134fe073
+<p class="duration text-sm">5 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
 <h4>@AdviserRating</h4>
-<span status="pass" class='badge log pass-bg'>4 passed</span>
+<span status="fail" class='badge log badge-danger'>5 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -670,9 +928,9 @@
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>13:20:26 pm</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:41:51 pm</td>
 <td>
 <a href="#" class="linked" test-id='1' id='2'>Check adviser's profile page displays correct practice And addresses</a>
 <div class="">
@@ -680,9 +938,9 @@
 </div>
 </td>
 </tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>13:20:54 pm</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:42:02 pm</td>
 <td>
 <a href="#" class="linked" test-id='1' id='20'>Search for adviser by Location - use enter key</a>
 <div class="">
@@ -690,9 +948,9 @@
 </div>
 </td>
 </tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>13:21:08 pm</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:42:02 pm</td>
 <td>
 <a href="#" class="linked" test-id='1' id='34'>Search by adviser name and check search drop down box displays correct practice and addresses</a>
 <div class="">
@@ -700,13 +958,23 @@
 </div>
 </td>
 </tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>13:21:14 pm</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:42:02 pm</td>
 <td>
 <a href="#" class="linked" test-id='1' id='46'>Search by location And distance</a>
 <div class="">
 <span class="badge badge-default">Adviser Rating Search functionality validation.Search by location And distance</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:42:02 pm</td>
+<td>
+<a href="#" class="linked" test-id='59' id='60'>Check adviser's profile page displays correct practice And addresses</a>
+<div class="">
+<span class="badge badge-default">Demo.Check adviser's profile page displays correct practice And addresses</span>
 </div>
 </td>
 </tr>
@@ -727,13 +995,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Feb 17, 2023 01:20:25 pm</h3>
+<h3>Feb 17, 2023 03:41:51 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Feb 17, 2023 01:21:30 pm</h3>
+<h3>Feb 17, 2023 03:42:03 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -745,7 +1013,7 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Features Failed</p>
-<h3>1</h3>
+<h3>2</h3>
 </div></div>
 </div>
 </div>
@@ -766,7 +1034,7 @@
 </small>
 </div>
 <div>
-<small data-tooltip='100%'><b>1</b> features failed,
+<small data-tooltip='100%'><b>2</b> features failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -784,9 +1052,9 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>4</b> scenarios passed</small></div>
+<div><small data-tooltip='0%'><b>0</b> scenarios passed</small></div>
 <div>
-<small data-tooltip='100%'><b>2</b> scenarios failed,
+<small data-tooltip='100%'><b>5</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -804,10 +1072,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>45</b> steps passed</small></div>
+<div><small data-tooltip='0%'><b>0</b> steps passed</small></div>
 <div>
-<small data-tooltip='18%'><b>4</b> steps failed,
-<b>4</b> skipped, <b data-tooltip='%'>0</b> others
+<small data-tooltip='15%'><b>10</b> steps failed,
+<b>55</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -823,7 +1091,7 @@
 </div></div>
 <script>
 var timeline = {
-"Adviser Rating Search functionality validation":63.92
+"Adviser Rating Search functionality validation":11.221,"Demo":0.101
 };
 </script>
 <div class="row">
@@ -834,9 +1102,8 @@ var timeline = {
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
 <td>@AdviserRating</td>
-<td>4</td>
 <td>0</td>
-<td>2</td>
+<td>5</td>
 <td>0</td>
 <td>0</td>
 <td>0%</td>
@@ -851,20 +1118,20 @@ var timeline = {
 var statusGroup = {
 parentCount: 5,
 passParent: 0,
-failParent: 1,
+failParent: 2,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 4,
-failChild: 0,
+passChild: 0,
+failChild: 5,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 45,
-failGrandChild: 0,
+passGrandChild: 0,
+failGrandChild: 10,
 warningGrandChild: 0,
-skipGrandChild: 4,
+skipGrandChild: 55,
 infoGrandChild: 0,
 eventsCount: 5,
 };

@@ -26,7 +26,7 @@ import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 public class BrowserInstanceFactory extends BasePage {
-
+	public static String HEADLESS_PROPERTY="Headless";
 	final static Logger log = Logger.getLogger(BrowserInstanceFactory.class);
 
 	/**
@@ -40,10 +40,26 @@ public class BrowserInstanceFactory extends BasePage {
 			String CHROME_WINDOWS_DRIVERPATH_PROPERTY = "ChromeDriverWindowsPath";
 			String CHROME_LINUX_DRIVERPATH_PROPERTY = "ChromeDriverLinuxPath";
 			String TIME_OUT_PROPERTY = "WebDriverTimeOutInSeconds";
+			
+			
+			
 			WebDriver seleniumWebdriver = null;
 			ResourceRead resourceRead = new ResourceRead();
 			final ChromeOptions chromeOptions = new ChromeOptions();
+			String headlessValue = new ResourceRead().getResourceValueFromXML().getProperty(HEADLESS_PROPERTY);
+			if(headlessValue.toLowerCase().contains("false"))	
+			{
 			chromeOptions.setHeadless(false);
+			}
+			
+			else
+				
+			{
+				System.out.println("Opening Chrome driver in Headless mode");
+				log.info("Opening Chrome driver in Headless mode");
+				chromeOptions.setHeadless(true);
+			}
+			
 			chromeOptions.addArguments("no-sandbox");
 			chromeOptions.addArguments("window-size=1920,1080");
 			chromeOptions.addArguments("disable-gpu");
@@ -75,10 +91,7 @@ public class BrowserInstanceFactory extends BasePage {
 			}
 
 				seleniumWebdriver = new ChromeDriver(chromeOptions);
-//				seleniumWebdriver.manage().timeouts().pageLoadTimeout(
-//						Long.parseLong(resourceRead.getResourceValueFromXML().getProperty(TIME_OUT_PROPERTY)),
-//						TimeUnit.SECONDS);
-//				seleniumWebdriver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(60));
+
 				seleniumWebdriver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 				
 			log.info("Exited the ChromeWebDriver method in BrowserInstanceFactory");
@@ -98,20 +111,60 @@ public class BrowserInstanceFactory extends BasePage {
 	public static WebDriver firefoxWebDriver() {
 		try {
 			log.info("Entered the firefoxWebDriver method in BrowserInstanceFactory");
-			String FIREFOX_DRIVERNAME_PROPERTY = "FireFoxDriverName";
 			String FIREFOX_DRIVERPATH_PROPERTY = "FireFoxDriverPath";
 			String TIME_OUT_PROPERTY = "WebDriverTimeOutInSeconds";
+			String FIREFOX_WINDOWS_DRIVERPATH_PROPERTY="FireFoxDriverWindowsPath";
+			String FIREFOX_LINUX_DRIVERPATH_PROPERTY="FireFoxDriverLinuxPath";
+			String FIREFOX_DRIVERNAME_PROPERTY="FireFoxDriverName";
 			WebDriver seleniumWebdriver = null;
 			ResourceRead resourceRead = new ResourceRead();
-			System.setProperty(resourceRead.getResourceValueFromXML().getProperty(FIREFOX_DRIVERNAME_PROPERTY),
-					resourceRead.getResourceValueFromXML().getProperty(FIREFOX_DRIVERPATH_PROPERTY));
-			seleniumWebdriver = new FirefoxDriver();
-//			seleniumWebdriver = new FirefoxDriver(firefoxOptions);
-			//seleniumWebdriver.manage().timeouts().pageLoadTimeout(
-			//		Long.parseLong(resourceRead.getResourceValueFromXML().getProperty(TIME_OUT_PROPERTY)),
-			//		TimeUnit.SECONDS);
-			seleniumWebdriver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-			log.info("Exited the firefoxWebDriver method in BrowserInstanceFactory");
+			
+
+			final FirefoxOptions firefoxOptions = new FirefoxOptions();
+			String headlessValue = new ResourceRead().getResourceValueFromXML().getProperty(HEADLESS_PROPERTY);
+			if(headlessValue.toLowerCase().contains("false"))	
+			{
+				firefoxOptions.setHeadless(false);
+			}
+			
+			else
+				
+			{
+				System.out.println("Opening FireFox driver in Headless mode");
+				log.info("Opening FireFox driver in Headless mode");
+				firefoxOptions.setHeadless(true);
+			}
+			
+
+			firefoxOptions.setCapability("marionette", true);
+			Map<String, Integer> userPrefences = new HashMap<>();
+			Map<String, Object> profile = new HashMap<>();
+			Map<String, Object> prefs = new HashMap<>();
+			userPrefences.put("media_stream", 1);
+			profile.put("managed_default_content_settings", userPrefences);
+			prefs.put("profile", profile);
+
+
+			String osName = System.getProperty("os.name");
+			if (osName.toLowerCase().contains("windows")) {
+				System.out.println("osName: " + osName);
+				System.out.println("GeckoDriverName: "
+						+ resourceRead.getResourceValueFromXML().getProperty(FIREFOX_DRIVERNAME_PROPERTY));
+				System.out.println("GeckoDriverName: "
+						+ resourceRead.getResourceValueFromXML().getProperty(FIREFOX_WINDOWS_DRIVERPATH_PROPERTY));
+
+				System.setProperty(resourceRead.getResourceValueFromXML().getProperty(FIREFOX_DRIVERNAME_PROPERTY),
+						resourceRead.getResourceValueFromXML().getProperty(FIREFOX_WINDOWS_DRIVERPATH_PROPERTY));
+			} else {
+				System.setProperty(resourceRead.getResourceValueFromXML().getProperty(FIREFOX_DRIVERNAME_PROPERTY),
+						resourceRead.getResourceValueFromXML().getProperty(FIREFOX_LINUX_DRIVERPATH_PROPERTY));
+			}
+
+				seleniumWebdriver = new FirefoxDriver(firefoxOptions);
+
+				seleniumWebdriver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+				
+			log.info("Exited the ChromeWebDriver method in BrowserInstanceFactory");
 			return seleniumWebdriver;
 		} catch (IOException e) {
 			new ExceptionHandeler().genricExceptionHandeler(e);
@@ -130,11 +183,26 @@ public class BrowserInstanceFactory extends BasePage {
 			String EDGE_WINDOWS_DRIVERPATH_PROPERTY = "EdgeDriverWindowsPath";
 			String EDGE_LINUX_DRIVERPATH_PROPERTY = "EdgeDriverLinuxPath";
 			String TIME_OUT_PROPERTY = "WebDriverTimeOutInSeconds";
+			
 			WebDriver seleniumWebdriver = null;
 			ResourceRead resourceRead = new ResourceRead();
 			final EdgeOptions edgeOptions = new EdgeOptions();
 
-			edgeOptions.setHeadless(false);
+			String headlessValue = new ResourceRead().getResourceValueFromXML().getProperty(HEADLESS_PROPERTY);
+			if(headlessValue.toLowerCase().contains("false"))	
+			{
+				edgeOptions.setHeadless(false);
+			}
+			
+			else
+				
+			{
+				System.out.println("Opening Edge driver in Headless mode");
+				log.info("Opening Edge driver in Headless mode");
+				edgeOptions.setHeadless(true);
+				
+			}
+			
 			edgeOptions.addArguments("no-sandbox");
 			edgeOptions.addArguments("window-size=1920,1080");
 			edgeOptions.addArguments("disable-gpu");
@@ -165,9 +233,7 @@ public class BrowserInstanceFactory extends BasePage {
 			}
 
 			seleniumWebdriver = new EdgeDriver(edgeOptions);
-			//seleniumWebdriver.manage().timeouts().pageLoadTimeout(
-			//		Long.parseLong(resourceRead.getResourceValueFromXML().getProperty(TIME_OUT_PROPERTY)),
-			//		TimeUnit.SECONDS);
+			
 			seleniumWebdriver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 			log.info("Exited the EdgeWebDriver method in BrowserInstanceFactory");
 			return seleniumWebdriver;

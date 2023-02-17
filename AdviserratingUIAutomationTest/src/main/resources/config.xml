@@ -35,8 +35,8 @@
      <entry key="EmailPassword"></entry>
 
     <!--Browser Configuration-->
-    <!--Chrome Browser-->
-    <entry key="Browser">FireFox</entry>
+    <!-- Browser Properties-->
+    <entry key="Browser">Chrome</entry>
     <!--FireFox Browser-->
     <!--entry key="Browser">FireFox</entry>-->
      <!--Edge Browser-->
@@ -59,8 +59,8 @@
 
     <!--firefox-->
     <entry key="FireFoxDriverName">webdriver.gecko.driver</entry>
-    <entry key="FireFoxDriverPath">../AdviserratingUIAutomationCore/browserDriver/geckodriver.exe</entry>
-    
+    <entry key="FireFoxDriverWindowsPath">../AdviserratingUIAutomationCore/browserDriver/geckodriver.exe</entry>
+     <entry key="FireFoxDriverLinuxPath">/usr/bin/chromedriver</entry>
   <!--chrome-->
     <entry key="EdgeDriverName">webdriver.edge.driver</entry>
     <entry key="EdgeDriverLinuxPath">/usr/bin/msedgedriver</entry>
@@ -110,4 +110,3 @@
 
     
 </properties>
-

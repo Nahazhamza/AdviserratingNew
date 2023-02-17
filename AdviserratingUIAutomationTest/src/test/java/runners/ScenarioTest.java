@@ -30,7 +30,7 @@ import stepdefinition.StepHooks;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/resources/features/",
-glue = { "stepdefinition", "com.cucumber.parallel_demo"}, 
+glue = { "stepdefinition"}, 
 // For instance, once cucumber
 																							// runs I want to add
 plugin = { "pretty",
