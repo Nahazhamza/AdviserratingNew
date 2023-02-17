@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="WebElement"/>
+		<item key="selection" value="LOCATION_ADDRESS_DROPDOWN_XPATH"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="LOCATION_ADDRESS_DROPDOWN_XPATH"/>
+			<item value="ADVISER_LOCATIONTAB_XPATH"/>
 			<item value="webelement"/>
 			<item value="iselemen"/>
 			<item value="isbutton"/>
@@ -21,8 +23,6 @@
 			<item value="addressCheckCall"/>
 			<item value="locationPanelCall"/>
 			<item value="currentPageUrlVerifyCall"/>
-			<item value="scenarioName"/>
-			<item value="location name should be"/>
 		</list>
 		<list key="replacehistory">
 		</list>

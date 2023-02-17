@@ -138,17 +138,28 @@ public class AdviserRatingPage extends BasePage {
 			WebDriverInstanceNullException, InvalidInputException {
 		log.info("go to location tab");
 		
-		boolean eleSelected =seleniumWebDriver.findElement(By.xpath(adviserRatingPageproperty.getProperty("ADVISER_LOCATIONTAB_XPATH"))).isSelected();
-		if(true)
-		{
+		WebElement eleSelected =seleniumWebDriver.findElement(By.xpath(adviserRatingPageproperty.getProperty("ADVISER_LOCATIONTAB_XPATH")));
+		if (eleSelected.getAttribute("class").contains("active")) {
+			System.out.println(eleSelected.getAttribute("class"));
 			System.out.println("User is on the Locations Tab");
-		}
+			}
 		else
-		{
-
-		clickButtonByCssSelector(adviserRatingPageproperty.getProperty("ADVISER_LOCATIONTAB_XPATH"), seleniumWebDriver);
+			{
+	
+			clickButtonByCssSelector(adviserRatingPageproperty.getProperty("ADVISER_LOCATIONTAB_XPATH"), seleniumWebDriver);
+		}
 	}
-	}
+		
+		//		if(true)
+//		{
+//			System.out.println("User is on the Locations Tab");
+//		}
+//		else
+//		{
+//
+//		clickButtonByCssSelector(adviserRatingPageproperty.getProperty("ADVISER_LOCATIONTAB_XPATH"), seleniumWebDriver);
+//	}
+	
 
 	// check inputed value get selected and highlighted
 

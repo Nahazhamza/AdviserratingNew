@@ -21,6 +21,7 @@ Feature: Adviser Rating Search functionality validation
     Scenario: Search for adviser by Location - use enter key
     Given I Navigate to "AdviserratingURL"
     And Go to location Tab
+    When I Enter "Sydney" inside the Search box
     And Find "Sydney, NSW 2000" in the address drop down search box and check it is highlighted
     And Check "Sydney, NSW 2000" is populated into the location field
     When click on Enter key
