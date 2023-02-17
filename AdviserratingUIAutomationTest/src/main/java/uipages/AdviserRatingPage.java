@@ -142,7 +142,7 @@ public class AdviserRatingPage extends BasePage {
 		if (eleSelected.getAttribute("class").contains("active")) {
 			System.out.println(eleSelected.getAttribute("class"));
 			System.out.println("User is on the Locations Tab");
-		}
+			}
 		else
 		{
 

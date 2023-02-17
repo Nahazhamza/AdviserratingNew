@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2023-02-16 09:51:11 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
 2023-02-16 09:51:11 INFO  ADRWebDriver:34 - Entered the ADRWebDriver method
 2023-02-16 09:51:11 INFO  ADRWebDriver:111 - Entered the cleanUp method
@@ -13677,3 +13678,1030 @@ Session ID: a52450b748120036898df6b7a1db1cdf
 2023-02-17 11:33:25 INFO  StepHooks:129 - Exited  Step Hooks AfterScenario method in StepHooks class
 2023-02-17 11:33:27 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
 2023-02-17 11:33:27 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
+=======
+2023-02-17 11:15:34 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
+2023-02-17 11:15:34 INFO  ADRWebDriver:34 - Entered the ADRWebDriver method
+2023-02-17 11:15:34 INFO  ADRWebDriver:111 - Entered the cleanUp method
+2023-02-17 11:15:34 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:15:34 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:15:34 INFO  ADRWebDriver:133 - Exited the cleanUp method
+2023-02-17 11:15:34 INFO  ADRWebdriverFactory:115 - Attempting to get ENV_AUTOMATION_BROWSER
+2023-02-17 11:15:34 INFO  ADRWebdriverFactory:119 - Attempting to get APP_SETTING_BROWSER
+2023-02-17 11:15:34 INFO  ADRWebdriverFactory:43 - Entered the getADRWebDriverInstance method in SFWebdriverFactory
+2023-02-17 11:15:34 INFO  ResourceRead:40 - Entered the getEnvironmentConfigValue in ResourceRead
+2023-02-17 11:15:34 INFO  ResourceRead:43 - Selected EnvironmentConfig File is: ../AdviserratingUIAutomationTest/src/main/resources/config.xml
+2023-02-17 11:15:34 INFO  BrowserInstanceFactory:37 - Entered the ChromeWebDriver method in BrowserInstanceFactory
+2023-02-17 11:15:34 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:15:34 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:15:34 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:15:34 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:15:34 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:15:34 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:15:34 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:15:34 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:15:36 INFO  BrowserInstanceFactory:84 - Exited the ChromeWebDriver method in BrowserInstanceFactory
+2023-02-17 11:15:36 INFO  ADRWebdriverFactory:86 - Exited the getADRWebDriverInstance method in SFWebdriverFactory
+2023-02-17 11:15:36 INFO  ADRWebDriver:42 - Exited the ADRWebDriver method
+2023-02-17 11:15:36 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
+2023-02-17 11:15:36 INFO  StepHooks:34 - Entered Step Hooks Before method in StepHooks class
+2023-02-17 11:15:36 INFO  StepHooks:42 - Exited Step Hooks Before method in StepHooks class
+2023-02-17 11:15:36 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
+2023-02-17 11:15:36 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
+2023-02-17 11:15:36 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
+2023-02-17 11:15:36 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
+2023-02-17 11:15:36 INFO  AdviserRatingsSteps:38 - Step: Navigated to AdviserratingURL
+2023-02-17 11:15:36 INFO  ResourceRead:40 - Entered the getEnvironmentConfigValue in ResourceRead
+2023-02-17 11:15:36 INFO  ResourceRead:43 - Selected EnvironmentConfig File is: ../AdviserratingUIAutomationTest/src/main/resources/config.xml
+2023-02-17 11:15:36 INFO  ResourceRead:40 - Entered the getEnvironmentConfigValue in ResourceRead
+2023-02-17 11:15:36 INFO  ResourceRead:43 - Selected EnvironmentConfig File is: ../AdviserratingUIAutomationTest/src/main/resources/config.xml
+2023-02-17 11:15:36 INFO  BasePage:83 - Entered the LaunchURL method in BasePage: https://staging.adviserratings.com.au/
+2023-02-17 11:15:39 INFO  AdviserRatingsSteps:56 - Opened URL: https://staging.adviserratings.com.au/
+2023-02-17 11:15:39 INFO  AdviserRatingsSteps:170 - Step: Go to location Tab
+2023-02-17 11:15:39 INFO  AdviserRatingPage:139 - go to location tab
+2023-02-17 11:15:39 INFO  AdviserRatingsSteps:77 - Step: Enter the valueSydneyon Search box
+2023-02-17 11:15:39 INFO  AdviserRatingPage:403 - Entered reNameSurvey method of AdviserRatingPage
+2023-02-17 11:15:39 INFO  BasePage:398 - Entered the findTextboxAndSetValueByXpath method in BasePage
+2023-02-17 11:15:39 INFO  BaseTestFixture:127 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:15:39 INFO  BaseTestFixture:134 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:15:39 INFO  BaseTestFixture:109 - Entered the isConstantValuePresent method in BaseTestFixture
+2023-02-17 11:15:39 INFO  BaseTestFixture:115 - Exited the isConstantValuePresent method in BaseTestFixture
+2023-02-17 11:15:39 INFO  BasePage:380 - Entered the findTextBoxAndSetValue method in BasePage
+2023-02-17 11:15:39 INFO  BaseTestFixture:127 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:15:39 INFO  BaseTestFixture:134 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:15:39 INFO  BaseTestFixture:45 - Entered the waitForElement method in BaseTestFixture
+2023-02-17 11:15:39 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:15:39 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:15:39 INFO  BaseTestFixture:60 - Entered the isElementPresent method in BaseTestFixture
+2023-02-17 11:15:39 INFO  BaseTestFixture:71 - Exited the isElementPresent method in BaseTestFixture
+2023-02-17 11:15:39 INFO  BaseTestFixture:49 - Element found, value of isElementDisplayedInPage is = true
+2023-02-17 11:15:39 INFO  BaseTestFixture:53 - Exited the waitForElement method in BaseTestFixture
+2023-02-17 11:15:39 INFO  BasePage:387 - Exited the findTextBoxAndSetValue method in BasePage
+2023-02-17 11:15:39 INFO  BasePage:402 - Exited the findTextboxAndSetValueByXpath method in BasePage
+2023-02-17 11:15:39 INFO  AdviserRatingsSteps:184 - Step: Find Sydney, NSW 2000in the address drop down search box and check it is highlighted
+2023-02-17 11:15:39 INFO  AdviserRatingPage:168 - Entered locationvalue method of AdviserRatingPage
+2023-02-17 11:15:39 INFO  BaseTestFixture:127 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:15:39 INFO  BaseTestFixture:134 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:15:39 INFO  BasePage:868 - Entered the getWebElementsProperties method in BasePage
+2023-02-17 11:15:39 INFO  BaseTestFixture:45 - Entered the waitForElement method in BaseTestFixture
+2023-02-17 11:15:39 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:15:39 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:15:39 INFO  BaseTestFixture:60 - Entered the isElementPresent method in BaseTestFixture
+2023-02-17 11:15:40 INFO  BaseTestFixture:71 - Exited the isElementPresent method in BaseTestFixture
+2023-02-17 11:15:40 INFO  BaseTestFixture:49 - Element found, value of isElementDisplayedInPage is = true
+2023-02-17 11:15:40 INFO  BaseTestFixture:53 - Exited the waitForElement method in BaseTestFixture
+2023-02-17 11:15:40 INFO  BasePage:870 - Exited the getWebElementsProperties method in BasePage
+2023-02-17 11:15:40 INFO  AdviserRatingsSteps:233 - Step: Check Sydney, NSW 2000is populated into the location field
+2023-02-17 11:15:40 INFO  AdviserRatingPage:72 - Check locationfeild contains sydney, NSW 2000
+2023-02-17 11:15:40 INFO  AdviserRatingsSteps:145 - Step: Click on Enter Key
+2023-02-17 11:15:41 INFO  AdviserRatingsSteps:222 - Step: The current Page URL which should containSydney-NSW-2000
+2023-02-17 11:15:41 INFO  ResourceRead:40 - Entered the getEnvironmentConfigValue in ResourceRead
+2023-02-17 11:15:41 INFO  ResourceRead:43 - Selected EnvironmentConfig File is: ../AdviserratingUIAutomationTest/src/main/resources/config.xml
+2023-02-17 11:15:41 INFO  AdviserRatingsSteps:439 - Step: location name should be Sydney, NSW 2000
+2023-02-17 11:15:41 INFO  AdviserRatingsSteps:404 - Step: Distance should be displayed as 10km
+2023-02-17 11:15:41 INFO  AdviserRatingsSteps:197 - check the view is ListView
+2023-02-17 11:15:41 INFO  AdviserRatingsSteps:416 - Step: check ascendingorder of KMRange
+2023-02-17 11:15:43 INFO  BasePage:163 - Entered the clickButtonByCssSelector method in BasePage
+2023-02-17 11:15:43 INFO  BaseTestFixture:127 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:15:43 INFO  BaseTestFixture:134 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:15:43 INFO  BaseTestFixture:109 - Entered the isConstantValuePresent method in BaseTestFixture
+2023-02-17 11:15:43 INFO  BaseTestFixture:115 - Exited the isConstantValuePresent method in BaseTestFixture
+2023-02-17 11:15:43 INFO  BasePage:95 - Entered the clickOnButton method in BasePage
+2023-02-17 11:15:43 INFO  BaseTestFixture:127 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:15:43 INFO  BaseTestFixture:134 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:15:43 INFO  BaseTestFixture:45 - Entered the waitForElement method in BaseTestFixture
+2023-02-17 11:15:43 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:15:43 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:15:43 INFO  BaseTestFixture:60 - Entered the isElementPresent method in BaseTestFixture
+2023-02-17 11:15:43 INFO  BaseTestFixture:71 - Exited the isElementPresent method in BaseTestFixture
+2023-02-17 11:15:43 INFO  BaseTestFixture:49 - Element found, value of isElementDisplayedInPage is = true
+2023-02-17 11:15:43 INFO  BaseTestFixture:53 - Exited the waitForElement method in BaseTestFixture
+2023-02-17 11:15:43 INFO  BasePage:106 - Exited the clickOnButton method in BasePage
+2023-02-17 11:15:43 INFO  BasePage:167 - Exited the clickButtonByCssSelector method in BasePage
+2023-02-17 11:15:45 INFO  BaseTestFixture:127 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:15:45 INFO  BaseTestFixture:134 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:15:45 INFO  BasePage:868 - Entered the getWebElementsProperties method in BasePage
+2023-02-17 11:15:45 INFO  BaseTestFixture:45 - Entered the waitForElement method in BaseTestFixture
+2023-02-17 11:15:45 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:15:45 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:15:45 INFO  BaseTestFixture:60 - Entered the isElementPresent method in BaseTestFixture
+2023-02-17 11:15:45 INFO  BaseTestFixture:71 - Exited the isElementPresent method in BaseTestFixture
+2023-02-17 11:15:45 INFO  BaseTestFixture:49 - Element found, value of isElementDisplayedInPage is = true
+2023-02-17 11:15:45 INFO  BaseTestFixture:53 - Exited the waitForElement method in BaseTestFixture
+2023-02-17 11:15:45 INFO  BasePage:870 - Exited the getWebElementsProperties method in BasePage
+2023-02-17 11:15:45 INFO  StepHooks:53 - Entered Step Hooks AfterScenario method in StepHooks class
+2023-02-17 11:15:45 INFO  StepHooks:129 - Exited  Step Hooks AfterScenario method in StepHooks class
+2023-02-17 11:15:46 DEBUG GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2023-02-17 11:15:46 DEBUG GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2023-02-17 11:15:46 DEBUG GlyphSubstitutionTable:263 - Type 6 GSUB lookup table is not supported and will be ignored
+2023-02-17 11:15:46 DEBUG GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2023-02-17 11:15:46 DEBUG GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2023-02-17 11:15:46 DEBUG GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2023-02-17 11:15:46 DEBUG GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2023-02-17 11:15:46 DEBUG GlyphSubstitutionTable:263 - Type 6 GSUB lookup table is not supported and will be ignored
+2023-02-17 11:15:46 DEBUG GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2023-02-17 11:15:46 DEBUG GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2023-02-17 11:15:46 DEBUG GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2023-02-17 11:15:46 DEBUG GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2023-02-17 11:15:46 DEBUG GlyphSubstitutionTable:263 - Type 6 GSUB lookup table is not supported and will be ignored
+2023-02-17 11:15:46 DEBUG GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2023-02-17 11:15:46 DEBUG GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2023-02-17 11:15:46 DEBUG GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2023-02-17 11:15:46 DEBUG GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2023-02-17 11:15:46 DEBUG GlyphSubstitutionTable:263 - Type 6 GSUB lookup table is not supported and will be ignored
+2023-02-17 11:15:46 DEBUG GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2023-02-17 11:15:46 DEBUG GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2023-02-17 11:15:46 DEBUG GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2023-02-17 11:15:46 DEBUG GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2023-02-17 11:15:46 DEBUG GlyphSubstitutionTable:263 - Type 6 GSUB lookup table is not supported and will be ignored
+2023-02-17 11:15:46 DEBUG GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2023-02-17 11:15:46 DEBUG GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514fix.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514fixe.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514fixg.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514fixr.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514fixt.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514oem.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514oeme.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514oemg.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514oemr.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514oemt.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514sys.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514syse.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514sysg.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514sysr.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514syst.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\85775.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\85855.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\85f1255.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\85f1256.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\85f1257.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\85f874.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\85s1255.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\85s1256.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\85s1257.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\85s874.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ANTQUAB.TTF
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\ANTQUAB.TTF
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ANTQUABI.TTF
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\ANTQUABI.TTF
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ANTQUAI.TTF
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\ANTQUAI.TTF
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\app775.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\app850.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\app852.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\app855.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\app857.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\app866.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\app932.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\app936.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\app949.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\app950.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\arial.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\arial.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\arialbd.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\arialbd.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\arialbi.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\arialbi.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ariali.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\ariali.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ariblk.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\ariblk.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\bahnschrift.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\bahnschrift.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\BKANT.TTF
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\BKANT.TTF
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\c8514fix.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\c8514oem.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\c8514sys.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\calibri.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\calibri.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\calibrib.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\calibrib.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\calibrii.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\calibrii.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\calibril.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\calibril.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\calibrili.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\calibrili.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\calibriz.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\calibriz.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cambria.ttc
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\cambria.ttc
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cambriab.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\cambriab.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cambriai.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\cambriai.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cambriaz.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\cambriaz.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\Candara.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\Candara.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\Candarab.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\Candarab.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\Candarai.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\Candarai.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\Candaral.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\Candaral.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\Candarali.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\Candarali.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\Candaraz.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\Candaraz.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\CascadiaCode.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\CascadiaCode.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\CascadiaMono.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\CascadiaMono.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\CENTURY.TTF
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\CENTURY.TTF
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga40737.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga40850.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga40852.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga40857.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga40866.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga40869.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga40woa.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga80737.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga80850.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga80852.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga80857.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga80866.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga80869.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga80woa.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\comic.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\comic.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\comicbd.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\comicbd.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\comici.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\comici.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\comicz.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\comicz.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\consola.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\consola.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\consolab.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\consolab.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\consolai.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\consolai.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\consolaz.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\consolaz.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\constan.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\constan.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\constanb.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\constanb.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\constani.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\constani.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\constanz.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\constanz.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\corbel.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\corbel.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\corbelb.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\corbelb.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\corbeli.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\corbeli.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\corbell.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\corbell.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\corbelli.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\corbelli.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\corbelz.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\corbelz.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\coue1255.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\coue1256.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\coue1257.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\couf1255.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\couf1256.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\couf1257.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cour.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\cour.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\courbd.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\courbd.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\courbi.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\courbi.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\coure.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\couree.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\coureg.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\courer.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\couret.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\courf.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\courfe.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\courfg.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\courfr.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\courft.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\couri.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\couri.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cvgafix.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cvgasys.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\desktop.ini
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\dos737.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\dos869.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\dosapp.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\DUBAI-BOLD.TTF
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\DUBAI-BOLD.TTF
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\DUBAI-LIGHT.TTF
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\DUBAI-LIGHT.TTF
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\DUBAI-MEDIUM.TTF
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\DUBAI-MEDIUM.TTF
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\DUBAI-REGULAR.TTF
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\DUBAI-REGULAR.TTF
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ebrima.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\ebrima.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ebrimabd.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\ebrimabd.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega40737.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega40850.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega40852.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega40857.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega40866.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega40869.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega40woa.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega80737.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega80850.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega80852.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega80857.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega80866.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega80869.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega80woa.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\fms_metadata.xml
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\framd.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\framd.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\framdit.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\framdit.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\Gabriola.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\Gabriola.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\gadugi.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\gadugi.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\gadugib.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\gadugib.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\georgia.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\georgia.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\georgiab.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\georgiab.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\georgiai.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\georgiai.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\georgiaz.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\georgiaz.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\GOTHIC.TTF
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\GOTHIC.TTF
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\GOTHICB.TTF
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\GOTHICB.TTF
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\GOTHICBI.TTF
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\GOTHICBI.TTF
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\GOTHICI.TTF
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\GOTHICI.TTF
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\h8514fix.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\h8514oem.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\h8514sys.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\himalaya.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\himalaya.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\holomdl2.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\holomdl2.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\hvgafix.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\hvgasys.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\impact.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\impact.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\Inkfree.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\Inkfree.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\j8514fix.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\j8514oem.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\j8514sys.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\javatext.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\javatext.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\jsmalle.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\jsmallf.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\jvgafix.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\jvgasys.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\LeelaUIb.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\LeelaUIb.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\LeelawUI.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\LeelawUI.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\LeelUIsl.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\LeelUIsl.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\lucon.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\lucon.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\l_10646.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\l_10646.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\malgun.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\malgun.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\malgunbd.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\malgunbd.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\malgunsl.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\malgunsl.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\marlett.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\marlett.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\micross.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\micross.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\mingliub.ttc
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\mingliub.ttc
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\mmrtext.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\mmrtext.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\mmrtextb.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\mmrtextb.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\modern.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\monbaiti.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\monbaiti.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\msgothic.ttc
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\msgothic.ttc
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\msjh.ttc
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\msjh.ttc
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\msjhbd.ttc
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\msjhbd.ttc
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\msjhl.ttc
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\msjhl.ttc
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\msyh.ttc
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\msyh.ttc
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\msyhbd.ttc
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\msyhbd.ttc
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\msyhl.ttc
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\msyhl.ttc
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\msyi.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\msyi.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\MTEXTRA.TTF
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\MTEXTRA.TTF
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\mvboli.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\mvboli.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\Nirmala.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\Nirmala.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\NirmalaB.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\NirmalaB.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\NirmalaS.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\NirmalaS.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ntailu.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\ntailu.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ntailub.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\ntailub.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\pala.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\pala.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\palab.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\palab.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\palabi.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\palabi.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\palai.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\palai.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\phagspa.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\phagspa.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\phagspab.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\phagspab.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\roman.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\s8514fix.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\s8514oem.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\s8514sys.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\script.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\segmdl2.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\segmdl2.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\SegoeIcons.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\SegoeIcons.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\segoepr.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\segoepr.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\segoeprb.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\segoeprb.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\segoesc.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\segoesc.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\segoescb.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\segoescb.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\segoeui.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\segoeui.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\segoeuib.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\segoeuib.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\segoeuii.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\segoeuii.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\segoeuil.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\segoeuil.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\segoeuisl.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\segoeuisl.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\segoeuiz.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\segoeuiz.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seguibl.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\seguibl.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seguibli.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\seguibli.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seguiemj.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\seguiemj.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seguihis.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\seguihis.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seguili.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\seguili.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seguisb.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\seguisb.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seguisbi.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\seguisbi.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seguisli.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\seguisli.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seguisym.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\seguisym.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\SegUIVar.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\SegUIVar.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sere1255.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sere1256.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sere1257.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\serf1255.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\serf1256.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\serf1257.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\serife.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\serifee.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\serifeg.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\serifer.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\serifet.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seriff.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seriffe.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seriffg.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seriffr.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\serifft.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\simsun.ttc
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\simsun.ttc
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\simsunb.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\simsunb.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\SitkaVF-Italic.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\SitkaVF-Italic.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\SitkaVF.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\SitkaVF.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smae1255.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smae1256.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smae1257.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smaf1255.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smaf1256.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smaf1257.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smalle.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smallee.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smalleg.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smaller.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smallet.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smallf.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smallfe.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smallfg.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smallfr.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smallft.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ssee1255.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ssee1256.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ssee1257.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ssee874.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ssef1255.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ssef1256.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ssef1257.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ssef874.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sserife.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sserifee.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sserifeg.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sserifer.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sserifet.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sseriff.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sseriffe.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sseriffg.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sseriffr.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sserifft.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\StaticCache.dat
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\svgafix.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\svgasys.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sylfaen.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\sylfaen.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\symbol.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\symbol.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\tahoma.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\tahoma.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\tahomabd.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\tahomabd.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\taile.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\taile.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\taileb.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\taileb.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\times.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\times.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\timesbd.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\timesbd.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\timesbi.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\timesbi.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\timesi.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\timesi.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\trebuc.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\trebuc.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\trebucbd.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\trebucbd.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\trebucbi.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\trebucbi.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\trebucit.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\trebucit.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\verdana.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\verdana.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\verdanab.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\verdanab.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\verdanai.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\verdanai.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\verdanaz.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\verdanaz.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga737.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga775.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga850.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga852.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga855.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga857.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga860.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga861.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga863.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga865.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga866.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga869.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga932.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga936.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga949.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga950.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgaf1255.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgaf1256.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgaf1257.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgaf874.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgafix.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgafixe.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgafixg.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgafixr.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgafixt.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgaoem.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgas1255.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgas1256.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgas1257.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgas874.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgasys.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgasyse.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgasysg.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgasysr.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgasyst.fon
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\webdings.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\webdings.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\wingding.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\wingding.ttf
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\WINGDNG2.TTF
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\WINGDNG2.TTF
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\WINGDNG3.TTF
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\WINGDNG3.TTF
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\YuGothB.ttc
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\YuGothB.ttc
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\YuGothL.ttc
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\YuGothL.ttc
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\YuGothM.ttc
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\YuGothM.ttc
+2023-02-17 11:15:46 DEBUG FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\YuGothR.ttc
+2023-02-17 11:15:46 DEBUG FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\YuGothR.ttc
+2023-02-17 11:15:46 DEBUG FontMapperImpl:484 - getFont('TTF','TimesNewRomanPSMT') returns TimesNewRomanPSMT (TTF, mac: 0x0, os/2: 0x105, cid: null) C:\WINDOWS\FONTS\times.ttf
+2023-02-17 11:15:46 DEBUG FileSystemFontProvider:197 - Loaded TimesNewRomanPSMT from C:\WINDOWS\FONTS\times.ttf
+2023-02-17 11:15:46 DEBUG FontMapperImpl:484 - getFont('TTF','TimesNewRomanPS-BoldMT') returns TimesNewRomanPS-BoldMT (TTF, mac: 0x1, os/2: 0x105, cid: null) C:\WINDOWS\FONTS\timesbd.ttf
+2023-02-17 11:15:46 DEBUG FileSystemFontProvider:197 - Loaded TimesNewRomanPS-BoldMT from C:\WINDOWS\FONTS\timesbd.ttf
+2023-02-17 11:15:46 DEBUG FontMapperImpl:484 - getFont('TTF','TimesNewRomanPS-ItalicMT') returns TimesNewRomanPS-ItalicMT (TTF, mac: 0x2, os/2: 0x105, cid: null) C:\WINDOWS\FONTS\timesi.ttf
+2023-02-17 11:15:46 DEBUG FileSystemFontProvider:197 - Loaded TimesNewRomanPS-ItalicMT from C:\WINDOWS\FONTS\timesi.ttf
+2023-02-17 11:15:46 DEBUG FontMapperImpl:484 - getFont('TTF','TimesNewRomanPS-BoldItalicMT') returns TimesNewRomanPS-BoldItalicMT (TTF, mac: 0x3, os/2: 0x105, cid: null) C:\WINDOWS\FONTS\timesbi.ttf
+2023-02-17 11:15:46 DEBUG FileSystemFontProvider:197 - Loaded TimesNewRomanPS-BoldItalicMT from C:\WINDOWS\FONTS\timesbi.ttf
+2023-02-17 11:15:46 DEBUG FontMapperImpl:484 - getFont('TTF','ArialMT') returns ArialMT (TTF, mac: 0x0, os/2: 0x805, cid: null) C:\WINDOWS\FONTS\arial.ttf
+2023-02-17 11:15:46 DEBUG FileSystemFontProvider:197 - Loaded ArialMT from C:\WINDOWS\FONTS\arial.ttf
+2023-02-17 11:15:46 DEBUG FontMapperImpl:484 - getFont('TTF','Arial-BoldMT') returns Arial-BoldMT (TTF, mac: 0x1, os/2: 0x805, cid: null) C:\WINDOWS\FONTS\arialbd.ttf
+2023-02-17 11:15:46 DEBUG FileSystemFontProvider:197 - Loaded Arial-BoldMT from C:\WINDOWS\FONTS\arialbd.ttf
+2023-02-17 11:15:46 DEBUG FontMapperImpl:484 - getFont('TTF','Arial-ItalicMT') returns Arial-ItalicMT (TTF, mac: 0x2, os/2: 0x805, cid: null) C:\WINDOWS\FONTS\ariali.ttf
+2023-02-17 11:15:46 DEBUG FileSystemFontProvider:197 - Loaded Arial-ItalicMT from C:\WINDOWS\FONTS\ariali.ttf
+2023-02-17 11:15:46 DEBUG FontMapperImpl:484 - getFont('TTF','Arial-BoldItalicMT') returns Arial-BoldItalicMT (TTF, mac: 0x3, os/2: 0x805, cid: null) C:\WINDOWS\FONTS\arialbi.ttf
+2023-02-17 11:15:46 DEBUG FileSystemFontProvider:197 - Loaded Arial-BoldItalicMT from C:\WINDOWS\FONTS\arialbi.ttf
+2023-02-17 11:15:46 DEBUG FontMapperImpl:484 - getFont('TTF','CourierNewPSMT') returns CourierNewPSMT (TTF, mac: 0x0, os/2: 0x505, cid: null) C:\WINDOWS\FONTS\cour.ttf
+2023-02-17 11:15:46 DEBUG FileSystemFontProvider:197 - Loaded CourierNewPSMT from C:\WINDOWS\FONTS\cour.ttf
+2023-02-17 11:15:46 DEBUG FontMapperImpl:484 - getFont('TTF','CourierNewPS-BoldMT') returns CourierNewPS-BoldMT (TTF, mac: 0x1, os/2: 0x505, cid: null) C:\WINDOWS\FONTS\courbd.ttf
+2023-02-17 11:15:46 DEBUG FileSystemFontProvider:197 - Loaded CourierNewPS-BoldMT from C:\WINDOWS\FONTS\courbd.ttf
+2023-02-17 11:15:46 DEBUG FontMapperImpl:484 - getFont('TTF','CourierNewPS-ItalicMT') returns CourierNewPS-ItalicMT (TTF, mac: 0x2, os/2: 0x505, cid: null) C:\WINDOWS\FONTS\couri.ttf
+2023-02-17 11:15:46 DEBUG FileSystemFontProvider:197 - Loaded CourierNewPS-ItalicMT from C:\WINDOWS\FONTS\couri.ttf
+2023-02-17 11:15:46 DEBUG FontMapperImpl:484 - getFont('TTF','CourierNewPS-BoldItalicMT') returns CourierNewPS-BoldItalicMT (TTF, mac: 0x3, os/2: 0x505, cid: null) C:\WINDOWS\FONTS\courbi.ttf
+2023-02-17 11:15:46 DEBUG FileSystemFontProvider:197 - Loaded CourierNewPS-BoldItalicMT from C:\WINDOWS\FONTS\courbi.ttf
+2023-02-17 11:15:46 DEBUG FontMapperImpl:484 - getFont('TTF','SymbolMT') returns SymbolMT (TTF, mac: 0x0, os/2: 0xc03, cid: null) C:\WINDOWS\FONTS\symbol.ttf
+2023-02-17 11:15:46 DEBUG FileSystemFontProvider:197 - Loaded SymbolMT from C:\WINDOWS\FONTS\symbol.ttf
+2023-02-17 11:15:46 DEBUG FontMapperImpl:484 - getFont('TTF','MS-Gothic') returns MS-Gothic (TTF, mac: 0x0, os/2: 0x801, cid: null) C:\WINDOWS\FONTS\msgothic.ttc
+2023-02-17 11:15:46 DEBUG FileSystemFontProvider:197 - Loaded MS-Gothic from C:\WINDOWS\FONTS\msgothic.ttc
+2023-02-17 11:15:47 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
+2023-02-17 11:15:47 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
+2023-02-17 11:28:00 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
+2023-02-17 11:28:00 INFO  ADRWebDriver:34 - Entered the ADRWebDriver method
+2023-02-17 11:28:00 INFO  ADRWebDriver:111 - Entered the cleanUp method
+2023-02-17 11:28:00 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:28:00 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:28:00 INFO  ADRWebDriver:133 - Exited the cleanUp method
+2023-02-17 11:28:00 INFO  ADRWebdriverFactory:115 - Attempting to get ENV_AUTOMATION_BROWSER
+2023-02-17 11:28:00 INFO  ADRWebdriverFactory:119 - Attempting to get APP_SETTING_BROWSER
+2023-02-17 11:28:00 INFO  ADRWebdriverFactory:43 - Entered the getADRWebDriverInstance method in SFWebdriverFactory
+2023-02-17 11:28:00 INFO  ResourceRead:40 - Entered the getEnvironmentConfigValue in ResourceRead
+2023-02-17 11:28:00 INFO  ResourceRead:43 - Selected EnvironmentConfig File is: ../AdviserratingUIAutomationTest/src/main/resources/config.xml
+2023-02-17 11:28:00 INFO  BrowserInstanceFactory:37 - Entered the ChromeWebDriver method in BrowserInstanceFactory
+2023-02-17 11:28:00 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:28:00 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:28:00 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:28:00 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:28:00 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:28:00 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:28:00 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:28:00 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:28:02 INFO  BrowserInstanceFactory:84 - Exited the ChromeWebDriver method in BrowserInstanceFactory
+2023-02-17 11:28:02 INFO  ADRWebdriverFactory:86 - Exited the getADRWebDriverInstance method in SFWebdriverFactory
+2023-02-17 11:28:03 INFO  ADRWebDriver:42 - Exited the ADRWebDriver method
+2023-02-17 11:28:03 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
+2023-02-17 11:28:03 INFO  StepHooks:34 - Entered Step Hooks Before method in StepHooks class
+2023-02-17 11:28:03 INFO  StepHooks:42 - Exited Step Hooks Before method in StepHooks class
+2023-02-17 11:28:03 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
+2023-02-17 11:28:03 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
+2023-02-17 11:28:03 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
+2023-02-17 11:28:03 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
+2023-02-17 11:28:03 INFO  AdviserRatingsSteps:38 - Step: Navigated to AdviserratingURL
+2023-02-17 11:28:03 INFO  ResourceRead:40 - Entered the getEnvironmentConfigValue in ResourceRead
+2023-02-17 11:28:03 INFO  ResourceRead:43 - Selected EnvironmentConfig File is: ../AdviserratingUIAutomationTest/src/main/resources/config.xml
+2023-02-17 11:28:03 INFO  ResourceRead:40 - Entered the getEnvironmentConfigValue in ResourceRead
+2023-02-17 11:28:03 INFO  ResourceRead:43 - Selected EnvironmentConfig File is: ../AdviserratingUIAutomationTest/src/main/resources/config.xml
+2023-02-17 11:28:03 INFO  BasePage:83 - Entered the LaunchURL method in BasePage: https://staging.adviserratings.com.au/
+2023-02-17 11:28:09 INFO  AdviserRatingsSteps:56 - Opened URL: https://staging.adviserratings.com.au/
+2023-02-17 11:28:09 INFO  AdviserRatingsSteps:170 - Step: Go to location Tab
+2023-02-17 11:28:09 INFO  AdviserRatingPage:139 - go to location tab
+2023-02-17 11:28:09 INFO  AdviserRatingsSteps:77 - Step: Enter the valueSydneyon Search box
+2023-02-17 11:28:09 INFO  AdviserRatingPage:403 - Entered reNameSurvey method of AdviserRatingPage
+2023-02-17 11:28:09 INFO  BasePage:398 - Entered the findTextboxAndSetValueByXpath method in BasePage
+2023-02-17 11:28:09 INFO  BaseTestFixture:127 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:28:09 INFO  BaseTestFixture:134 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:28:09 INFO  BaseTestFixture:109 - Entered the isConstantValuePresent method in BaseTestFixture
+2023-02-17 11:28:09 INFO  BaseTestFixture:115 - Exited the isConstantValuePresent method in BaseTestFixture
+2023-02-17 11:28:09 INFO  BasePage:380 - Entered the findTextBoxAndSetValue method in BasePage
+2023-02-17 11:28:09 INFO  BaseTestFixture:127 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:28:09 INFO  BaseTestFixture:134 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:28:09 INFO  BaseTestFixture:45 - Entered the waitForElement method in BaseTestFixture
+2023-02-17 11:28:09 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:28:09 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:28:09 INFO  BaseTestFixture:60 - Entered the isElementPresent method in BaseTestFixture
+2023-02-17 11:28:09 INFO  BaseTestFixture:71 - Exited the isElementPresent method in BaseTestFixture
+2023-02-17 11:28:09 INFO  BaseTestFixture:49 - Element found, value of isElementDisplayedInPage is = true
+2023-02-17 11:28:09 INFO  BaseTestFixture:53 - Exited the waitForElement method in BaseTestFixture
+2023-02-17 11:28:09 INFO  BasePage:387 - Exited the findTextBoxAndSetValue method in BasePage
+2023-02-17 11:28:09 INFO  BasePage:402 - Exited the findTextboxAndSetValueByXpath method in BasePage
+2023-02-17 11:28:09 INFO  AdviserRatingsSteps:184 - Step: Find Sydney, NSW 2000in the address drop down search box and check it is highlighted
+2023-02-17 11:28:09 INFO  AdviserRatingPage:168 - Entered locationvalue method of AdviserRatingPage
+2023-02-17 11:28:09 INFO  BaseTestFixture:127 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:28:09 INFO  BaseTestFixture:134 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:28:09 INFO  BasePage:868 - Entered the getWebElementsProperties method in BasePage
+2023-02-17 11:28:09 INFO  BaseTestFixture:45 - Entered the waitForElement method in BaseTestFixture
+2023-02-17 11:28:09 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:28:09 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:28:09 INFO  BaseTestFixture:60 - Entered the isElementPresent method in BaseTestFixture
+2023-02-17 11:28:09 INFO  BaseTestFixture:71 - Exited the isElementPresent method in BaseTestFixture
+2023-02-17 11:28:09 INFO  BaseTestFixture:49 - Element found, value of isElementDisplayedInPage is = true
+2023-02-17 11:28:09 INFO  BaseTestFixture:53 - Exited the waitForElement method in BaseTestFixture
+2023-02-17 11:28:09 INFO  BasePage:870 - Exited the getWebElementsProperties method in BasePage
+2023-02-17 11:28:10 INFO  AdviserRatingsSteps:233 - Step: Check Sydney, NSW 2000is populated into the location field
+2023-02-17 11:28:10 INFO  AdviserRatingPage:72 - Check locationfeild contains sydney, NSW 2000
+2023-02-17 11:28:10 INFO  AdviserRatingsSteps:145 - Step: Click on Enter Key
+2023-02-17 11:28:11 INFO  AdviserRatingsSteps:222 - Step: The current Page URL which should containSydney-NSW-2000
+2023-02-17 11:28:11 INFO  ResourceRead:40 - Entered the getEnvironmentConfigValue in ResourceRead
+2023-02-17 11:28:11 INFO  ResourceRead:43 - Selected EnvironmentConfig File is: ../AdviserratingUIAutomationTest/src/main/resources/config.xml
+2023-02-17 11:28:11 INFO  AdviserRatingsSteps:439 - Step: location name should be Sydney, NSW 2000
+2023-02-17 11:28:11 INFO  AdviserRatingsSteps:404 - Step: Distance should be displayed as 10km
+2023-02-17 11:28:11 INFO  AdviserRatingsSteps:197 - check the view is ListView
+2023-02-17 11:28:11 INFO  AdviserRatingsSteps:416 - Step: check ascendingorder of KMRange
+2023-02-17 11:28:13 INFO  BasePage:163 - Entered the clickButtonByCssSelector method in BasePage
+2023-02-17 11:28:13 INFO  BaseTestFixture:127 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:28:13 INFO  BaseTestFixture:134 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:28:13 INFO  BaseTestFixture:109 - Entered the isConstantValuePresent method in BaseTestFixture
+2023-02-17 11:28:13 INFO  BaseTestFixture:115 - Exited the isConstantValuePresent method in BaseTestFixture
+2023-02-17 11:28:13 INFO  BasePage:95 - Entered the clickOnButton method in BasePage
+2023-02-17 11:28:13 INFO  BaseTestFixture:127 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:28:13 INFO  BaseTestFixture:134 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:28:13 INFO  BaseTestFixture:45 - Entered the waitForElement method in BaseTestFixture
+2023-02-17 11:28:13 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:28:13 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:28:13 INFO  BaseTestFixture:60 - Entered the isElementPresent method in BaseTestFixture
+2023-02-17 11:28:13 INFO  BaseTestFixture:71 - Exited the isElementPresent method in BaseTestFixture
+2023-02-17 11:28:13 INFO  BaseTestFixture:49 - Element found, value of isElementDisplayedInPage is = true
+2023-02-17 11:28:13 INFO  BaseTestFixture:53 - Exited the waitForElement method in BaseTestFixture
+2023-02-17 11:28:13 INFO  BasePage:106 - Exited the clickOnButton method in BasePage
+2023-02-17 11:28:13 INFO  BasePage:167 - Exited the clickButtonByCssSelector method in BasePage
+2023-02-17 11:28:15 INFO  BaseTestFixture:127 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:28:15 INFO  BaseTestFixture:134 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:28:15 INFO  BasePage:868 - Entered the getWebElementsProperties method in BasePage
+2023-02-17 11:28:15 INFO  BaseTestFixture:45 - Entered the waitForElement method in BaseTestFixture
+2023-02-17 11:28:15 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:28:15 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:28:15 INFO  BaseTestFixture:60 - Entered the isElementPresent method in BaseTestFixture
+2023-02-17 11:28:15 INFO  BaseTestFixture:71 - Exited the isElementPresent method in BaseTestFixture
+2023-02-17 11:28:15 INFO  BaseTestFixture:49 - Element found, value of isElementDisplayedInPage is = true
+2023-02-17 11:28:15 INFO  BaseTestFixture:53 - Exited the waitForElement method in BaseTestFixture
+2023-02-17 11:28:15 INFO  BasePage:870 - Exited the getWebElementsProperties method in BasePage
+2023-02-17 11:28:15 INFO  StepHooks:53 - Entered Step Hooks AfterScenario method in StepHooks class
+2023-02-17 11:28:16 INFO  StepHooks:129 - Exited  Step Hooks AfterScenario method in StepHooks class
+2023-02-17 11:28:17 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
+2023-02-17 11:28:17 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
+2023-02-17 11:29:54 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
+2023-02-17 11:29:54 INFO  ADRWebDriver:34 - Entered the ADRWebDriver method
+2023-02-17 11:29:54 INFO  ADRWebDriver:111 - Entered the cleanUp method
+2023-02-17 11:29:54 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:29:54 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:29:54 INFO  ADRWebDriver:133 - Exited the cleanUp method
+2023-02-17 11:29:54 INFO  ADRWebdriverFactory:115 - Attempting to get ENV_AUTOMATION_BROWSER
+2023-02-17 11:29:54 INFO  ADRWebdriverFactory:119 - Attempting to get APP_SETTING_BROWSER
+2023-02-17 11:29:54 INFO  ADRWebdriverFactory:43 - Entered the getADRWebDriverInstance method in SFWebdriverFactory
+2023-02-17 11:29:54 INFO  ResourceRead:40 - Entered the getEnvironmentConfigValue in ResourceRead
+2023-02-17 11:29:54 INFO  ResourceRead:43 - Selected EnvironmentConfig File is: ../AdviserratingUIAutomationTest/src/main/resources/config.xml
+2023-02-17 11:29:54 INFO  BrowserInstanceFactory:37 - Entered the ChromeWebDriver method in BrowserInstanceFactory
+2023-02-17 11:29:54 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:29:54 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:29:54 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:29:54 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:29:54 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:29:54 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:29:54 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:29:54 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:29:57 INFO  BrowserInstanceFactory:84 - Exited the ChromeWebDriver method in BrowserInstanceFactory
+2023-02-17 11:29:57 INFO  ADRWebdriverFactory:86 - Exited the getADRWebDriverInstance method in SFWebdriverFactory
+2023-02-17 11:29:57 INFO  ADRWebDriver:42 - Exited the ADRWebDriver method
+2023-02-17 11:29:57 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
+2023-02-17 11:29:57 INFO  StepHooks:34 - Entered Step Hooks Before method in StepHooks class
+2023-02-17 11:29:57 INFO  StepHooks:42 - Exited Step Hooks Before method in StepHooks class
+2023-02-17 11:29:57 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
+2023-02-17 11:29:57 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
+2023-02-17 11:29:57 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
+2023-02-17 11:29:57 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
+2023-02-17 11:29:57 INFO  AdviserRatingsSteps:38 - Step: Navigated to AdviserratingURL
+2023-02-17 11:29:57 INFO  ResourceRead:40 - Entered the getEnvironmentConfigValue in ResourceRead
+2023-02-17 11:29:57 INFO  ResourceRead:43 - Selected EnvironmentConfig File is: ../AdviserratingUIAutomationTest/src/main/resources/config.xml
+2023-02-17 11:29:57 INFO  ResourceRead:40 - Entered the getEnvironmentConfigValue in ResourceRead
+2023-02-17 11:29:57 INFO  ResourceRead:43 - Selected EnvironmentConfig File is: ../AdviserratingUIAutomationTest/src/main/resources/config.xml
+2023-02-17 11:29:57 INFO  BasePage:83 - Entered the LaunchURL method in BasePage: https://staging.adviserratings.com.au/
+2023-02-17 11:30:08 INFO  AdviserRatingsSteps:56 - Opened URL: https://staging.adviserratings.com.au/
+2023-02-17 11:30:08 INFO  AdviserRatingsSteps:170 - Step: Go to location Tab
+2023-02-17 11:30:08 INFO  AdviserRatingPage:139 - go to location tab
+2023-02-17 11:30:08 INFO  AdviserRatingsSteps:77 - Step: Enter the valueSydneyon Search box
+2023-02-17 11:30:08 INFO  AdviserRatingPage:403 - Entered reNameSurvey method of AdviserRatingPage
+2023-02-17 11:30:08 INFO  BasePage:398 - Entered the findTextboxAndSetValueByXpath method in BasePage
+2023-02-17 11:30:08 INFO  BaseTestFixture:127 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:30:08 INFO  BaseTestFixture:134 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:30:08 INFO  BaseTestFixture:109 - Entered the isConstantValuePresent method in BaseTestFixture
+2023-02-17 11:30:08 INFO  BaseTestFixture:115 - Exited the isConstantValuePresent method in BaseTestFixture
+2023-02-17 11:30:08 INFO  BasePage:380 - Entered the findTextBoxAndSetValue method in BasePage
+2023-02-17 11:30:08 INFO  BaseTestFixture:127 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:30:08 INFO  BaseTestFixture:134 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:30:08 INFO  BaseTestFixture:45 - Entered the waitForElement method in BaseTestFixture
+2023-02-17 11:30:08 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:30:08 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:30:08 INFO  BaseTestFixture:60 - Entered the isElementPresent method in BaseTestFixture
+2023-02-17 11:30:08 INFO  BaseTestFixture:71 - Exited the isElementPresent method in BaseTestFixture
+2023-02-17 11:30:08 INFO  BaseTestFixture:49 - Element found, value of isElementDisplayedInPage is = true
+2023-02-17 11:30:08 INFO  BaseTestFixture:53 - Exited the waitForElement method in BaseTestFixture
+2023-02-17 11:30:08 INFO  BasePage:387 - Exited the findTextBoxAndSetValue method in BasePage
+2023-02-17 11:30:08 INFO  BasePage:402 - Exited the findTextboxAndSetValueByXpath method in BasePage
+2023-02-17 11:30:08 INFO  AdviserRatingsSteps:184 - Step: Find Sydney, NSW 2000in the address drop down search box and check it is highlighted
+2023-02-17 11:30:08 INFO  AdviserRatingPage:168 - Entered locationvalue method of AdviserRatingPage
+2023-02-17 11:30:08 INFO  BaseTestFixture:127 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:30:08 INFO  BaseTestFixture:134 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:30:08 INFO  BasePage:868 - Entered the getWebElementsProperties method in BasePage
+2023-02-17 11:30:08 INFO  BaseTestFixture:45 - Entered the waitForElement method in BaseTestFixture
+2023-02-17 11:30:08 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:30:08 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:30:08 INFO  BaseTestFixture:60 - Entered the isElementPresent method in BaseTestFixture
+2023-02-17 11:30:09 INFO  BaseTestFixture:71 - Exited the isElementPresent method in BaseTestFixture
+2023-02-17 11:30:09 INFO  BaseTestFixture:49 - Element found, value of isElementDisplayedInPage is = true
+2023-02-17 11:30:09 INFO  BaseTestFixture:53 - Exited the waitForElement method in BaseTestFixture
+2023-02-17 11:30:09 INFO  BasePage:870 - Exited the getWebElementsProperties method in BasePage
+2023-02-17 11:30:09 INFO  AdviserRatingsSteps:233 - Step: Check Sydney, NSW 2000is populated into the location field
+2023-02-17 11:30:09 INFO  AdviserRatingPage:72 - Check locationfeild contains sydney, NSW 2000
+2023-02-17 11:30:09 INFO  AdviserRatingsSteps:145 - Step: Click on Enter Key
+2023-02-17 11:30:11 INFO  AdviserRatingsSteps:222 - Step: The current Page URL which should containSydney-NSW-2000
+2023-02-17 11:30:11 INFO  ResourceRead:40 - Entered the getEnvironmentConfigValue in ResourceRead
+2023-02-17 11:30:11 INFO  ResourceRead:43 - Selected EnvironmentConfig File is: ../AdviserratingUIAutomationTest/src/main/resources/config.xml
+2023-02-17 11:30:11 INFO  AdviserRatingsSteps:439 - Step: location name should be Sydney, NSW 2000
+2023-02-17 11:30:11 INFO  AdviserRatingsSteps:404 - Step: Distance should be displayed as 10km
+2023-02-17 11:30:11 INFO  AdviserRatingsSteps:197 - check the view is ListView
+2023-02-17 11:30:11 INFO  AdviserRatingsSteps:416 - Step: check ascendingorder of KMRange
+2023-02-17 11:30:13 INFO  BasePage:163 - Entered the clickButtonByCssSelector method in BasePage
+2023-02-17 11:30:13 INFO  BaseTestFixture:127 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:30:13 INFO  BaseTestFixture:134 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:30:13 INFO  BaseTestFixture:109 - Entered the isConstantValuePresent method in BaseTestFixture
+2023-02-17 11:30:13 INFO  BaseTestFixture:115 - Exited the isConstantValuePresent method in BaseTestFixture
+2023-02-17 11:30:13 INFO  BasePage:95 - Entered the clickOnButton method in BasePage
+2023-02-17 11:30:13 INFO  BaseTestFixture:127 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:30:13 INFO  BaseTestFixture:134 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:30:13 INFO  BaseTestFixture:45 - Entered the waitForElement method in BaseTestFixture
+2023-02-17 11:30:13 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:30:13 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:30:13 INFO  BaseTestFixture:60 - Entered the isElementPresent method in BaseTestFixture
+2023-02-17 11:30:13 INFO  BaseTestFixture:71 - Exited the isElementPresent method in BaseTestFixture
+2023-02-17 11:30:13 INFO  BaseTestFixture:49 - Element found, value of isElementDisplayedInPage is = true
+2023-02-17 11:30:13 INFO  BaseTestFixture:53 - Exited the waitForElement method in BaseTestFixture
+2023-02-17 11:30:13 INFO  BasePage:106 - Exited the clickOnButton method in BasePage
+2023-02-17 11:30:13 INFO  BasePage:167 - Exited the clickButtonByCssSelector method in BasePage
+2023-02-17 11:30:15 INFO  BaseTestFixture:127 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:30:15 INFO  BaseTestFixture:134 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:30:15 INFO  BasePage:868 - Entered the getWebElementsProperties method in BasePage
+2023-02-17 11:30:15 INFO  BaseTestFixture:45 - Entered the waitForElement method in BaseTestFixture
+2023-02-17 11:30:15 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:30:15 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:30:15 INFO  BaseTestFixture:60 - Entered the isElementPresent method in BaseTestFixture
+2023-02-17 11:30:15 INFO  BaseTestFixture:71 - Exited the isElementPresent method in BaseTestFixture
+2023-02-17 11:30:15 INFO  BaseTestFixture:49 - Element found, value of isElementDisplayedInPage is = true
+2023-02-17 11:30:15 INFO  BaseTestFixture:53 - Exited the waitForElement method in BaseTestFixture
+2023-02-17 11:30:15 INFO  BasePage:870 - Exited the getWebElementsProperties method in BasePage
+2023-02-17 11:30:15 INFO  StepHooks:53 - Entered Step Hooks AfterScenario method in StepHooks class
+2023-02-17 11:30:15 INFO  StepHooks:129 - Exited  Step Hooks AfterScenario method in StepHooks class
+2023-02-17 11:30:17 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
+2023-02-17 11:30:17 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
+2023-02-17 11:37:39 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
+2023-02-17 11:37:39 INFO  ADRWebDriver:34 - Entered the ADRWebDriver method
+2023-02-17 11:37:39 INFO  ADRWebDriver:111 - Entered the cleanUp method
+2023-02-17 11:37:39 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:37:39 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:37:39 INFO  ADRWebDriver:133 - Exited the cleanUp method
+2023-02-17 11:37:39 INFO  ADRWebdriverFactory:115 - Attempting to get ENV_AUTOMATION_BROWSER
+2023-02-17 11:37:39 INFO  ADRWebdriverFactory:119 - Attempting to get APP_SETTING_BROWSER
+2023-02-17 11:37:39 INFO  ADRWebdriverFactory:43 - Entered the getADRWebDriverInstance method in SFWebdriverFactory
+2023-02-17 11:37:39 INFO  ResourceRead:40 - Entered the getEnvironmentConfigValue in ResourceRead
+2023-02-17 11:37:39 INFO  ResourceRead:43 - Selected EnvironmentConfig File is: ../AdviserratingUIAutomationTest/src/main/resources/config.xml
+2023-02-17 11:37:39 INFO  BrowserInstanceFactory:37 - Entered the ChromeWebDriver method in BrowserInstanceFactory
+2023-02-17 11:37:39 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:37:39 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:37:39 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:37:39 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:37:39 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:37:39 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:37:39 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:37:39 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:37:41 INFO  BrowserInstanceFactory:84 - Exited the ChromeWebDriver method in BrowserInstanceFactory
+2023-02-17 11:37:41 INFO  ADRWebdriverFactory:86 - Exited the getADRWebDriverInstance method in SFWebdriverFactory
+2023-02-17 11:37:41 INFO  ADRWebDriver:42 - Exited the ADRWebDriver method
+2023-02-17 11:37:41 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
+2023-02-17 11:37:41 INFO  StepHooks:34 - Entered Step Hooks Before method in StepHooks class
+2023-02-17 11:37:41 INFO  StepHooks:42 - Exited Step Hooks Before method in StepHooks class
+2023-02-17 11:37:41 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
+2023-02-17 11:37:41 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
+2023-02-17 11:37:41 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
+2023-02-17 11:37:41 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
+2023-02-17 11:37:41 INFO  AdviserRatingsSteps:38 - Step: Navigated to AdviserratingURL
+2023-02-17 11:37:41 INFO  ResourceRead:40 - Entered the getEnvironmentConfigValue in ResourceRead
+2023-02-17 11:37:41 INFO  ResourceRead:43 - Selected EnvironmentConfig File is: ../AdviserratingUIAutomationTest/src/main/resources/config.xml
+2023-02-17 11:37:41 INFO  ResourceRead:40 - Entered the getEnvironmentConfigValue in ResourceRead
+2023-02-17 11:37:41 INFO  ResourceRead:43 - Selected EnvironmentConfig File is: ../AdviserratingUIAutomationTest/src/main/resources/config.xml
+2023-02-17 11:37:41 INFO  BasePage:83 - Entered the LaunchURL method in BasePage: https://staging.adviserratings.com.au/
+2023-02-17 11:37:45 INFO  AdviserRatingsSteps:56 - Opened URL: https://staging.adviserratings.com.au/
+2023-02-17 11:37:45 INFO  AdviserRatingsSteps:170 - Step: Go to location Tab
+2023-02-17 11:37:45 INFO  AdviserRatingPage:139 - go to location tab
+2023-02-17 11:37:45 INFO  AdviserRatingsSteps:77 - Step: Enter the valueSydneyon Search box
+2023-02-17 11:37:45 INFO  AdviserRatingPage:403 - Entered reNameSurvey method of AdviserRatingPage
+2023-02-17 11:37:45 INFO  BasePage:398 - Entered the findTextboxAndSetValueByXpath method in BasePage
+2023-02-17 11:37:45 INFO  BaseTestFixture:127 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:37:45 INFO  BaseTestFixture:134 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:37:45 INFO  BaseTestFixture:109 - Entered the isConstantValuePresent method in BaseTestFixture
+2023-02-17 11:37:45 INFO  BaseTestFixture:115 - Exited the isConstantValuePresent method in BaseTestFixture
+2023-02-17 11:37:45 INFO  BasePage:380 - Entered the findTextBoxAndSetValue method in BasePage
+2023-02-17 11:37:45 INFO  BaseTestFixture:127 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:37:45 INFO  BaseTestFixture:134 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:37:45 INFO  BaseTestFixture:45 - Entered the waitForElement method in BaseTestFixture
+2023-02-17 11:37:45 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:37:45 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:37:45 INFO  BaseTestFixture:60 - Entered the isElementPresent method in BaseTestFixture
+2023-02-17 11:37:45 INFO  BaseTestFixture:71 - Exited the isElementPresent method in BaseTestFixture
+2023-02-17 11:37:45 INFO  BaseTestFixture:49 - Element found, value of isElementDisplayedInPage is = true
+2023-02-17 11:37:45 INFO  BaseTestFixture:53 - Exited the waitForElement method in BaseTestFixture
+2023-02-17 11:37:46 INFO  BasePage:387 - Exited the findTextBoxAndSetValue method in BasePage
+2023-02-17 11:37:46 INFO  BasePage:402 - Exited the findTextboxAndSetValueByXpath method in BasePage
+2023-02-17 11:37:46 INFO  AdviserRatingsSteps:184 - Step: Find Sydney, NSW 2000in the address drop down search box and check it is highlighted
+2023-02-17 11:37:46 INFO  AdviserRatingPage:168 - Entered locationvalue method of AdviserRatingPage
+2023-02-17 11:37:46 INFO  BaseTestFixture:127 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:37:46 INFO  BaseTestFixture:134 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:37:46 INFO  BasePage:868 - Entered the getWebElementsProperties method in BasePage
+2023-02-17 11:37:46 INFO  BaseTestFixture:45 - Entered the waitForElement method in BaseTestFixture
+2023-02-17 11:37:46 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:37:46 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:37:46 INFO  BaseTestFixture:60 - Entered the isElementPresent method in BaseTestFixture
+2023-02-17 11:37:46 INFO  BaseTestFixture:71 - Exited the isElementPresent method in BaseTestFixture
+2023-02-17 11:37:46 INFO  BaseTestFixture:49 - Element found, value of isElementDisplayedInPage is = true
+2023-02-17 11:37:46 INFO  BaseTestFixture:53 - Exited the waitForElement method in BaseTestFixture
+2023-02-17 11:37:46 INFO  BasePage:870 - Exited the getWebElementsProperties method in BasePage
+2023-02-17 11:37:46 INFO  AdviserRatingsSteps:233 - Step: Check Sydney, NSW 2000is populated into the location field
+2023-02-17 11:37:46 INFO  AdviserRatingPage:72 - Check locationfeild contains sydney, NSW 2000
+2023-02-17 11:37:46 INFO  AdviserRatingsSteps:145 - Step: Click on Enter Key
+2023-02-17 11:37:47 INFO  AdviserRatingsSteps:222 - Step: The current Page URL which should containSydney-NSW-2000
+2023-02-17 11:37:47 INFO  ResourceRead:40 - Entered the getEnvironmentConfigValue in ResourceRead
+2023-02-17 11:37:47 INFO  ResourceRead:43 - Selected EnvironmentConfig File is: ../AdviserratingUIAutomationTest/src/main/resources/config.xml
+2023-02-17 11:37:47 INFO  AdviserRatingsSteps:439 - Step: location name should be Sydney, NSW 2000
+2023-02-17 11:37:47 INFO  AdviserRatingsSteps:404 - Step: Distance should be displayed as 10km
+2023-02-17 11:37:48 INFO  AdviserRatingsSteps:197 - check the view is ListView
+2023-02-17 11:37:48 INFO  AdviserRatingsSteps:416 - Step: check ascendingorder of KMRange
+2023-02-17 11:37:50 INFO  BasePage:163 - Entered the clickButtonByCssSelector method in BasePage
+2023-02-17 11:37:50 INFO  BaseTestFixture:127 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:37:50 INFO  BaseTestFixture:134 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:37:50 INFO  BaseTestFixture:109 - Entered the isConstantValuePresent method in BaseTestFixture
+2023-02-17 11:37:50 INFO  BaseTestFixture:115 - Exited the isConstantValuePresent method in BaseTestFixture
+2023-02-17 11:37:50 INFO  BasePage:95 - Entered the clickOnButton method in BasePage
+2023-02-17 11:37:50 INFO  BaseTestFixture:127 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:37:50 INFO  BaseTestFixture:134 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:37:50 INFO  BaseTestFixture:45 - Entered the waitForElement method in BaseTestFixture
+2023-02-17 11:37:50 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:37:50 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:37:50 INFO  BaseTestFixture:60 - Entered the isElementPresent method in BaseTestFixture
+2023-02-17 11:37:50 INFO  BaseTestFixture:71 - Exited the isElementPresent method in BaseTestFixture
+2023-02-17 11:37:50 INFO  BaseTestFixture:49 - Element found, value of isElementDisplayedInPage is = true
+2023-02-17 11:37:50 INFO  BaseTestFixture:53 - Exited the waitForElement method in BaseTestFixture
+2023-02-17 11:37:50 INFO  BasePage:106 - Exited the clickOnButton method in BasePage
+2023-02-17 11:37:50 INFO  BasePage:167 - Exited the clickButtonByCssSelector method in BasePage
+2023-02-17 11:37:52 INFO  BaseTestFixture:127 - Entered the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:37:52 INFO  BaseTestFixture:134 - Exited the isWebDriverInstantPresent method in BaseTestFixture
+2023-02-17 11:37:52 INFO  BasePage:868 - Entered the getWebElementsProperties method in BasePage
+2023-02-17 11:37:52 INFO  BaseTestFixture:45 - Entered the waitForElement method in BaseTestFixture
+2023-02-17 11:37:52 INFO  ResourceRead:26 - Entered the getResourceValueFromXML in ResourceRead
+2023-02-17 11:37:52 INFO  ResourceRead:35 - Exited the getResourceValueFromXML in ResourceRead
+2023-02-17 11:37:52 INFO  BaseTestFixture:60 - Entered the isElementPresent method in BaseTestFixture
+2023-02-17 11:37:52 INFO  BaseTestFixture:71 - Exited the isElementPresent method in BaseTestFixture
+2023-02-17 11:37:52 INFO  BaseTestFixture:49 - Element found, value of isElementDisplayedInPage is = true
+2023-02-17 11:37:52 INFO  BaseTestFixture:53 - Exited the waitForElement method in BaseTestFixture
+2023-02-17 11:37:52 INFO  BasePage:870 - Exited the getWebElementsProperties method in BasePage
+2023-02-17 11:37:52 INFO  StepHooks:53 - Entered Step Hooks AfterScenario method in StepHooks class
+2023-02-17 11:37:52 INFO  StepHooks:129 - Exited  Step Hooks AfterScenario method in StepHooks class
+2023-02-17 11:37:54 INFO  ADRWebDriver:64 - Entered the getADRWebDriverInstance method
+2023-02-17 11:37:54 INFO  ADRWebDriver:68 - Exited the getADRWebDriverInstance method
+2023-02-17 11:37:54 INFO  ScenarioTest:50 - entered teardown
+>>>>>>> 2daa6392c9dec53ed6bc50cd72c2f01bd9333048

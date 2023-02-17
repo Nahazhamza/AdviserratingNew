@@ -72,6 +72,7 @@
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
 <a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -85,6 +86,7 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
         <li class="test-item"  status="pass" test-id="1"
           author=""
           tag=""
@@ -339,42 +341,47 @@
       </div>
               </div>
               <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.enter_inside_the_search_box1(java.lang.String)">
-                <span>When I Enter "800" inside the Search box</span>
+                <span>When I Enter "Sydney" inside the Search box</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.Address_dropdown_should_be_displayed_with(java.lang.String)">
-                <span>Then Find "Darwin, NT 0800" from the Address search dropdown and click on it</span>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.selectLocationFeild(java.lang.String)">
+                <span>And Find "Sydney, NSW 2000" in the address drop down search box and check it is highlighted</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.selectvalueSearch(java.lang.String)">
-                <span>And select for "5km" from dropdown and click search</span>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.verifylocation(java.lang.String)">
+                <span>And Check "Sydney, NSW 2000" is populated into the location field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.click_on_enter_key()">
+                <span>When click on Enter key</span>
       <div>
       </div>
               </div>
               <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.currentUrl(java.lang.String)">
-                <span>Then The current Page URL which should contain "Darwin-NT-0800"</span>
+                <span>Then The current Page URL which should contain "Sydney-NSW-2000"</span>
       <div>
       </div>
               </div>
               <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.location_name(java.lang.String)">
-                <span>And location name should be "Darwin, NT 0800"</span>
+                <span>And location name should be "Sydney, NSW 2000"</span>
       <div>
       </div>
               </div>
               <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.Distance_value(java.lang.String)">
-                <span>And Distance should be displayed as "5km"</span>
+                <span>And Distance should be displayed as "10km"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.listViewVerify()">
+                <span>And check the view is ListView</span>
       <div>
       </div>
               </div>
               <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.ascendingorder()">
                 <span>And check ascendingorder of KMRange</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.descendingOrder()">
-                <span>And check descendingorder of KMRange</span>
       <div>
       </div>
               </div>
@@ -407,7 +414,7 @@
 <span class='badge log pass-bg'>4</span>
 </span>
 <p class="name">@AdviserRating</p>
-<p class="duration text-sm">4 tests</p>
+<p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
