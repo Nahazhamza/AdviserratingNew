@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <libraryInfos>
-    <libraryInfo home="C:\Users\MuhammedNahaz\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230125-1136" version="17.0.6"/>
+    <libraryInfo home="C:\Users\AbiramiGanesan\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230125-1136" version="17.0.6"/>
     <libraryInfo home="C:\Program Files\Java\jre1.8.0_202" version="1.8.0_202">
         <bootpath>
             <entry path="C:\Program Files\Java\jre1.8.0_202\lib\resources.jar"/>
@@ -39,5 +39,5 @@
             <entry path="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
         </endorsedDirs>
     </libraryInfo>
-    <libraryInfo home="C:\Users\MuhammedNahaz\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230125-1136\jre" version="17.0.6"/>
+    <libraryInfo home="C:\Users\AbiramiGanesan\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230125-1136\jre" version="17.0.6"/>
 </libraryInfos>

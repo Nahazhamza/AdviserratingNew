@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Test Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Feb 15, 2023 12:17:47 PM</span></a>
+<a href="#"><span class="badge badge-primary">Feb 16, 2023 03:50:00 pm</span></a>
 </li>
 </ul>
 </div>
@@ -45,6 +45,11 @@
 <li class="nav-item dropdown" onclick="toggleView('test-view')">
 <a id="nav-test" class="dropdown-toggle" href="#">
 <span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
 </a>
 </li>
 <li class="nav-item dropdown" onclick="toggleView('category-view')">
@@ -71,7 +76,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -85,25 +90,25 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="pass" test-id="1"
+        <li class="test-item"  status="fail" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Adviser Rating Search functionality validation</p>
             <p class="text-sm">
-              <span>12:17:48 PM</span> / <span>00:04:12:342</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>3:50:01 pm</span> / <span>00:03:39:247</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Adviser Rating Search functionality validation</h5>
-<span class='badge badge-success'>02.15.2023 12:17:48 PM</span>
-<span class='badge badge-danger'>02.15.2023 12:22:00 PM</span>
-<span class='badge badge-default'>00:04:12:342</span>
+<h5 class="test-status text-fail">Adviser Rating Search functionality validation</h5>
+<span class='badge badge-success'>02.16.2023 3:50:01 pm</span>
+<span class='badge badge-danger'>02.16.2023 3:53:40 pm</span>
+<span class='badge badge-default'>00:03:39:247</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -201,10 +206,13 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="20"><span class="badge log pass-bg mr-2">Pass</span>Search for adviser by Location - use enter key</div>
+        <div class="node" id="20"><span class="badge log fail-bg mr-2">Fail</span>Search for adviser by Location - use enter key</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
       </div>
     </div>
-        <div class="collapse">
+        <div class="">
           <div class="card-body">
               <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.user_opens_URL(java.lang.String)">
                 <span>Given I Navigate to "AdviserratingURL"</span>
@@ -216,49 +224,67 @@
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.enter_inside_the_search_box1(java.lang.String)">
-                <span>When I Enter "Sydney" inside the Search box</span>
-      <div>
-      </div>
-              </div>
               <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.selectLocationFeild(java.lang.String)">
                 <span>And Find "Sydney, NSW 2000" in the address drop down search box and check it is highlighted</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.verifylocation(java.lang.String)">
+              <div class="step fail-bg" title="stepdefinition.AdviserRatingsSteps.verifylocation(java.lang.String)">
                 <span>And Check "Sydney, NSW 2000" is populated into the location field</span>
       <div>
+        <textarea disabled class="code-block">org.opentest4j.AssertionFailedError: Exception Occured, please check the screenshot
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at com.adviserratinguiautomation.customexceptions.ExceptionHandeler.genricExceptionHandeler(ExceptionHandeler.java:19)
+	at stepdefinition.AdviserRatingsSteps.verifylocation(AdviserRatingsSteps.java:238)
+	at ✽.Check "Sydney, NSW 2000" is populated into the location field(file:///C:/Users/AbiramiGanesan/git/git/AdviserratingNew/AdviserratingUIAutomationTest/src/test/resources/features/AdvisersRating.feature:25)
+</textarea>
+      
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.click_on_enter_key()">
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.click_on_enter_key()">
                 <span>When click on Enter key</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.currentUrl(java.lang.String)">
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.currentUrl(java.lang.String)">
                 <span>Then The current Page URL which should contain "Sydney-NSW-2000"</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.location_name(java.lang.String)">
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.location_name(java.lang.String)">
                 <span>And location name should be "Sydney, NSW 2000"</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.Distance_value(java.lang.String)">
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.Distance_value(java.lang.String)">
                 <span>And Distance should be displayed as "10km"</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.listViewVerify()">
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.listViewVerify()">
                 <span>And check the view is ListView</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.ascendingorder()">
+              <div class="step skip-bg" title="stepdefinition.AdviserRatingsSteps.ascendingorder()">
                 <span>And check ascendingorder of KMRange</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step fail-bg" title="AFTER">
+                <span>stepdefinition.StepHooks.AfterScenario(io.cucumber.java.Scenario)</span>
+      <div>Search for adviser by Location - use enter key
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded1.png' src="./embedded1.png">
+    
+    </div></div>
+</div>
       <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "java.lang.System.getProperty(String)" is null
+	at stepdefinition.StepHooks.AfterScenario(StepHooks.java:65)
+</textarea>
+      
       </div>
               </div>
           </div>
@@ -267,7 +293,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="34"><span class="badge log pass-bg mr-2">Pass</span>Search by adviser name and check search drop down box displays correct practice and addresses</div>
+        <div class="node" id="33"><span class="badge log pass-bg mr-2">Pass</span>Search by adviser name and check search drop down box displays correct practice and addresses</div>
       </div>
     </div>
         <div class="collapse">
@@ -323,7 +349,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="46"><span class="badge log pass-bg mr-2">Pass</span>Search by location and distance</div>
+        <div class="node" id="45"><span class="badge log pass-bg mr-2">Pass</span>Search by location and distance</div>
       </div>
     </div>
         <div class="collapse">
@@ -378,11 +404,6 @@
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinition.AdviserRatingsSteps.logout()">
-                <span>And Logout the browser</span>
-      <div>
-      </div>
-              </div>
           </div>
         </div>
   </div>
@@ -398,7 +419,95 @@
 </div>
 <div class="test-content-detail"><div class="detail-body"></div></div>
 </div></div>
-<div class="test-wrapper row view category-view attributes-view">
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">java.lang.NullPointerException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.NullPointerException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:53:19 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='32'>stepdefinition.StepHooks.AfterScenario(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Adviser Rating Search functionality validation.Search for adviser by Location - use enter key.stepdefinition.StepHooks.AfterScenario(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.opentest4j.AssertionFailedError</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.opentest4j.AssertionFailedError</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:52:19 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='25'>And Check "Sydney, NSW 2000" is populated into the location field</a>
+<div class="">
+<span class="badge badge-default">Adviser Rating Search functionality validation.Search for adviser by Location - use enter key.And Check "Sydney, NSW 2000" is populated into the location field</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
 <div class="test-list">
 <div class="test-list-tools">
 <ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
@@ -409,7 +518,8 @@
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>4</span>
+<span class='badge log pass-bg'>3</span>
+<span class='badge log badge-danger'>1</span>
 </span>
 <p class="name">@AdviserRating</p>
 <p class="duration text-sm">4 tests</p>
@@ -417,7 +527,8 @@
 <div class="test-contents d-none">
 <div class="info">
 <h4>@AdviserRating</h4>
-<span status="pass" class='badge log pass-bg'>4 passed</span>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -430,7 +541,7 @@
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>12:17:48 PM</td>
+<td>15:50:01 pm</td>
 <td>
 <a href="#" class="linked" test-id='1' id='2'>Check adviser's profile page displays correct practice and addresses</a>
 <div class="">
@@ -438,9 +549,9 @@
 </div>
 </td>
 </tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>12:18:28 PM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:50:18 pm</td>
 <td>
 <a href="#" class="linked" test-id='1' id='20'>Search for adviser by Location - use enter key</a>
 <div class="">
@@ -450,9 +561,9 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>12:19:43 PM</td>
+<td>15:53:20 pm</td>
 <td>
-<a href="#" class="linked" test-id='1' id='34'>Search by adviser name and check search drop down box displays correct practice and addresses</a>
+<a href="#" class="linked" test-id='1' id='33'>Search by adviser name and check search drop down box displays correct practice and addresses</a>
 <div class="">
 <span class="badge badge-default">Adviser Rating Search functionality validation.Search by adviser name and check search drop down box displays correct practice and addresses</span>
 </div>
@@ -460,9 +571,9 @@
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>12:20:01 PM</td>
+<td>15:53:25 pm</td>
 <td>
-<a href="#" class="linked" test-id='1' id='46'>Search by location and distance</a>
+<a href="#" class="linked" test-id='1' id='45'>Search by location and distance</a>
 <div class="">
 <span class="badge badge-default">Adviser Rating Search functionality validation.Search by location and distance</span>
 </div>
@@ -485,25 +596,25 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Feb 15, 2023 12:17:47 PM</h3>
+<h3>Feb 16, 2023 03:50:00 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Feb 15, 2023 12:22:00 PM</h3>
+<h3>Feb 16, 2023 03:53:40 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Features Passed</p>
-<h3>1</h3>
+<h3>0</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Features Failed</p>
-<h3>0</h3>
+<h3>1</h3>
 </div></div>
 </div>
 </div>
@@ -519,12 +630,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'>
-<b>1</b> features passed
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
 </small>
 </div>
 <div>
-<small data-tooltip='0%'><b>0</b> features failed,
+<small data-tooltip='100%'><b>1</b> features failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -542,9 +653,9 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>4</b> scenarios passed</small></div>
+<div><small data-tooltip='75%'><b>3</b> scenarios passed</small></div>
 <div>
-<small data-tooltip='0%'><b>0</b> scenarios failed,
+<small data-tooltip='25%'><b>1</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -562,10 +673,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>46</b> steps passed</small></div>
+<div><small data-tooltip='82%'><b>37</b> steps passed</small></div>
 <div>
-<small data-tooltip='0%'><b>0</b> steps failed,
-<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+<small data-tooltip='4%'><b>2</b> steps failed,
+<b>6</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -581,7 +692,7 @@
 </div></div>
 <script>
 var timeline = {
-"Adviser Rating Search functionality validation":252.342
+"Adviser Rating Search functionality validation":219.247
 };
 </script>
 <div class="row">
@@ -592,11 +703,11 @@ var timeline = {
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
 <td>@AdviserRating</td>
-<td>4</td>
+<td>3</td>
+<td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0</td>
-<td>100%</td>
+<td>75%</td>
 </tr>
 </tbody>
 </table></div>
@@ -607,21 +718,21 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 1,
-failParent: 0,
+passParent: 0,
+failParent: 1,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 4,
-failChild: 0,
+passChild: 3,
+failChild: 1,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 46,
-failGrandChild: 0,
+passGrandChild: 37,
+failGrandChild: 2,
 warningGrandChild: 0,
-skipGrandChild: 0,
+skipGrandChild: 6,
 infoGrandChild: 0,
 eventsCount: 5,
 };

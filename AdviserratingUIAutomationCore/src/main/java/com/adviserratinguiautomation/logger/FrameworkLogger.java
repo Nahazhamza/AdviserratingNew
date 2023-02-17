@@ -36,7 +36,7 @@ public class FrameworkLogger {
 
 	public static String createLogReport() {
 
-		log.info("Entered the createLogReport method in TestRunSeleniumFrameWork");
+		log.info("Entered the createLogReport method in TestRunAdviserRating");
 		String folder = "";
 		String source, dest;
 
@@ -61,7 +61,7 @@ public class FrameworkLogger {
 				folder = createChildFolders(testResultFolderParentPath);
 			}
 			// Return the folder path
-			log.info("Exited the createLogReport method in TestRunSeleniumFrameWork");
+			log.info("Exited the createLogReport method in TestRunAdviserRating");
 
 		} catch (ResourceCustomException ex) {
 			new ExceptionHandeler().resourceExceptionHandeler(ex);
@@ -76,7 +76,7 @@ public class FrameworkLogger {
 
 	public static void createSubFolders(File subParentFolder)
 			throws LogDirectoryCreationException, ResourceCustomException, IOException {
-		log.info("Entered the createSubFolders method in TestRunSeleniumFrameWork");
+		log.info("Entered the createSubFolders method in TestRunAdviserRating");
 		String TEST_REPORT = "TestReport";
 
 		if (subParentFolder.exists()) {
@@ -90,12 +90,12 @@ public class FrameworkLogger {
 		} else {
 			throw new LogDirectoryCreationException(logProjectName + "directory not found");
 		}
-		log.info("Exited the createSubFolders method in TestRunSeleniumFrameWork");
+		log.info("Exited the createSubFolders method in TestRunAdviserRating");
 	}
 
 	public static String createChildFolders(String logFolderParentPath)
 			throws LogDirectoryCreationException, ResourceCustomException, IOException {
-		log.info("Entered the createChildFolders method in TestRunSeleniumFrameWork");
+		log.info("Entered the createChildFolders method in TestRunAdviserRating");
 		String subParentFolderPath = logFolderParentPath + logProjectName;
 		File subParentFolder = new File(subParentFolderPath);
 		if (!subParentFolder.exists()) {
@@ -107,7 +107,7 @@ public class FrameworkLogger {
 			throw new LogDirectoryCreationException("Test Result directory not found");
 		}
 
-		log.info("Exited the createChildFolders method in TestRunSeleniumFrameWork");
+		log.info("Exited the createChildFolders method in TestRunAdviserRating");
 		return subParentFolderPath;
 
 	}

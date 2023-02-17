@@ -30,7 +30,7 @@ public abstract class BaseTestFixture extends BaseTestScripts {
 //	 Logger
 	static {
 		System.setProperty("log4jOutputFile",
-				"../AdviserratingUIAutomationTest/testResult/" + logProjectName + "/log/seleniumFrameworkLog.log");
+				"../AdviserratingUIAutomationTest/testResult/" + logProjectName + "/log/AdviserratingLog.log");
 	}
 	final static Logger log = Logger.getLogger(BaseTestFixture.class);
 

@@ -75,10 +75,11 @@ public class BrowserInstanceFactory extends BasePage {
 			}
 
 				seleniumWebdriver = new ChromeDriver(chromeOptions);
-				seleniumWebdriver.manage().timeouts().pageLoadTimeout(
-						Long.parseLong(resourceRead.getResourceValueFromXML().getProperty(TIME_OUT_PROPERTY)),
-						TimeUnit.SECONDS);
+//				seleniumWebdriver.manage().timeouts().pageLoadTimeout(
+//						Long.parseLong(resourceRead.getResourceValueFromXML().getProperty(TIME_OUT_PROPERTY)),
+//						TimeUnit.SECONDS);
 //				seleniumWebdriver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(60));
+				seleniumWebdriver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 				
 			log.info("Exited the ChromeWebDriver method in BrowserInstanceFactory");
 			return seleniumWebdriver;
@@ -106,9 +107,10 @@ public class BrowserInstanceFactory extends BasePage {
 					resourceRead.getResourceValueFromXML().getProperty(FIREFOX_DRIVERPATH_PROPERTY));
 			seleniumWebdriver = new FirefoxDriver();
 //			seleniumWebdriver = new FirefoxDriver(firefoxOptions);
-			seleniumWebdriver.manage().timeouts().pageLoadTimeout(
-					Long.parseLong(resourceRead.getResourceValueFromXML().getProperty(TIME_OUT_PROPERTY)),
-					TimeUnit.SECONDS);
+			//seleniumWebdriver.manage().timeouts().pageLoadTimeout(
+			//		Long.parseLong(resourceRead.getResourceValueFromXML().getProperty(TIME_OUT_PROPERTY)),
+			//		TimeUnit.SECONDS);
+			seleniumWebdriver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 			log.info("Exited the firefoxWebDriver method in BrowserInstanceFactory");
 			return seleniumWebdriver;
 		} catch (IOException e) {
@@ -163,9 +165,10 @@ public class BrowserInstanceFactory extends BasePage {
 			}
 
 			seleniumWebdriver = new EdgeDriver(edgeOptions);
-			seleniumWebdriver.manage().timeouts().pageLoadTimeout(
-					Long.parseLong(resourceRead.getResourceValueFromXML().getProperty(TIME_OUT_PROPERTY)),
-					TimeUnit.SECONDS);
+			//seleniumWebdriver.manage().timeouts().pageLoadTimeout(
+			//		Long.parseLong(resourceRead.getResourceValueFromXML().getProperty(TIME_OUT_PROPERTY)),
+			//		TimeUnit.SECONDS);
+			seleniumWebdriver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 			log.info("Exited the EdgeWebDriver method in BrowserInstanceFactory");
 			return seleniumWebdriver;
 		} catch (IOException e) {

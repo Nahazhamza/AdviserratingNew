@@ -65,7 +65,7 @@ public class AdviserRatingsSteps extends BasePage {
 	public void click_on_adviser_tab() {
 		try {
 			log.info("Step: Click on Adviser Tab");
-			Thread.sleep(2000);
+			
 			adviserratingpage.clickAdviserTab();
 		} catch (Exception ex) {
 			new ExceptionHandeler().genricExceptionHandeler(ex);
@@ -76,7 +76,7 @@ public class AdviserRatingsSteps extends BasePage {
 	public void enter_inside_the_search_box1(String value) {
 		log.info("Step: Enter the value" + value + "on Search box");
 		try {
-			Thread.sleep(2000);
+			
 			adviserratingpage.searchValue(value);
 		} catch (Exception ex) {
 			new ExceptionHandeler().genricExceptionHandeler(ex);
@@ -87,7 +87,7 @@ public class AdviserRatingsSteps extends BasePage {
 	public void enter_on_the_search_box(String adviserName) {
 		log.info("Step: Enter the adviser name" + adviserName + "on Search box");
 		try {
-			Thread.sleep(2000);
+			
 			adviserratingpage.searchAdviserName(adviserName);
 		} catch (Exception ex) {
 			new ExceptionHandeler().genricExceptionHandeler(ex);
@@ -96,8 +96,9 @@ public class AdviserRatingsSteps extends BasePage {
 
 	@Then("Dropdown should be displayed with {string}")
 	public void dropdown_should_be_displayed_with(String adviserName) {
+		log.info("Step: Dropdown should be displayed with "+adviserName);
 		try {
-			Thread.sleep(2000);
+			
 			adviserratingpage.verifyadviserNameonDropDown(adviserName);
 		} catch (Exception ex) {
 			new ExceptionHandeler().genricExceptionHandeler(ex);
@@ -106,6 +107,7 @@ public class AdviserRatingsSteps extends BasePage {
 
 	@Then("Dropdown should be highlighted for the {string}")
 	public void dropdown_should_be_highlighted_for_the(String adviserName) {
+		log.info("Step: Dropdown should be highlighted for the "+adviserName);
 		try {
 			Thread.sleep(1000);
 			adviserratingpage.verifyadviserNameHighlighted(adviserName);
@@ -116,8 +118,9 @@ public class AdviserRatingsSteps extends BasePage {
 
 	@Then("Practice under the {string} should be {string}")
 	public void practice_under_the_should_be(String adviserName, String practise) {
+		log.info("Step: Practice under the "+adviserName+" should be "+practise);
 		try {
-			Thread.sleep(2000);
+			
 			adviserratingpage.verifyadviserPractise(adviserName, practise);
 		} catch (Exception ex) {
 			new ExceptionHandeler().genricExceptionHandeler(ex);
@@ -126,8 +129,9 @@ public class AdviserRatingsSteps extends BasePage {
 
 	@Then("Two locations should be listed next to the adviser as {string} and {string}")
 	public void two_locations_should_be_listed_next_to_the_and(String location1, String location2) {
+		log.info("Step: Two locations should be listed next to the adviser as "+location1+" and "+location2);
 		try {
-			Thread.sleep(2000);
+			
 			adviserratingpage.verifyLocations(location1, location2);
 		} catch (Exception ex) {
 			new ExceptionHandeler().genricExceptionHandeler(ex);
@@ -139,7 +143,7 @@ public class AdviserRatingsSteps extends BasePage {
 	public void click_on_enter_key() {
 		try {
 			log.info("Step: Click on Enter Key");
-			Thread.sleep(2000);
+			
 
 			adviserratingpage.enterKey();
 		} catch (Exception ex) {
@@ -151,7 +155,7 @@ public class AdviserRatingsSteps extends BasePage {
 	public void enter_key() {
 		try {
 			log.info("Step: Click on Enter Key");
-			Thread.sleep(2000);
+			
 
 			adviserratingpage.enterKey_advisor();
 		} catch (Exception ex) {
@@ -163,8 +167,9 @@ public class AdviserRatingsSteps extends BasePage {
 
 	@And("Go to location Tab")
 	public void Go_to_location_Tab() {
+		log.info("Step: Go to location Tab");
 		try {
-			Thread.sleep(2000);
+			
 			adviserratingpage.goToLocationTab();
 		} catch (Exception ex) {
 			new ExceptionHandeler().genricExceptionHandeler(ex);
@@ -176,8 +181,9 @@ public class AdviserRatingsSteps extends BasePage {
 	@And("Find {string} in the address drop down search box and check it is highlighted")
 	public void selectLocationFeild(String Expectedlocation) throws InterruptedException,
 			WebDriverInstanceNullException, InvalidInputException, ResourceCustomException, IOException {
+		log.info("Step: Find "+Expectedlocation+ "in the address drop down search box and check it is highlighted");
 		try {
-			Thread.sleep(2000);
+			
 			adviserratingpage.selectLocationfeildcall(Expectedlocation);
 		} catch (Exception ex) {
 			new ExceptionHandeler().genricExceptionHandeler(ex);
@@ -188,8 +194,9 @@ public class AdviserRatingsSteps extends BasePage {
 
 	@And("check the view is ListView")
 	public void listViewVerify() {
+		log.info("check the view is ListView");
 		try {
-			Thread.sleep(2000);
+			
 			adviserratingpage.listViewVerify();
 		} catch (Exception ex) {
 			new ExceptionHandeler().genricExceptionHandeler(ex);
@@ -200,8 +207,9 @@ public class AdviserRatingsSteps extends BasePage {
 
 	@And("Iterate the dropdown and select {string}")
 	public void dropdownselect(String adviserName) throws InterruptedException, ResourceCustomException, IOException {
+		log.info("Step: Iterate the dropdown and select" + adviserName );
 		try {
-			Thread.sleep(2000);
+			
 			adviserratingpage.dropdownselectAdvisor(adviserName);
 		} catch (Exception ex) {
 			new ExceptionHandeler().genricExceptionHandeler(ex);
@@ -211,8 +219,9 @@ public class AdviserRatingsSteps extends BasePage {
 
 	@Then("The current Page URL which should contain {string}")
 	public void currentUrl(String name) {
+		log.info("Step: The current Page URL which should contain"+name);
 		try {
-			Thread.sleep(2000);
+			
 			adviserratingpage.advisornameCurrentUrl(name);
 		} catch (Exception ex) {
 			new ExceptionHandeler().genricExceptionHandeler(ex);
@@ -221,8 +230,9 @@ public class AdviserRatingsSteps extends BasePage {
 
 	@And("Check {string} is populated into the location field")
 	public void verifylocation(String location) {
+		log.info("Step: Check "+location+ "is populated into the location field");
 		try {
-			Thread.sleep(2000);
+			
 			adviserratingpage.locationfeildVerify(location);
 		} catch (Exception ex) {
 			new ExceptionHandeler().genricExceptionHandeler(ex);
@@ -231,8 +241,9 @@ public class AdviserRatingsSteps extends BasePage {
 
 	@And("The  practice name is displayed under the map is {string}")
 	public void practiceName(String practiceName) throws ResourceCustomException, IOException {
+		log.info("Step: The  practice name is displayed under the map is "+practiceName);
 		try {
-			Thread.sleep(2000);
+			
 			adviserratingpage.practiceName(practiceName);
 		} catch (Exception ex) {
 			new ExceptionHandeler().genricExceptionHandeler(ex);
@@ -243,8 +254,9 @@ public class AdviserRatingsSteps extends BasePage {
 
 	@And("The practice logo is displayed")
 	public void practiceLogo() throws ResourceCustomException, IOException {
+		log.info("Step: The practice logo is displayed");
 		try {
-			Thread.sleep(2000);
+			
 			adviserratingpage.practiceLogo();
 		} catch (Exception ex) {
 			new ExceptionHandeler().genricExceptionHandeler(ex);
@@ -254,8 +266,9 @@ public class AdviserRatingsSteps extends BasePage {
 //verify adviser profile image
 	@And("The Advisers profile image is displayed with src url contains {string}")
 	public void adviserProfile(String src) throws ResourceCustomException, IOException {
+		log.info("Step: The Advisers profile image is displayed with src url contain"+src);
 		try {
-			Thread.sleep(2000);
+			
 			adviserratingpage.adviserImage(src);
 		} catch (Exception ex) {
 			new ExceptionHandeler().genricExceptionHandeler(ex);
@@ -265,8 +278,9 @@ public class AdviserRatingsSteps extends BasePage {
 //verify map pinnedaddress
 	@When("The google map is displayed with the pin to the address in {string}")
 	public void mapPinnedAddress(String address) throws ResourceCustomException, IOException {
+		log.info("Step: The google map is displayed with the pin to the address in "+address);
 		try {
-			Thread.sleep(2000);
+			
 			adviserratingpage.mapPinnedAddress(address);
 		} catch (Exception ex) {
 			new ExceptionHandeler().genricExceptionHandeler(ex);
@@ -276,8 +290,9 @@ public class AdviserRatingsSteps extends BasePage {
 // verify mapurl center parameter value 
 	@Then("The Map URL center parameter value should contains {string}")
 	public void mapParameterValue(String address) throws ResourceCustomException, IOException {
+		log.info("Step: The Map URL center parameter value should contains "+address);
 		try {
-			Thread.sleep(2000);
+			
 			adviserratingpage.mapParameterValue(address);
 		} catch (Exception ex) {
 			new ExceptionHandeler().genricExceptionHandeler(ex);
@@ -288,8 +303,9 @@ public class AdviserRatingsSteps extends BasePage {
 
 	@And("The name is {string}")
 	public void nameValidation(String name) throws ResourceCustomException, IOException {
+		log.info("Step: The name is "+name);
 		try {
-			Thread.sleep(2000);
+			
 			adviserratingpage.nameVerify(name);
 		} catch (Exception ex) {
 			new ExceptionHandeler().genricExceptionHandeler(ex);
@@ -298,8 +314,9 @@ public class AdviserRatingsSteps extends BasePage {
 
 	@And("The Advisor name is {string}")
 	public void adviserNameValidation(String adviserName) throws ResourceCustomException, IOException {
+		log.info("Step: The Advisor name is "+adviserName);
 		try {
-			Thread.sleep(2000);
+			
 			adviserratingpage.adviserNameVerify(adviserName);
 		} catch (Exception ex) {
 			new ExceptionHandeler().genricExceptionHandeler(ex);
@@ -308,8 +325,9 @@ public class AdviserRatingsSteps extends BasePage {
 
 	@And("The location will be {string}")
 	public void locationValidation(String location) throws ResourceCustomException, IOException {
+		log.info("Step: The location will be "+location);
 		try {
-			Thread.sleep(2000);
+			
 			adviserratingpage.locationVerify(location);
 		} catch (Exception ex) {
 			new ExceptionHandeler().genricExceptionHandeler(ex);
@@ -320,9 +338,9 @@ public class AdviserRatingsSteps extends BasePage {
 
 	@And("About tab is {string}")
 	public void aboutTab(String AboutName) throws ResourceCustomException, IOException {
-
+		log.info("Step: About tab is "+AboutName);
 		try {
-			Thread.sleep(2000);
+			
 			adviserratingpage.aboutTabCheckCall(AboutName);
 		} catch (Exception ex) {
 			new ExceptionHandeler().genricExceptionHandeler(ex);
@@ -334,8 +352,9 @@ public class AdviserRatingsSteps extends BasePage {
 
 	@And("Address check is performed")
 	public void addressCheck() {
+		log.info("Step: Address check is performed");
 		try {
-			Thread.sleep(2000);
+			
 			adviserratingpage.addressCheckCall();
 		} catch (Exception ex) {
 			new ExceptionHandeler().genricExceptionHandeler(ex);
@@ -347,7 +366,7 @@ public class AdviserRatingsSteps extends BasePage {
 	public void enter_inside_the_search_box(String value) {
 		log.info("Step: Enter the value" + value + "on Search box");
 		try {
-			Thread.sleep(2000);
+			
 			adviserratingpage.searchValue(value);
 		} catch (Exception ex) {
 			new ExceptionHandeler().genricExceptionHandeler(ex);
@@ -356,8 +375,9 @@ public class AdviserRatingsSteps extends BasePage {
 
 	@Then("Find {string} from the Address search dropdown and click on it")
 	public void Address_dropdown_should_be_displayed_with(String location) {
+		log.info("Step: Find "+location+" from the Address search dropdown and click on it");
 		try {
-			Thread.sleep(2000);
+			
 			adviserratingpage.findAddressCall(location);
 //adviserratingpage.verifyadviserNameonDropDown(location);
 		} catch (Exception ex) {
@@ -367,9 +387,10 @@ public class AdviserRatingsSteps extends BasePage {
 
 	@And("select for {string} from dropdown and click search")
 	public void selectvalueSearch(String distance) {
-
+		
+		log.info("Step: select for "+distance+" from dropdown and click search");
 		try {
-			Thread.sleep(2000);
+			
 			adviserratingpage.selectvalueSearchCall(distance);
 		} catch (Exception ex) {
 			new ExceptionHandeler().genricExceptionHandeler(ex);
@@ -380,8 +401,9 @@ public class AdviserRatingsSteps extends BasePage {
 
 	@And("Distance should be displayed as {string}")
 	public void Distance_value(String distance) {
+		log.info("Step: Distance should be displayed as "+distance);
 		try {
-			Thread.sleep(2000);
+			
 			adviserratingpage.distanceValue(distance);
 		} catch (Exception ex) {
 			new ExceptionHandeler().genricExceptionHandeler(ex);
@@ -391,8 +413,9 @@ public class AdviserRatingsSteps extends BasePage {
 
 	@And("check ascendingorder of KMRange")
 	public void ascendingorder() throws InterruptedException {
+		log.info("Step: check ascendingorder of KMRange");
 		try {
-			Thread.sleep(2000);
+			
 			adviserratingpage.ascendingordercall();
 		} catch (Exception ex) {
 			new ExceptionHandeler().genricExceptionHandeler(ex);
@@ -401,8 +424,9 @@ public class AdviserRatingsSteps extends BasePage {
 
 	@And("check descendingorder of KMRange")
 	public void descendingOrder() throws InterruptedException {
+		log.info("Step: check descendingorder of KMRange");
 		try {
-			Thread.sleep(2000);
+			
 			adviserratingpage.descendingorderCall();
 
 		} catch (Exception ex) {
@@ -412,18 +436,15 @@ public class AdviserRatingsSteps extends BasePage {
 
 	@And("location name should be {string}")
 	public void location_name(String locName) {
+		log.info("Step: location name should be "+locName);
 		try {
-			Thread.sleep(2000);
+			
 			adviserratingpage.locationName(locName);
 		} catch (Exception ex) {
 			new ExceptionHandeler().genricExceptionHandeler(ex);
 		}
 	}
 
-	@And("Logout the browser")
-	public void logout() throws InterruptedException {
-		Thread.sleep(2000);
-		seleniumWebDriver.quit();
-	}
+
 
 }

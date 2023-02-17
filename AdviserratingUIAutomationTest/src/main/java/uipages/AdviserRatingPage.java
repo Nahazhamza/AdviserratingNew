@@ -3,14 +3,19 @@ package uipages;
 import static org.junit.Assert.assertTrue;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
+
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.junit.Assert;
 import com.adviserratinguiautomation.base.BasePage;
 import com.adviserratinguiautomation.base.BaseTestScripts;
@@ -168,7 +173,7 @@ public class AdviserRatingPage extends BasePage {
 				break;
 			}
 		}
-		Thread.sleep(2000);
+		
 	}
 
 	// listview verification
@@ -187,7 +192,7 @@ public class AdviserRatingPage extends BasePage {
 
 	public void dropdownselectAdvisor(String adviserName) throws InterruptedException, ResourceCustomException,
 			IOException, WebDriverInstanceNullException, InvalidInputException {
-		Thread.sleep(2000);
+		
 
 		List<WebElement> ele = this.seleniumWebDriver.findElements(By.cssSelector("span[class='font-weight-bold']"));
 		System.out.println(ele.size());
@@ -205,14 +210,18 @@ public class AdviserRatingPage extends BasePage {
 	public void ascendingordercall() throws ResourceCustomException, IOException, InterruptedException,
 			WebDriverInstanceNullException, InvalidInputException {
 		Thread.sleep(2000);
+		//seleniumWebDriver.manage().timeouts().implicitlyWait(8, TimeUnit.SECONDS);
 		clickButtonByCssSelector(adviserRatingPageproperty.getProperty("ADVISOR_DISTANCE_CLICK_CSSSELECTOR"),
 				seleniumWebDriver);
+		
 		Thread.sleep(2000);
+		//seleniumWebDriver.manage().timeouts().implicitlyWait(8, TimeUnit.SECONDS);
 		List<WebElement> kmRange = getWebElementsProperties(
 				By.cssSelector(adviserRatingPageproperty.getProperty("ADVISOR_DISTANCE_BADGE_CSS")), seleniumWebDriver);
-
+		
 		System.out.println("Beforesplit" + kmRange);
 		ArrayList<Float> arr = new ArrayList<>();
+		ArrayList<Float> newarr = new ArrayList<>();
 		for (WebElement listKmrange : kmRange) {
 			System.out.println("Beforesplit" + listKmrange);
 			String kmRangevalue = listKmrange.getText();
@@ -221,13 +230,20 @@ public class AdviserRatingPage extends BasePage {
 			Float result = new Float(finalvalue);
 			// float value1 = float.parseFloat(finalvalue);
 			System.out.println("kmrange:" + result);
-			Thread.sleep(2000);
+			
 			arr.add(result);
-			if (result < 1) {
-				;
-				System.out.println("It stays between the range");
-				System.out.println("The ascending order of adviser distance" + arr);
-				Thread.sleep(2000);
+			newarr = arr;
+			if (result >=0) {
+				
+				System.out.println("ArrayList Before sort" + newarr);
+				Collections.sort(newarr);
+				System.out.println("ArrayList after sort" + newarr);
+				/*if(arr.equals(newarr) == true) {
+					System.out.println("ArrayList is in Ascending Order");
+				}else {
+					System.out.println("ArrayList is not in Ascending Order");
+				}*/
+				
 			}
 		}
 	}
@@ -381,7 +397,7 @@ public class AdviserRatingPage extends BasePage {
 //Iterate the dropdown list  to verify the provided data matches 
 	public void findAddressCall(String location)
 			throws InterruptedException, ResourceCustomException, IOException, WebDriverInstanceNullException {
-		Thread.sleep(2000);
+		
 		List<WebElement> ele = getWebElementsProperties(
 				By.xpath(adviserRatingPageproperty.getProperty("LOCATION_ADDRESS_DROPDOWN_XPATH")), seleniumWebDriver);
 		System.out.println(ele.size());
@@ -413,11 +429,11 @@ public class AdviserRatingPage extends BasePage {
 
 	// locationname is verified
 	public void locationName(String location) throws InterruptedException, ResourceCustomException, IOException {
-		Thread.sleep(2000);
+		
 		WebElement locationField = seleniumWebDriver.findElement(
 				By.cssSelector(adviserRatingPageproperty.getProperty("ADVISOR_LOCATIONFEILD_CSSSELECTOR")));
 		String locationName = locationField.getText();
-		Thread.sleep(2000);
+		
 		System.out.println("locationName:" + locationName);
 		Assert.assertEquals(location, locationName);
 	}
@@ -425,17 +441,22 @@ public class AdviserRatingPage extends BasePage {
 
 	public void descendingorderCall() throws ResourceCustomException, IOException, InterruptedException,
 			WebDriverInstanceNullException, InvalidInputException {
-		Thread.sleep(2000);
+		
 		System.out.println("Value is displayed in Descending order");
 		Thread.sleep(3000);
-
-		clickButtonByCssSelector(adviserRatingPageproperty.getProperty("ADVISOR_DESCENDINGORDER_CSSSELECTOR"),
+		//seleniumWebDriver.manage().timeouts().implicitlyWait(8, TimeUnit.SECONDS);
+		clickButtonByCssSelector(adviserRatingPageproperty.getProperty( "ADVISOR_DESCENDINGORDER_CSSSELECTOR"),
 				seleniumWebDriver);
 
 		Thread.sleep(3000);
+		//seleniumWebDriver.manage().timeouts().implicitlyWait(8, TimeUnit.SECONDS);
+		
 		List<WebElement> kmRange = getWebElementsProperties(
-				By.cssSelector(adviserRatingPageproperty.getProperty("ADVISOR_DESCENDINGORDER_CSSSELECTOR")),
-				seleniumWebDriver);
+				By.cssSelector(adviserRatingPageproperty.getProperty("ADVISOR_DISTANCE_BADGE_CSS")), seleniumWebDriver);
+		
+		ArrayList<Float> arr = new ArrayList<>();
+		ArrayList<Float> newarr = new ArrayList<>();
+		
 		for (WebElement listKmrange : kmRange) {
 			String kmRangevalue = listKmrange.getText();
 			String[] splitvalues = kmRangevalue.split("k", 2);
@@ -443,8 +464,22 @@ public class AdviserRatingPage extends BasePage {
 			System.out.println("splitvalue" + kmRangevalue);
 			System.out.println("splitvalueafter" + finalvalue);
 			Float result = new Float(finalvalue);
+			
+			arr.add(result);
+			newarr = arr;
+			
 			if (result <= 5 && result != 6) {
 				System.out.println("It stays between the range");
+				System.out.println("ArrayList Before sort" + newarr);
+				
+				Collections.sort(newarr, Collections.reverseOrder());
+				
+				System.out.println("ArrayList after sort" + newarr);
+				if(arr.equals(newarr) == true) {
+					System.out.println("ArrayList is in Descending Order");
+				}else {
+					System.out.println("ArrayList is not in Descending Order");
+				}
 			}
 		}
 	}

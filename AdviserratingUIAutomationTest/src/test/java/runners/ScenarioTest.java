@@ -40,7 +40,7 @@ plugin = { "pretty",
 public class ScenarioTest extends BasePage {
 	
 	public static  StepHooks stephooks= new StepHooks();
-//	public WebDriver seleniumWebDriver;
+
 	
 	@AfterClass
 	public  static void teardown() throws InterruptedException
@@ -54,7 +54,7 @@ public class ScenarioTest extends BasePage {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-//		stephooks.teardown();
+
 	}
 
 }

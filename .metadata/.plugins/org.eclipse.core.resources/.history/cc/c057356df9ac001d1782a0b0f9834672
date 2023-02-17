@@ -3,7 +3,7 @@
 <properties>
 
     <!--project Name-->
-    <entry key="ProjectName">seleniumFrameWork</entry>
+    <entry key="ProjectName">AdviserRating</entry>
 
     <!--Do Not make changes below this-->
     <entry key="WebDriverTimeOutInSeconds">20</entry>
@@ -74,7 +74,7 @@
     <!--log4j log path sufix-->
     <entry key="TestResultLocationPath">../AdviserratingUIAutomationTest/testResult/</entry>
     <!--log4j Log path prefix-->
-    <entry key="Log4jLogPathDestination">/log/seleniumFrameWork.log</entry>
+    <entry key="Log4jLogPathDestination">/log/AdviserRating.log</entry>
     <!--Log Folder Names-->
     <entry key="TestReport">testReport</entry>
     <entry key="Log">log</entry>
