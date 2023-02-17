@@ -31,7 +31,7 @@ Feature: Adviser Rating Search functionality validation
     And check the view is ListView
     And check ascendingorder of KMRange
     
-    Scenario: Search by adviser name And check search drop down box displays correct practice and addresses
+    Scenario: Search by adviser name and check search drop down box displays correct practice and addresses
     Given I Navigate to "AdviserratingURL"
     When I Click on Adviser Tab
     And Enter "Brett Dillon" on the Search box

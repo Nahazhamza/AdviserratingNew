@@ -249,7 +249,8 @@ public class AdviserRatingPage extends BasePage {
 	}
 	// To get current url and verify with expected url
 
-	public void advisornameCurrentUrl(String name) throws ResourceCustomException, IOException {
+	public void advisornameCurrentUrl(String name) throws ResourceCustomException, IOException, InterruptedException {
+		Thread.sleep(2000);
 		String url = this.seleniumWebDriver.getCurrentUrl();
 		getEnvType = new ResourceRead().getEnvironmentConfigValue().getProperty("envType");
 		System.out.println("currenturl" + url);

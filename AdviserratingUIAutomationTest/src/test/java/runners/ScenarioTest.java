@@ -29,8 +29,9 @@ import stepdefinition.AdviserRatingsSteps;
 import stepdefinition.StepHooks;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/resources/features/", 
-glue = { "stepdefinition" }, // For instance, once cucumber
+@CucumberOptions(features = "src/test/resources/features/",
+glue = { "stepdefinition", "com.cucumber.parallel_demo"}, 
+// For instance, once cucumber
 																							// runs I want to add
 plugin = { "pretty",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" }, monochrome = true, dryRun = false
