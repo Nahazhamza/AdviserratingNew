@@ -273,15 +273,25 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-failsafe-plugin</artifactId>
 				<version>3.0.0-M9</version>
-				
+				  <executions>
+				  <execution>
+                    <goals>
+                    <goal>integration-test</goal>
+                    </goals>
 						
 					<configuration> 
+						<includes>
+                                <!-- UNCOMMENT BELOW LINE - To execute feature files with single runner -->
+                                <include>**/ScenarioTest.java</include>
+                            </includes>
+                            <!-- UNCOMMENT BELOW 3 LINES - To execute using parallel or combination option -->
 						
 					<parallel>methods</parallel>
 					<threadCount>4</threadCount>
 					<perCoreThreadCount>true</perCoreThreadCount>
 					</configuration>
-					
+					</execution>
+                </executions>
 			</plugin>
 			
 	   </plugins>

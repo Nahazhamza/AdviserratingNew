@@ -31,12 +31,13 @@ import stepdefinition.StepHooks;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/resources/features/",
 glue = { "stepdefinition"}, 
-// For instance, once cucumber
-																							// runs I want to add
+
+																							
 plugin = { "pretty",
-				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" }, monochrome = true, dryRun = false
-//publish = true
-//strict=true
+				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" }, 
+monochrome = true, 
+dryRun = false
+
 
 )
 
@@ -51,11 +52,9 @@ public class ScenarioTest extends BasePage {
 		log.info("Entered Teardown method");
 		System.out.println("Entered teardown");
 		try {
-			
-			
 			stephooks.teardown();
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 
